@@ -1,0 +1,12 @@
+{
+  "name": "product-design-system",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "description": "Phase 2 repository foundation for a Figma-led Product Design System.",
+  "workspaces": [
+    "packages/tokens",
+    "packages/react",
+    "apps/storybook"
+  ]
+}

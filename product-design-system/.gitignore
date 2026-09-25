@@ -1,0 +1,14 @@
+node_modules/
+**/node_modules/
+**/dist/*
+!packages/tokens/dist/.gitkeep
+**/coverage/
+**/storybook-static/
+**/.cache/
+*.tsbuildinfo
+*.log
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example

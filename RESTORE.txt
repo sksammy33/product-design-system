@@ -1,0 +1,4 @@
+The product-design-system folder contains the source files.
+To restore the initial Git history into a separate folder, run:
+git clone product-design-system.git.bundle product-design-system-restored
+No GitHub remote or published package is included.
