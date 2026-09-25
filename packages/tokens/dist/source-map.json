@@ -1,0 +1,2663 @@
+{
+  "$description": "GENERATED from the raw Figma snapshot. DO NOT EDIT. Run npm run build in packages/tokens.",
+  "variables": [
+    {
+      "id": "VariableID:18:3",
+      "name": "Purple / 50",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.purple.50",
+      "css": "--color-primitives-purple-50"
+    },
+    {
+      "id": "VariableID:18:4",
+      "name": "Purple / 100",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.purple.100",
+      "css": "--color-primitives-purple-100"
+    },
+    {
+      "id": "VariableID:18:5",
+      "name": "Purple / 200",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.purple.200",
+      "css": "--color-primitives-purple-200"
+    },
+    {
+      "id": "VariableID:18:6",
+      "name": "Purple / 300",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.purple.300",
+      "css": "--color-primitives-purple-300"
+    },
+    {
+      "id": "VariableID:18:7",
+      "name": "Purple / 400",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.purple.400",
+      "css": "--color-primitives-purple-400"
+    },
+    {
+      "id": "VariableID:18:8",
+      "name": "Purple / 500",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.purple.500",
+      "css": "--color-primitives-purple-500"
+    },
+    {
+      "id": "VariableID:18:9",
+      "name": "Purple / 600",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.purple.600",
+      "css": "--color-primitives-purple-600"
+    },
+    {
+      "id": "VariableID:18:10",
+      "name": "Purple / 700",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.purple.700",
+      "css": "--color-primitives-purple-700"
+    },
+    {
+      "id": "VariableID:18:11",
+      "name": "Purple / 800",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.purple.800",
+      "css": "--color-primitives-purple-800"
+    },
+    {
+      "id": "VariableID:18:12",
+      "name": "Purple / 900",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.purple.900",
+      "css": "--color-primitives-purple-900"
+    },
+    {
+      "id": "VariableID:18:13",
+      "name": "Purple / 950",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.purple.950",
+      "css": "--color-primitives-purple-950"
+    },
+    {
+      "id": "VariableID:18:14",
+      "name": "Gray / 0",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.gray.0",
+      "css": "--color-primitives-gray-0"
+    },
+    {
+      "id": "VariableID:18:15",
+      "name": "Gray / 50",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.gray.50",
+      "css": "--color-primitives-gray-50"
+    },
+    {
+      "id": "VariableID:18:16",
+      "name": "Gray / 100",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.gray.100",
+      "css": "--color-primitives-gray-100"
+    },
+    {
+      "id": "VariableID:18:17",
+      "name": "Gray / 200",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.gray.200",
+      "css": "--color-primitives-gray-200"
+    },
+    {
+      "id": "VariableID:18:18",
+      "name": "Gray / 300",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.gray.300",
+      "css": "--color-primitives-gray-300"
+    },
+    {
+      "id": "VariableID:18:19",
+      "name": "Gray / 400",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.gray.400",
+      "css": "--color-primitives-gray-400"
+    },
+    {
+      "id": "VariableID:18:20",
+      "name": "Gray / 500",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.gray.500",
+      "css": "--color-primitives-gray-500"
+    },
+    {
+      "id": "VariableID:18:21",
+      "name": "Gray / 600",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.gray.600",
+      "css": "--color-primitives-gray-600"
+    },
+    {
+      "id": "VariableID:18:22",
+      "name": "Gray / 700",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.gray.700",
+      "css": "--color-primitives-gray-700"
+    },
+    {
+      "id": "VariableID:18:23",
+      "name": "Gray / 800",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.gray.800",
+      "css": "--color-primitives-gray-800"
+    },
+    {
+      "id": "VariableID:18:24",
+      "name": "Gray / 900",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.gray.900",
+      "css": "--color-primitives-gray-900"
+    },
+    {
+      "id": "VariableID:18:25",
+      "name": "Gray / 950",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.gray.950",
+      "css": "--color-primitives-gray-950"
+    },
+    {
+      "id": "VariableID:18:26",
+      "name": "Green / 100",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.green.100",
+      "css": "--color-primitives-green-100"
+    },
+    {
+      "id": "VariableID:18:27",
+      "name": "Green / 300",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.green.300",
+      "css": "--color-primitives-green-300"
+    },
+    {
+      "id": "VariableID:18:28",
+      "name": "Green / 600",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.green.600",
+      "css": "--color-primitives-green-600"
+    },
+    {
+      "id": "VariableID:18:29",
+      "name": "Green / 800",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.green.800",
+      "css": "--color-primitives-green-800"
+    },
+    {
+      "id": "VariableID:18:30",
+      "name": "Red / 100",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.red.100",
+      "css": "--color-primitives-red-100"
+    },
+    {
+      "id": "VariableID:18:31",
+      "name": "Red / 300",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.red.300",
+      "css": "--color-primitives-red-300"
+    },
+    {
+      "id": "VariableID:18:32",
+      "name": "Red / 600",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.red.600",
+      "css": "--color-primitives-red-600"
+    },
+    {
+      "id": "VariableID:18:33",
+      "name": "Red / 800",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.red.800",
+      "css": "--color-primitives-red-800"
+    },
+    {
+      "id": "VariableID:18:34",
+      "name": "Blue / 100",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.blue.100",
+      "css": "--color-primitives-blue-100"
+    },
+    {
+      "id": "VariableID:18:35",
+      "name": "Blue / 600",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.blue.600",
+      "css": "--color-primitives-blue-600"
+    },
+    {
+      "id": "VariableID:18:36",
+      "name": "Orange / 100",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.orange.100",
+      "css": "--color-primitives-orange-100"
+    },
+    {
+      "id": "VariableID:18:37",
+      "name": "Orange / 600",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.orange.600",
+      "css": "--color-primitives-orange-600"
+    },
+    {
+      "id": "VariableID:18:38",
+      "name": "Green / 50",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.green.50",
+      "css": "--color-primitives-green-50"
+    },
+    {
+      "id": "VariableID:18:39",
+      "name": "Red / 200",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.red.200",
+      "css": "--color-primitives-red-200"
+    },
+    {
+      "id": "VariableID:18:41",
+      "name": "Text / Primary",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.text.primary",
+      "css": "--color-semantic-text-primary"
+    },
+    {
+      "id": "VariableID:18:42",
+      "name": "Text / Secondary",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.text.secondary",
+      "css": "--color-semantic-text-secondary"
+    },
+    {
+      "id": "VariableID:18:43",
+      "name": "Text / Tertiary",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.text.tertiary",
+      "css": "--color-semantic-text-tertiary"
+    },
+    {
+      "id": "VariableID:18:44",
+      "name": "Text / Disabled",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.text.disabled",
+      "css": "--color-semantic-text-disabled"
+    },
+    {
+      "id": "VariableID:18:45",
+      "name": "Text / Inverse",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.text.inverse",
+      "css": "--color-semantic-text-inverse"
+    },
+    {
+      "id": "VariableID:18:46",
+      "name": "Text / Link",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.text.link",
+      "css": "--color-semantic-text-link"
+    },
+    {
+      "id": "VariableID:18:47",
+      "name": "Text / Link Hover",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.text.link-hover",
+      "css": "--color-semantic-text-link-hover"
+    },
+    {
+      "id": "VariableID:18:48",
+      "name": "Text / Danger",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.text.danger",
+      "css": "--color-semantic-text-danger"
+    },
+    {
+      "id": "VariableID:18:49",
+      "name": "Text / Success",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.text.success",
+      "css": "--color-semantic-text-success"
+    },
+    {
+      "id": "VariableID:18:50",
+      "name": "Background / Default",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.background.default",
+      "css": "--color-semantic-background-default"
+    },
+    {
+      "id": "VariableID:18:51",
+      "name": "Background / Subtle",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.background.subtle",
+      "css": "--color-semantic-background-subtle"
+    },
+    {
+      "id": "VariableID:18:52",
+      "name": "Background / Sunken",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.background.sunken",
+      "css": "--color-semantic-background-sunken"
+    },
+    {
+      "id": "VariableID:18:53",
+      "name": "Background / Brand",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.background.brand",
+      "css": "--color-semantic-background-brand"
+    },
+    {
+      "id": "VariableID:18:54",
+      "name": "Background / Brand Subtle",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.background.brand-subtle",
+      "css": "--color-semantic-background-brand-subtle"
+    },
+    {
+      "id": "VariableID:18:55",
+      "name": "Background / Success",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.background.success",
+      "css": "--color-semantic-background-success"
+    },
+    {
+      "id": "VariableID:18:56",
+      "name": "Background / Danger",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.background.danger",
+      "css": "--color-semantic-background-danger"
+    },
+    {
+      "id": "VariableID:18:57",
+      "name": "Surface / Default",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.surface.default",
+      "css": "--color-semantic-surface-default"
+    },
+    {
+      "id": "VariableID:18:58",
+      "name": "Surface / Elevated",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.surface.elevated",
+      "css": "--color-semantic-surface-elevated"
+    },
+    {
+      "id": "VariableID:18:59",
+      "name": "Surface / Hovered",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.surface.hovered",
+      "css": "--color-semantic-surface-hovered"
+    },
+    {
+      "id": "VariableID:18:60",
+      "name": "Surface / Selected",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.surface.selected",
+      "css": "--color-semantic-surface-selected"
+    },
+    {
+      "id": "VariableID:18:61",
+      "name": "Surface / Disabled",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.surface.disabled",
+      "css": "--color-semantic-surface-disabled"
+    },
+    {
+      "id": "VariableID:18:62",
+      "name": "Border / Default",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.border.default",
+      "css": "--color-semantic-border-default"
+    },
+    {
+      "id": "VariableID:18:63",
+      "name": "Border / Subtle",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.border.subtle",
+      "css": "--color-semantic-border-subtle"
+    },
+    {
+      "id": "VariableID:18:64",
+      "name": "Border / Strong",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.border.strong",
+      "css": "--color-semantic-border-strong"
+    },
+    {
+      "id": "VariableID:18:65",
+      "name": "Border / Brand",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.border.brand",
+      "css": "--color-semantic-border-brand"
+    },
+    {
+      "id": "VariableID:18:66",
+      "name": "Border / Focus",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.border.focus",
+      "css": "--color-semantic-border-focus"
+    },
+    {
+      "id": "VariableID:18:67",
+      "name": "Border / Danger",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.border.danger",
+      "css": "--color-semantic-border-danger"
+    },
+    {
+      "id": "VariableID:18:68",
+      "name": "Border / Success",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.border.success",
+      "css": "--color-semantic-border-success"
+    },
+    {
+      "id": "VariableID:18:69",
+      "name": "Icon / Default",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.icon.default",
+      "css": "--color-semantic-icon-default"
+    },
+    {
+      "id": "VariableID:18:70",
+      "name": "Icon / Secondary",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.icon.secondary",
+      "css": "--color-semantic-icon-secondary"
+    },
+    {
+      "id": "VariableID:18:71",
+      "name": "Icon / Disabled",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.icon.disabled",
+      "css": "--color-semantic-icon-disabled"
+    },
+    {
+      "id": "VariableID:18:72",
+      "name": "Icon / Inverse",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.icon.inverse",
+      "css": "--color-semantic-icon-inverse"
+    },
+    {
+      "id": "VariableID:18:73",
+      "name": "Icon / Brand",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.icon.brand",
+      "css": "--color-semantic-icon-brand"
+    },
+    {
+      "id": "VariableID:18:74",
+      "name": "Icon / Success",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.icon.success",
+      "css": "--color-semantic-icon-success"
+    },
+    {
+      "id": "VariableID:18:75",
+      "name": "Icon / Danger",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.icon.danger",
+      "css": "--color-semantic-icon-danger"
+    },
+    {
+      "id": "VariableID:18:76",
+      "name": "Icon / Information",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.icon.information",
+      "css": "--color-semantic-icon-information"
+    },
+    {
+      "id": "VariableID:18:77",
+      "name": "Action / Primary / Default",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.action.primary.default",
+      "css": "--color-semantic-action-primary-default"
+    },
+    {
+      "id": "VariableID:18:78",
+      "name": "Action / Primary / Hover",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.action.primary.hover",
+      "css": "--color-semantic-action-primary-hover"
+    },
+    {
+      "id": "VariableID:18:79",
+      "name": "Action / Primary / Pressed",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.action.primary.pressed",
+      "css": "--color-semantic-action-primary-pressed"
+    },
+    {
+      "id": "VariableID:18:80",
+      "name": "Action / Primary / Disabled",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.action.primary.disabled",
+      "css": "--color-semantic-action-primary-disabled"
+    },
+    {
+      "id": "VariableID:18:81",
+      "name": "Action / Primary / Contrast",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.action.primary.contrast",
+      "css": "--color-semantic-action-primary-contrast"
+    },
+    {
+      "id": "VariableID:18:82",
+      "name": "Action / Destructive / Default",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.action.destructive.default",
+      "css": "--color-semantic-action-destructive-default"
+    },
+    {
+      "id": "VariableID:18:83",
+      "name": "Action / Destructive / Hover",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.action.destructive.hover",
+      "css": "--color-semantic-action-destructive-hover"
+    },
+    {
+      "id": "VariableID:18:84",
+      "name": "Status / Success / Background",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.status.success.background",
+      "css": "--color-semantic-status-success-background"
+    },
+    {
+      "id": "VariableID:18:85",
+      "name": "Status / Success / Text",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.status.success.text",
+      "css": "--color-semantic-status-success-text"
+    },
+    {
+      "id": "VariableID:18:86",
+      "name": "Status / Danger / Background",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.status.danger.background",
+      "css": "--color-semantic-status-danger-background"
+    },
+    {
+      "id": "VariableID:18:87",
+      "name": "Status / Danger / Text",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.status.danger.text",
+      "css": "--color-semantic-status-danger-text"
+    },
+    {
+      "id": "VariableID:18:88",
+      "name": "Status / Info / Background",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.status.info.background",
+      "css": "--color-semantic-status-info-background"
+    },
+    {
+      "id": "VariableID:18:89",
+      "name": "Status / Info / Text",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.status.info.text",
+      "css": "--color-semantic-status-info-text"
+    },
+    {
+      "id": "VariableID:18:90",
+      "name": "Status / Warning / Background",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.status.warning.background",
+      "css": "--color-semantic-status-warning-background"
+    },
+    {
+      "id": "VariableID:18:91",
+      "name": "Status / Warning / Text",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.status.warning.text",
+      "css": "--color-semantic-status-warning-text"
+    },
+    {
+      "id": "VariableID:18:92",
+      "name": "Focus / Default",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.focus.default",
+      "css": "--color-semantic-focus-default"
+    },
+    {
+      "id": "VariableID:18:93",
+      "name": "Focus / Strong",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.focus.strong",
+      "css": "--color-semantic-focus-strong"
+    },
+    {
+      "id": "VariableID:18:94",
+      "name": "Disabled / Text",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.disabled.text",
+      "css": "--color-semantic-disabled-text"
+    },
+    {
+      "id": "VariableID:18:95",
+      "name": "Disabled / Background",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.disabled.background",
+      "css": "--color-semantic-disabled-background"
+    },
+    {
+      "id": "VariableID:18:96",
+      "name": "Disabled / Border",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.disabled.border",
+      "css": "--color-semantic-disabled-border"
+    },
+    {
+      "id": "VariableID:18:98",
+      "name": "Series / 01",
+      "collectionId": "VariableCollectionId:18:97",
+      "token": "color.chart.series.01",
+      "css": "--color-chart-series-01"
+    },
+    {
+      "id": "VariableID:18:99",
+      "name": "Series / 02",
+      "collectionId": "VariableCollectionId:18:97",
+      "token": "color.chart.series.02",
+      "css": "--color-chart-series-02"
+    },
+    {
+      "id": "VariableID:18:100",
+      "name": "Series / 03",
+      "collectionId": "VariableCollectionId:18:97",
+      "token": "color.chart.series.03",
+      "css": "--color-chart-series-03"
+    },
+    {
+      "id": "VariableID:18:101",
+      "name": "Series / 04",
+      "collectionId": "VariableCollectionId:18:97",
+      "token": "color.chart.series.04",
+      "css": "--color-chart-series-04"
+    },
+    {
+      "id": "VariableID:18:102",
+      "name": "Series / 05",
+      "collectionId": "VariableCollectionId:18:97",
+      "token": "color.chart.series.05",
+      "css": "--color-chart-series-05"
+    },
+    {
+      "id": "VariableID:18:103",
+      "name": "Positive",
+      "collectionId": "VariableCollectionId:18:97",
+      "token": "color.chart.positive",
+      "css": "--color-chart-positive"
+    },
+    {
+      "id": "VariableID:18:104",
+      "name": "Negative",
+      "collectionId": "VariableCollectionId:18:97",
+      "token": "color.chart.negative",
+      "css": "--color-chart-negative"
+    },
+    {
+      "id": "VariableID:18:105",
+      "name": "Highlight",
+      "collectionId": "VariableCollectionId:18:97",
+      "token": "color.chart.highlight",
+      "css": "--color-chart-highlight"
+    },
+    {
+      "id": "VariableID:24:47",
+      "name": "Typography / Size / Display / Large",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.size.display.large",
+      "css": "--typography-size-display-large"
+    },
+    {
+      "id": "VariableID:24:48",
+      "name": "Typography / Line Height / Display / Large",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.line-height.display.large",
+      "css": "--typography-line-height-display-large"
+    },
+    {
+      "id": "VariableID:24:49",
+      "name": "Typography / Tracking / Display / Large",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.tracking.display.large",
+      "css": "--typography-tracking-display-large"
+    },
+    {
+      "id": "VariableID:24:50",
+      "name": "Typography / Size / Display / Medium",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.size.display.medium",
+      "css": "--typography-size-display-medium"
+    },
+    {
+      "id": "VariableID:24:51",
+      "name": "Typography / Line Height / Display / Medium",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.line-height.display.medium",
+      "css": "--typography-line-height-display-medium"
+    },
+    {
+      "id": "VariableID:24:52",
+      "name": "Typography / Tracking / Display / Medium",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.tracking.display.medium",
+      "css": "--typography-tracking-display-medium"
+    },
+    {
+      "id": "VariableID:24:53",
+      "name": "Typography / Size / Display / Small",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.size.display.small",
+      "css": "--typography-size-display-small"
+    },
+    {
+      "id": "VariableID:24:54",
+      "name": "Typography / Line Height / Display / Small",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.line-height.display.small",
+      "css": "--typography-line-height-display-small"
+    },
+    {
+      "id": "VariableID:24:55",
+      "name": "Typography / Tracking / Display / Small",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.tracking.display.small",
+      "css": "--typography-tracking-display-small"
+    },
+    {
+      "id": "VariableID:24:56",
+      "name": "Typography / Size / Heading / H1",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.size.heading.h1",
+      "css": "--typography-size-heading-h1"
+    },
+    {
+      "id": "VariableID:24:57",
+      "name": "Typography / Line Height / Heading / H1",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.line-height.heading.h1",
+      "css": "--typography-line-height-heading-h1"
+    },
+    {
+      "id": "VariableID:24:58",
+      "name": "Typography / Tracking / Heading / H1",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.tracking.heading.h1",
+      "css": "--typography-tracking-heading-h1"
+    },
+    {
+      "id": "VariableID:24:59",
+      "name": "Typography / Size / Heading / H2",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.size.heading.h2",
+      "css": "--typography-size-heading-h2"
+    },
+    {
+      "id": "VariableID:24:60",
+      "name": "Typography / Line Height / Heading / H2",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.line-height.heading.h2",
+      "css": "--typography-line-height-heading-h2"
+    },
+    {
+      "id": "VariableID:24:61",
+      "name": "Typography / Tracking / Heading / H2",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.tracking.heading.h2",
+      "css": "--typography-tracking-heading-h2"
+    },
+    {
+      "id": "VariableID:24:62",
+      "name": "Typography / Size / Heading / H3",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.size.heading.h3",
+      "css": "--typography-size-heading-h3"
+    },
+    {
+      "id": "VariableID:24:63",
+      "name": "Typography / Line Height / Heading / H3",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.line-height.heading.h3",
+      "css": "--typography-line-height-heading-h3"
+    },
+    {
+      "id": "VariableID:24:64",
+      "name": "Typography / Tracking / Heading / H3",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.tracking.heading.h3",
+      "css": "--typography-tracking-heading-h3"
+    },
+    {
+      "id": "VariableID:24:65",
+      "name": "Typography / Size / Heading / H4",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.size.heading.h4",
+      "css": "--typography-size-heading-h4"
+    },
+    {
+      "id": "VariableID:24:66",
+      "name": "Typography / Line Height / Heading / H4",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.line-height.heading.h4",
+      "css": "--typography-line-height-heading-h4"
+    },
+    {
+      "id": "VariableID:24:67",
+      "name": "Typography / Tracking / Heading / H4",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.tracking.heading.h4",
+      "css": "--typography-tracking-heading-h4"
+    },
+    {
+      "id": "VariableID:24:68",
+      "name": "Typography / Size / Heading / H5",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.size.heading.h5",
+      "css": "--typography-size-heading-h5"
+    },
+    {
+      "id": "VariableID:24:69",
+      "name": "Typography / Line Height / Heading / H5",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.line-height.heading.h5",
+      "css": "--typography-line-height-heading-h5"
+    },
+    {
+      "id": "VariableID:24:70",
+      "name": "Typography / Tracking / Heading / H5",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.tracking.heading.h5",
+      "css": "--typography-tracking-heading-h5"
+    },
+    {
+      "id": "VariableID:24:71",
+      "name": "Typography / Size / Heading / H6",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.size.heading.h6",
+      "css": "--typography-size-heading-h6"
+    },
+    {
+      "id": "VariableID:24:72",
+      "name": "Typography / Line Height / Heading / H6",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.line-height.heading.h6",
+      "css": "--typography-line-height-heading-h6"
+    },
+    {
+      "id": "VariableID:24:73",
+      "name": "Typography / Tracking / Heading / H6",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.tracking.heading.h6",
+      "css": "--typography-tracking-heading-h6"
+    },
+    {
+      "id": "VariableID:24:74",
+      "name": "Typography / Size / Body / Large",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.size.body.large",
+      "css": "--typography-size-body-large"
+    },
+    {
+      "id": "VariableID:24:75",
+      "name": "Typography / Line Height / Body / Large",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.line-height.body.large",
+      "css": "--typography-line-height-body-large"
+    },
+    {
+      "id": "VariableID:24:76",
+      "name": "Typography / Tracking / Body / Large",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.tracking.body.large",
+      "css": "--typography-tracking-body-large"
+    },
+    {
+      "id": "VariableID:24:77",
+      "name": "Typography / Size / Body / Default",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.size.body.default",
+      "css": "--typography-size-body-default"
+    },
+    {
+      "id": "VariableID:24:78",
+      "name": "Typography / Line Height / Body / Default",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.line-height.body.default",
+      "css": "--typography-line-height-body-default"
+    },
+    {
+      "id": "VariableID:24:79",
+      "name": "Typography / Tracking / Body / Default",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.tracking.body.default",
+      "css": "--typography-tracking-body-default"
+    },
+    {
+      "id": "VariableID:24:80",
+      "name": "Typography / Size / Body / Small",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.size.body.small",
+      "css": "--typography-size-body-small"
+    },
+    {
+      "id": "VariableID:24:81",
+      "name": "Typography / Line Height / Body / Small",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.line-height.body.small",
+      "css": "--typography-line-height-body-small"
+    },
+    {
+      "id": "VariableID:24:82",
+      "name": "Typography / Tracking / Body / Small",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.tracking.body.small",
+      "css": "--typography-tracking-body-small"
+    },
+    {
+      "id": "VariableID:24:83",
+      "name": "Typography / Size / Label / Large",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.size.label.large",
+      "css": "--typography-size-label-large"
+    },
+    {
+      "id": "VariableID:24:84",
+      "name": "Typography / Line Height / Label / Large",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.line-height.label.large",
+      "css": "--typography-line-height-label-large"
+    },
+    {
+      "id": "VariableID:24:85",
+      "name": "Typography / Tracking / Label / Large",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.tracking.label.large",
+      "css": "--typography-tracking-label-large"
+    },
+    {
+      "id": "VariableID:24:86",
+      "name": "Typography / Size / Label / Default",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.size.label.default",
+      "css": "--typography-size-label-default"
+    },
+    {
+      "id": "VariableID:24:87",
+      "name": "Typography / Line Height / Label / Default",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.line-height.label.default",
+      "css": "--typography-line-height-label-default"
+    },
+    {
+      "id": "VariableID:24:88",
+      "name": "Typography / Tracking / Label / Default",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.tracking.label.default",
+      "css": "--typography-tracking-label-default"
+    },
+    {
+      "id": "VariableID:24:89",
+      "name": "Typography / Size / Label / Small",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.size.label.small",
+      "css": "--typography-size-label-small"
+    },
+    {
+      "id": "VariableID:24:90",
+      "name": "Typography / Line Height / Label / Small",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.line-height.label.small",
+      "css": "--typography-line-height-label-small"
+    },
+    {
+      "id": "VariableID:24:91",
+      "name": "Typography / Tracking / Label / Small",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.tracking.label.small",
+      "css": "--typography-tracking-label-small"
+    },
+    {
+      "id": "VariableID:24:92",
+      "name": "Typography / Size / Caption / Default",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.size.caption.default",
+      "css": "--typography-size-caption-default"
+    },
+    {
+      "id": "VariableID:24:93",
+      "name": "Typography / Line Height / Caption / Default",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.line-height.caption.default",
+      "css": "--typography-line-height-caption-default"
+    },
+    {
+      "id": "VariableID:24:94",
+      "name": "Typography / Tracking / Caption / Default",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.tracking.caption.default",
+      "css": "--typography-tracking-caption-default"
+    },
+    {
+      "id": "VariableID:24:95",
+      "name": "Typography / Weight / Regular",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.weight.regular",
+      "css": "--typography-weight-regular"
+    },
+    {
+      "id": "VariableID:24:96",
+      "name": "Typography / Weight / Medium",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.weight.medium",
+      "css": "--typography-weight-medium"
+    },
+    {
+      "id": "VariableID:24:97",
+      "name": "Typography / Weight / SemiBold",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.weight.semibold",
+      "css": "--typography-weight-semibold"
+    },
+    {
+      "id": "VariableID:24:98",
+      "name": "Typography / Weight / Bold",
+      "collectionId": "VariableCollectionId:24:46",
+      "token": "typography.weight.bold",
+      "css": "--typography-weight-bold"
+    },
+    {
+      "id": "VariableID:32:263",
+      "name": "Space / 0",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.space.0",
+      "css": "--spacing-space-0"
+    },
+    {
+      "id": "VariableID:32:264",
+      "name": "Space / 2",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.space.2",
+      "css": "--spacing-space-2"
+    },
+    {
+      "id": "VariableID:32:265",
+      "name": "Space / 4",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.space.4",
+      "css": "--spacing-space-4"
+    },
+    {
+      "id": "VariableID:32:266",
+      "name": "Space / 8",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.space.8",
+      "css": "--spacing-space-8"
+    },
+    {
+      "id": "VariableID:32:267",
+      "name": "Space / 12",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.space.12",
+      "css": "--spacing-space-12"
+    },
+    {
+      "id": "VariableID:32:268",
+      "name": "Space / 16",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.space.16",
+      "css": "--spacing-space-16"
+    },
+    {
+      "id": "VariableID:32:269",
+      "name": "Space / 20",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.space.20",
+      "css": "--spacing-space-20"
+    },
+    {
+      "id": "VariableID:32:270",
+      "name": "Space / 24",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.space.24",
+      "css": "--spacing-space-24"
+    },
+    {
+      "id": "VariableID:32:271",
+      "name": "Space / 32",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.space.32",
+      "css": "--spacing-space-32"
+    },
+    {
+      "id": "VariableID:32:272",
+      "name": "Space / 40",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.space.40",
+      "css": "--spacing-space-40"
+    },
+    {
+      "id": "VariableID:32:273",
+      "name": "Space / 48",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.space.48",
+      "css": "--spacing-space-48"
+    },
+    {
+      "id": "VariableID:32:274",
+      "name": "Space / 64",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.space.64",
+      "css": "--spacing-space-64"
+    },
+    {
+      "id": "VariableID:32:275",
+      "name": "Space / 80",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.space.80",
+      "css": "--spacing-space-80"
+    },
+    {
+      "id": "VariableID:32:276",
+      "name": "Space / 96",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.space.96",
+      "css": "--spacing-space-96"
+    },
+    {
+      "id": "VariableID:32:277",
+      "name": "Space / 128",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.space.128",
+      "css": "--spacing-space-128"
+    },
+    {
+      "id": "VariableID:32:278",
+      "name": "Spacing / Inline / XS",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.inline.xs",
+      "css": "--spacing-inline-xs"
+    },
+    {
+      "id": "VariableID:32:279",
+      "name": "Spacing / Inline / SM",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.inline.sm",
+      "css": "--spacing-inline-sm"
+    },
+    {
+      "id": "VariableID:32:280",
+      "name": "Spacing / Inline / MD",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.inline.md",
+      "css": "--spacing-inline-md"
+    },
+    {
+      "id": "VariableID:32:281",
+      "name": "Spacing / Inline / LG",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.inline.lg",
+      "css": "--spacing-inline-lg"
+    },
+    {
+      "id": "VariableID:32:282",
+      "name": "Spacing / Inline / XL",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.inline.xl",
+      "css": "--spacing-inline-xl"
+    },
+    {
+      "id": "VariableID:32:283",
+      "name": "Spacing / Stack / XS",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.stack.xs",
+      "css": "--spacing-stack-xs"
+    },
+    {
+      "id": "VariableID:32:284",
+      "name": "Spacing / Stack / SM",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.stack.sm",
+      "css": "--spacing-stack-sm"
+    },
+    {
+      "id": "VariableID:32:285",
+      "name": "Spacing / Stack / MD",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.stack.md",
+      "css": "--spacing-stack-md"
+    },
+    {
+      "id": "VariableID:32:286",
+      "name": "Spacing / Stack / LG",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.stack.lg",
+      "css": "--spacing-stack-lg"
+    },
+    {
+      "id": "VariableID:32:287",
+      "name": "Spacing / Stack / XL",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.stack.xl",
+      "css": "--spacing-stack-xl"
+    },
+    {
+      "id": "VariableID:32:288",
+      "name": "Spacing / Inset / XS",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.inset.xs",
+      "css": "--spacing-inset-xs"
+    },
+    {
+      "id": "VariableID:32:289",
+      "name": "Spacing / Inset / SM",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.inset.sm",
+      "css": "--spacing-inset-sm"
+    },
+    {
+      "id": "VariableID:32:290",
+      "name": "Spacing / Inset / MD",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.inset.md",
+      "css": "--spacing-inset-md"
+    },
+    {
+      "id": "VariableID:32:291",
+      "name": "Spacing / Inset / LG",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.inset.lg",
+      "css": "--spacing-inset-lg"
+    },
+    {
+      "id": "VariableID:32:292",
+      "name": "Spacing / Inset / XL",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.inset.xl",
+      "css": "--spacing-inset-xl"
+    },
+    {
+      "id": "VariableID:32:293",
+      "name": "Spacing / Section / XS",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.section.xs",
+      "css": "--spacing-section-xs"
+    },
+    {
+      "id": "VariableID:32:294",
+      "name": "Spacing / Section / SM",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.section.sm",
+      "css": "--spacing-section-sm"
+    },
+    {
+      "id": "VariableID:32:295",
+      "name": "Spacing / Section / MD",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.section.md",
+      "css": "--spacing-section-md"
+    },
+    {
+      "id": "VariableID:32:296",
+      "name": "Spacing / Section / LG",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.section.lg",
+      "css": "--spacing-section-lg"
+    },
+    {
+      "id": "VariableID:32:297",
+      "name": "Spacing / Section / XL",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.section.xl",
+      "css": "--spacing-section-xl"
+    },
+    {
+      "id": "VariableID:32:298",
+      "name": "Spacing / Layout / XS",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.layout.xs",
+      "css": "--spacing-layout-xs"
+    },
+    {
+      "id": "VariableID:32:299",
+      "name": "Spacing / Layout / SM",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.layout.sm",
+      "css": "--spacing-layout-sm"
+    },
+    {
+      "id": "VariableID:32:300",
+      "name": "Spacing / Layout / MD",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.layout.md",
+      "css": "--spacing-layout-md"
+    },
+    {
+      "id": "VariableID:32:301",
+      "name": "Spacing / Layout / LG",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.layout.lg",
+      "css": "--spacing-layout-lg"
+    },
+    {
+      "id": "VariableID:32:302",
+      "name": "Spacing / Layout / XL",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.layout.xl",
+      "css": "--spacing-layout-xl"
+    },
+    {
+      "id": "VariableID:44:46",
+      "name": "Red / 50",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.red.50",
+      "css": "--color-primitives-red-50"
+    },
+    {
+      "id": "VariableID:44:47",
+      "name": "Red / 400",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.red.400",
+      "css": "--color-primitives-red-400"
+    },
+    {
+      "id": "VariableID:44:48",
+      "name": "Red / 500",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.red.500",
+      "css": "--color-primitives-red-500"
+    },
+    {
+      "id": "VariableID:44:49",
+      "name": "Red / 700",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.red.700",
+      "css": "--color-primitives-red-700"
+    },
+    {
+      "id": "VariableID:44:50",
+      "name": "Red / 950",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.red.950",
+      "css": "--color-primitives-red-950"
+    },
+    {
+      "id": "VariableID:44:51",
+      "name": "Green / 400",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.green.400",
+      "css": "--color-primitives-green-400"
+    },
+    {
+      "id": "VariableID:44:52",
+      "name": "Green / 500",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.green.500",
+      "css": "--color-primitives-green-500"
+    },
+    {
+      "id": "VariableID:44:53",
+      "name": "Green / 700",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.green.700",
+      "css": "--color-primitives-green-700"
+    },
+    {
+      "id": "VariableID:44:54",
+      "name": "Green / 950",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.green.950",
+      "css": "--color-primitives-green-950"
+    },
+    {
+      "id": "VariableID:44:55",
+      "name": "Blue / 50",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.blue.50",
+      "css": "--color-primitives-blue-50"
+    },
+    {
+      "id": "VariableID:44:56",
+      "name": "Blue / 400",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.blue.400",
+      "css": "--color-primitives-blue-400"
+    },
+    {
+      "id": "VariableID:44:57",
+      "name": "Blue / 500",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.blue.500",
+      "css": "--color-primitives-blue-500"
+    },
+    {
+      "id": "VariableID:44:58",
+      "name": "Blue / 950",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.blue.950",
+      "css": "--color-primitives-blue-950"
+    },
+    {
+      "id": "VariableID:44:59",
+      "name": "Amber / 50",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.amber.50",
+      "css": "--color-primitives-amber-50"
+    },
+    {
+      "id": "VariableID:44:60",
+      "name": "Amber / 400",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.amber.400",
+      "css": "--color-primitives-amber-400"
+    },
+    {
+      "id": "VariableID:44:61",
+      "name": "Amber / 500",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.amber.500",
+      "css": "--color-primitives-amber-500"
+    },
+    {
+      "id": "VariableID:44:62",
+      "name": "Amber / 700",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.amber.700",
+      "css": "--color-primitives-amber-700"
+    },
+    {
+      "id": "VariableID:44:63",
+      "name": "Amber / 950",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.amber.950",
+      "css": "--color-primitives-amber-950"
+    },
+    {
+      "id": "VariableID:44:64",
+      "name": "Orange / 50",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.orange.50",
+      "css": "--color-primitives-orange-50"
+    },
+    {
+      "id": "VariableID:44:65",
+      "name": "Orange / 400",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.orange.400",
+      "css": "--color-primitives-orange-400"
+    },
+    {
+      "id": "VariableID:44:66",
+      "name": "Orange / 500",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.orange.500",
+      "css": "--color-primitives-orange-500"
+    },
+    {
+      "id": "VariableID:44:67",
+      "name": "Orange / 950",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.orange.950",
+      "css": "--color-primitives-orange-950"
+    },
+    {
+      "id": "VariableID:44:68",
+      "name": "Transparent",
+      "collectionId": "VariableCollectionId:18:2",
+      "token": "color.primitives.transparent",
+      "css": "--color-primitives-transparent"
+    },
+    {
+      "id": "VariableID:44:69",
+      "name": "Background / Hover",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.background.hover",
+      "css": "--color-semantic-background-hover"
+    },
+    {
+      "id": "VariableID:44:70",
+      "name": "Background / Active",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.background.active",
+      "css": "--color-semantic-background-active"
+    },
+    {
+      "id": "VariableID:44:71",
+      "name": "Background / Selected",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.background.selected",
+      "css": "--color-semantic-background-selected"
+    },
+    {
+      "id": "VariableID:44:72",
+      "name": "Background / Selected Hover",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.background.selected-hover",
+      "css": "--color-semantic-background-selected-hover"
+    },
+    {
+      "id": "VariableID:44:73",
+      "name": "Background / Inverse",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.background.inverse",
+      "css": "--color-semantic-background-inverse"
+    },
+    {
+      "id": "VariableID:44:74",
+      "name": "Layer / 01",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.layer.01",
+      "css": "--color-semantic-layer-01"
+    },
+    {
+      "id": "VariableID:44:75",
+      "name": "Layer / 01 Hover",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.layer.01-hover",
+      "css": "--color-semantic-layer-01-hover"
+    },
+    {
+      "id": "VariableID:44:76",
+      "name": "Layer / 01 Active",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.layer.01-active",
+      "css": "--color-semantic-layer-01-active"
+    },
+    {
+      "id": "VariableID:44:77",
+      "name": "Layer / 02",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.layer.02",
+      "css": "--color-semantic-layer-02"
+    },
+    {
+      "id": "VariableID:44:78",
+      "name": "Layer / 02 Hover",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.layer.02-hover",
+      "css": "--color-semantic-layer-02-hover"
+    },
+    {
+      "id": "VariableID:44:79",
+      "name": "Layer / 02 Active",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.layer.02-active",
+      "css": "--color-semantic-layer-02-active"
+    },
+    {
+      "id": "VariableID:44:80",
+      "name": "Layer / 03",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.layer.03",
+      "css": "--color-semantic-layer-03"
+    },
+    {
+      "id": "VariableID:44:81",
+      "name": "Layer / Accent 01",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.layer.accent-01",
+      "css": "--color-semantic-layer-accent-01"
+    },
+    {
+      "id": "VariableID:44:82",
+      "name": "Layer / Accent 02",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.layer.accent-02",
+      "css": "--color-semantic-layer-accent-02"
+    },
+    {
+      "id": "VariableID:44:83",
+      "name": "Text / Placeholder",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.text.placeholder",
+      "css": "--color-semantic-text-placeholder"
+    },
+    {
+      "id": "VariableID:44:84",
+      "name": "Text / On Color",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.text.on-color",
+      "css": "--color-semantic-text-on-color"
+    },
+    {
+      "id": "VariableID:44:85",
+      "name": "Text / Error",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.text.error",
+      "css": "--color-semantic-text-error"
+    },
+    {
+      "id": "VariableID:44:86",
+      "name": "Text / Warning",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.text.warning",
+      "css": "--color-semantic-text-warning"
+    },
+    {
+      "id": "VariableID:44:87",
+      "name": "Border / Disabled",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.border.disabled",
+      "css": "--color-semantic-border-disabled"
+    },
+    {
+      "id": "VariableID:44:88",
+      "name": "Border / Interactive",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.border.interactive",
+      "css": "--color-semantic-border-interactive"
+    },
+    {
+      "id": "VariableID:44:89",
+      "name": "Border / Error",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.border.error",
+      "css": "--color-semantic-border-error"
+    },
+    {
+      "id": "VariableID:44:90",
+      "name": "Border / Warning",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.border.warning",
+      "css": "--color-semantic-border-warning"
+    },
+    {
+      "id": "VariableID:44:91",
+      "name": "Border / Inverse",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.border.inverse",
+      "css": "--color-semantic-border-inverse"
+    },
+    {
+      "id": "VariableID:44:92",
+      "name": "Icon / Primary",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.icon.primary",
+      "css": "--color-semantic-icon-primary"
+    },
+    {
+      "id": "VariableID:44:93",
+      "name": "Icon / On Color",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.icon.on-color",
+      "css": "--color-semantic-icon-on-color"
+    },
+    {
+      "id": "VariableID:44:94",
+      "name": "Icon / Interactive",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.icon.interactive",
+      "css": "--color-semantic-icon-interactive"
+    },
+    {
+      "id": "VariableID:44:95",
+      "name": "Icon / Error",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.icon.error",
+      "css": "--color-semantic-icon-error"
+    },
+    {
+      "id": "VariableID:44:96",
+      "name": "Icon / Warning",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.icon.warning",
+      "css": "--color-semantic-icon-warning"
+    },
+    {
+      "id": "VariableID:44:97",
+      "name": "Icon / Info",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.icon.info",
+      "css": "--color-semantic-icon-info"
+    },
+    {
+      "id": "VariableID:44:98",
+      "name": "Action / Primary / Active",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.action.primary.active",
+      "css": "--color-semantic-action-primary-active"
+    },
+    {
+      "id": "VariableID:44:99",
+      "name": "Action / Secondary / Default",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.action.secondary.default",
+      "css": "--color-semantic-action-secondary-default"
+    },
+    {
+      "id": "VariableID:44:100",
+      "name": "Action / Secondary / Hover",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.action.secondary.hover",
+      "css": "--color-semantic-action-secondary-hover"
+    },
+    {
+      "id": "VariableID:44:101",
+      "name": "Action / Danger / Default",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.action.danger.default",
+      "css": "--color-semantic-action-danger-default"
+    },
+    {
+      "id": "VariableID:44:102",
+      "name": "Action / Danger / Hover",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.action.danger.hover",
+      "css": "--color-semantic-action-danger-hover"
+    },
+    {
+      "id": "VariableID:44:103",
+      "name": "Support / Error",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.support.error",
+      "css": "--color-semantic-support-error"
+    },
+    {
+      "id": "VariableID:44:104",
+      "name": "Support / Error Subtle",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.support.error-subtle",
+      "css": "--color-semantic-support-error-subtle"
+    },
+    {
+      "id": "VariableID:44:105",
+      "name": "Support / Success",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.support.success",
+      "css": "--color-semantic-support-success"
+    },
+    {
+      "id": "VariableID:44:106",
+      "name": "Support / Success Subtle",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.support.success-subtle",
+      "css": "--color-semantic-support-success-subtle"
+    },
+    {
+      "id": "VariableID:44:107",
+      "name": "Support / Warning",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.support.warning",
+      "css": "--color-semantic-support-warning"
+    },
+    {
+      "id": "VariableID:44:108",
+      "name": "Support / Warning Subtle",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.support.warning-subtle",
+      "css": "--color-semantic-support-warning-subtle"
+    },
+    {
+      "id": "VariableID:44:109",
+      "name": "Support / Info",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.support.info",
+      "css": "--color-semantic-support-info"
+    },
+    {
+      "id": "VariableID:44:110",
+      "name": "Support / Info Subtle",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.support.info-subtle",
+      "css": "--color-semantic-support-info-subtle"
+    },
+    {
+      "id": "VariableID:44:111",
+      "name": "Support / Caution",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.support.caution",
+      "css": "--color-semantic-support-caution"
+    },
+    {
+      "id": "VariableID:44:112",
+      "name": "Support / Caution Subtle",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.support.caution-subtle",
+      "css": "--color-semantic-support-caution-subtle"
+    },
+    {
+      "id": "VariableID:44:113",
+      "name": "Field / 01",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.field.01",
+      "css": "--color-semantic-field-01"
+    },
+    {
+      "id": "VariableID:44:114",
+      "name": "Field / 01 Hover",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.field.01-hover",
+      "css": "--color-semantic-field-01-hover"
+    },
+    {
+      "id": "VariableID:44:115",
+      "name": "Field / 02",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.field.02",
+      "css": "--color-semantic-field-02"
+    },
+    {
+      "id": "VariableID:44:116",
+      "name": "Field / 02 Hover",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.field.02-hover",
+      "css": "--color-semantic-field-02-hover"
+    },
+    {
+      "id": "VariableID:44:117",
+      "name": "Field / Disabled",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.field.disabled",
+      "css": "--color-semantic-field-disabled"
+    },
+    {
+      "id": "VariableID:44:118",
+      "name": "Field / Readonly",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.field.readonly",
+      "css": "--color-semantic-field-readonly"
+    },
+    {
+      "id": "VariableID:44:119",
+      "name": "Focus / Border",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.focus.border",
+      "css": "--color-semantic-focus-border"
+    },
+    {
+      "id": "VariableID:44:120",
+      "name": "Focus / Inset",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.focus.inset",
+      "css": "--color-semantic-focus-inset"
+    },
+    {
+      "id": "VariableID:44:121",
+      "name": "Focus / Outline",
+      "collectionId": "VariableCollectionId:18:40",
+      "token": "color.semantic.focus.outline",
+      "css": "--color-semantic-focus-outline"
+    },
+    {
+      "id": "VariableID:57:3",
+      "name": "Radius/None",
+      "collectionId": "VariableCollectionId:57:2",
+      "token": "radius.none",
+      "css": "--radius-none"
+    },
+    {
+      "id": "VariableID:57:4",
+      "name": "Radius/XS",
+      "collectionId": "VariableCollectionId:57:2",
+      "token": "radius.xs",
+      "css": "--radius-xs"
+    },
+    {
+      "id": "VariableID:57:5",
+      "name": "Radius/SM",
+      "collectionId": "VariableCollectionId:57:2",
+      "token": "radius.sm",
+      "css": "--radius-sm"
+    },
+    {
+      "id": "VariableID:57:6",
+      "name": "Radius/MD",
+      "collectionId": "VariableCollectionId:57:2",
+      "token": "radius.md",
+      "css": "--radius-md"
+    },
+    {
+      "id": "VariableID:57:7",
+      "name": "Radius/LG",
+      "collectionId": "VariableCollectionId:57:2",
+      "token": "radius.lg",
+      "css": "--radius-lg"
+    },
+    {
+      "id": "VariableID:57:8",
+      "name": "Radius/XL",
+      "collectionId": "VariableCollectionId:57:2",
+      "token": "radius.xl",
+      "css": "--radius-xl"
+    },
+    {
+      "id": "VariableID:57:9",
+      "name": "Radius/2XL",
+      "collectionId": "VariableCollectionId:57:2",
+      "token": "radius.2xl",
+      "css": "--radius-2xl"
+    },
+    {
+      "id": "VariableID:57:10",
+      "name": "Radius/3XL",
+      "collectionId": "VariableCollectionId:57:2",
+      "token": "radius.3xl",
+      "css": "--radius-3xl"
+    },
+    {
+      "id": "VariableID:57:11",
+      "name": "Radius/Full",
+      "collectionId": "VariableCollectionId:57:2",
+      "token": "radius.full",
+      "css": "--radius-full"
+    },
+    {
+      "id": "VariableID:67:3",
+      "name": "Border / None",
+      "collectionId": "VariableCollectionId:67:2",
+      "token": "border.none",
+      "css": "--border-none"
+    },
+    {
+      "id": "VariableID:67:4",
+      "name": "Border / Default",
+      "collectionId": "VariableCollectionId:67:2",
+      "token": "border.default",
+      "css": "--border-default"
+    },
+    {
+      "id": "VariableID:67:5",
+      "name": "Border / Strong",
+      "collectionId": "VariableCollectionId:67:2",
+      "token": "border.strong",
+      "css": "--border-strong"
+    },
+    {
+      "id": "VariableID:67:6",
+      "name": "Border / Emphasis",
+      "collectionId": "VariableCollectionId:67:2",
+      "token": "border.emphasis",
+      "css": "--border-emphasis"
+    },
+    {
+      "id": "VariableID:77:664",
+      "name": "Motion / Instant",
+      "collectionId": "VariableCollectionId:77:663",
+      "token": "motion.instant",
+      "css": "--motion-instant"
+    },
+    {
+      "id": "VariableID:77:665",
+      "name": "Motion / Fast",
+      "collectionId": "VariableCollectionId:77:663",
+      "token": "motion.fast",
+      "css": "--motion-fast"
+    },
+    {
+      "id": "VariableID:77:666",
+      "name": "Motion / Normal",
+      "collectionId": "VariableCollectionId:77:663",
+      "token": "motion.normal",
+      "css": "--motion-normal"
+    },
+    {
+      "id": "VariableID:77:667",
+      "name": "Motion / Moderate",
+      "collectionId": "VariableCollectionId:77:663",
+      "token": "motion.moderate",
+      "css": "--motion-moderate"
+    },
+    {
+      "id": "VariableID:77:668",
+      "name": "Motion / Slow",
+      "collectionId": "VariableCollectionId:77:663",
+      "token": "motion.slow",
+      "css": "--motion-slow"
+    },
+    {
+      "id": "VariableID:323:1352",
+      "name": "Component / Input / Padding / Small / Vertical",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.input.padding.small.vertical",
+      "css": "--spacing-component-input-padding-small-vertical"
+    },
+    {
+      "id": "VariableID:323:1353",
+      "name": "Component / Input / Padding / Small / Horizontal",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.input.padding.small.horizontal",
+      "css": "--spacing-component-input-padding-small-horizontal"
+    },
+    {
+      "id": "VariableID:323:1354",
+      "name": "Component / Input / Padding / Medium / Vertical",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.input.padding.medium.vertical",
+      "css": "--spacing-component-input-padding-medium-vertical"
+    },
+    {
+      "id": "VariableID:323:1355",
+      "name": "Component / Textarea / Padding / Small / Horizontal",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.textarea.padding.small.horizontal",
+      "css": "--spacing-component-textarea-padding-small-horizontal"
+    },
+    {
+      "id": "VariableID:323:1356",
+      "name": "Component / Textarea / Padding / Medium / Vertical",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.textarea.padding.medium.vertical",
+      "css": "--spacing-component-textarea-padding-medium-vertical"
+    }
+  ],
+  "styles": [
+    {
+      "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+      "id": "S:9829515ecc0baf56b9b3b47f7912da3b32991944,",
+      "key": "9829515ecc0baf56b9b3b47f7912da3b32991944",
+      "name": "Typography/Display/Large",
+      "sourceType": "STYLE",
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 64
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": -1.5
+      },
+      "token": "typography.styles.display.large"
+    },
+    {
+      "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+      "id": "S:a3f88bae05e1f082011469a6e08751314238c7aa,",
+      "key": "a3f88bae05e1f082011469a6e08751314238c7aa",
+      "name": "Typography / Display / Medium",
+      "sourceType": "STYLE",
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 56
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": -1
+      },
+      "token": "typography.styles.display.medium"
+    },
+    {
+      "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+      "id": "S:493b5e8e76d8e8730fb3a85ef283e2e0266fa189,",
+      "key": "493b5e8e76d8e8730fb3a85ef283e2e0266fa189",
+      "name": "Typography / Display / Small",
+      "sourceType": "STYLE",
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 48
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": -0.5
+      },
+      "token": "typography.styles.display.small"
+    },
+    {
+      "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+      "id": "S:2077b9c43a30d5b3d53015ebe43a277ac54497a6,",
+      "key": "2077b9c43a30d5b3d53015ebe43a277ac54497a6",
+      "name": "Typography / Heading / H1",
+      "sourceType": "STYLE",
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 40
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": -0.5
+      },
+      "token": "typography.styles.heading.h1"
+    },
+    {
+      "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+      "id": "S:d531a5a9b6ae45a6e44f56c14b291c2a54ede378,",
+      "key": "d531a5a9b6ae45a6e44f56c14b291c2a54ede378",
+      "name": "Typography / Heading / H2",
+      "sourceType": "STYLE",
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 36
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": -0.25
+      },
+      "token": "typography.styles.heading.h2"
+    },
+    {
+      "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+      "id": "S:2376a165aec0de2bf4f20e5671a5bab7ef12949a,",
+      "key": "2376a165aec0de2bf4f20e5671a5bab7ef12949a",
+      "name": "Typography / Heading / H3",
+      "sourceType": "STYLE",
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 32
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "token": "typography.styles.heading.h3"
+    },
+    {
+      "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+      "id": "S:b8f3ff903f8a5c9184987e6246afeef7ec44bd8b,",
+      "key": "b8f3ff903f8a5c9184987e6246afeef7ec44bd8b",
+      "name": "Typography / Heading / H4",
+      "sourceType": "STYLE",
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 28
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "token": "typography.styles.heading.h4"
+    },
+    {
+      "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+      "id": "S:145a7c78028e94a1d017e479c0beb786c6f5687a,",
+      "key": "145a7c78028e94a1d017e479c0beb786c6f5687a",
+      "name": "Typography / Heading / H5",
+      "sourceType": "STYLE",
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "token": "typography.styles.heading.h5"
+    },
+    {
+      "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+      "id": "S:8927450e3582098fd8fbbfd2777c6b0003bb36ed,",
+      "key": "8927450e3582098fd8fbbfd2777c6b0003bb36ed",
+      "name": "Typography / Heading / H6",
+      "sourceType": "STYLE",
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "token": "typography.styles.heading.h6"
+    },
+    {
+      "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+      "id": "S:dcff90c24f1657b4186083d33835dc2ef4ca0a86,",
+      "key": "dcff90c24f1657b4186083d33835dc2ef4ca0a86",
+      "name": "Typography / Body / Large",
+      "sourceType": "STYLE",
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 28
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "token": "typography.styles.body.large"
+    },
+    {
+      "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+      "id": "S:adad57c2b7b8cff81399de9b50329dab007cb086,",
+      "key": "adad57c2b7b8cff81399de9b50329dab007cb086",
+      "name": "Typography / Body / Default",
+      "sourceType": "STYLE",
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "token": "typography.styles.body.default"
+    },
+    {
+      "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+      "id": "S:f4068954d46cf409327543f34516fa13ba6ded3e,",
+      "key": "f4068954d46cf409327543f34516fa13ba6ded3e",
+      "name": "Typography / Body / Small",
+      "sourceType": "STYLE",
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "token": "typography.styles.body.small"
+    },
+    {
+      "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+      "id": "S:e6a18dfc99eb5dfcae129f783ca6f430d6136312,",
+      "key": "e6a18dfc99eb5dfcae129f783ca6f430d6136312",
+      "name": "Typography / Label / Large",
+      "sourceType": "STYLE",
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0.15000000596046448
+      },
+      "token": "typography.styles.label.large"
+    },
+    {
+      "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+      "id": "S:de4f40e7155223d5959be446d389493ddea99ec2,",
+      "key": "de4f40e7155223d5959be446d389493ddea99ec2",
+      "name": "Typography / Label / Default",
+      "sourceType": "STYLE",
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 18
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0.15000000596046448
+      },
+      "token": "typography.styles.label.default"
+    },
+    {
+      "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+      "id": "S:b9d510388e6747305ea14a88316bd80170fa352c,",
+      "key": "b9d510388e6747305ea14a88316bd80170fa352c",
+      "name": "Typography / Label / Small",
+      "sourceType": "STYLE",
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0.25
+      },
+      "token": "typography.styles.label.small"
+    },
+    {
+      "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+      "id": "S:fdec83fa12234dc01e9a92b0c13be57752cdd1d9,",
+      "key": "fdec83fa12234dc01e9a92b0c13be57752cdd1d9",
+      "name": "Typography/Caption/Default",
+      "sourceType": "STYLE",
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0.25
+      },
+      "token": "typography.styles.caption.default"
+    },
+    {
+      "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+      "id": "S:90e11efbaeda074655fc9d9a4ceecf99085f4d1d,",
+      "key": "90e11efbaeda074655fc9d9a4ceecf99085f4d1d",
+      "name": "Shadow/SM",
+      "sourceType": "STYLE",
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 3,
+          "boundVariables": {},
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.05999999865889549
+          },
+          "offset": {
+            "x": 0,
+            "y": 1
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ],
+      "cssProperty": "box-shadow",
+      "token": "effects.shadow.sm"
+    },
+    {
+      "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+      "id": "S:7b2f3280fae6529030cdc7093afdb882c7ad20a2,",
+      "key": "7b2f3280fae6529030cdc7093afdb882c7ad20a2",
+      "name": "Shadow / MD",
+      "sourceType": "STYLE",
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 6,
+          "boundVariables": {},
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.07999999821186066
+          },
+          "offset": {
+            "x": 0,
+            "y": 2
+          },
+          "spread": -1,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ],
+      "cssProperty": "box-shadow",
+      "token": "effects.shadow.md"
+    },
+    {
+      "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+      "id": "S:8360aea8b89fdb994cfb96f4bb89caccbd55ca18,",
+      "key": "8360aea8b89fdb994cfb96f4bb89caccbd55ca18",
+      "name": "Shadow / LG",
+      "sourceType": "STYLE",
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 12,
+          "boundVariables": {},
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.10000000149011612
+          },
+          "offset": {
+            "x": 0,
+            "y": 4
+          },
+          "spread": -2,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ],
+      "cssProperty": "box-shadow",
+      "token": "effects.shadow.lg"
+    },
+    {
+      "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+      "id": "S:35743e25a6dd6a735da1792459b7472152901ddc,",
+      "key": "35743e25a6dd6a735da1792459b7472152901ddc",
+      "name": "Shadow / XL",
+      "sourceType": "STYLE",
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 24,
+          "boundVariables": {},
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.11999999731779099
+          },
+          "offset": {
+            "x": 0,
+            "y": 8
+          },
+          "spread": -4,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ],
+      "cssProperty": "box-shadow",
+      "token": "effects.shadow.xl"
+    },
+    {
+      "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+      "id": "S:3a3ad62dd946e91b291d6a5118504eb6da2e8260,",
+      "key": "3a3ad62dd946e91b291d6a5118504eb6da2e8260",
+      "name": "Blur / None",
+      "sourceType": "STYLE",
+      "effects": [],
+      "cssProperty": "backdrop-filter",
+      "noEffect": true,
+      "token": "effects.blur.none"
+    },
+    {
+      "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+      "id": "S:c552c5c713a34c457a371f41718f10263a9d3800,",
+      "key": "c552c5c713a34c457a371f41718f10263a9d3800",
+      "name": "Blur / SM",
+      "sourceType": "STYLE",
+      "effects": [
+        {
+          "type": "BACKGROUND_BLUR",
+          "visible": true,
+          "radius": 4,
+          "boundVariables": {},
+          "blurType": "NORMAL"
+        }
+      ],
+      "cssProperty": "backdrop-filter",
+      "noEffect": false,
+      "token": "effects.blur.sm"
+    },
+    {
+      "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+      "id": "S:c109b17fe8058c18c5f5ed3767634c8504b82990,",
+      "key": "c109b17fe8058c18c5f5ed3767634c8504b82990",
+      "name": "Blur / MD",
+      "sourceType": "STYLE",
+      "effects": [
+        {
+          "type": "BACKGROUND_BLUR",
+          "visible": true,
+          "radius": 8,
+          "boundVariables": {},
+          "blurType": "NORMAL"
+        }
+      ],
+      "cssProperty": "backdrop-filter",
+      "noEffect": false,
+      "token": "effects.blur.md"
+    },
+    {
+      "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+      "id": "S:7b41545fa4c864e9f8ecb128771c3783eb264af2,",
+      "key": "7b41545fa4c864e9f8ecb128771c3783eb264af2",
+      "name": "Blur / LG",
+      "sourceType": "STYLE",
+      "effects": [
+        {
+          "type": "BACKGROUND_BLUR",
+          "visible": true,
+          "radius": 16,
+          "boundVariables": {},
+          "blurType": "NORMAL"
+        }
+      ],
+      "cssProperty": "backdrop-filter",
+      "noEffect": false,
+      "token": "effects.blur.lg"
+    },
+    {
+      "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+      "id": "S:3f20ca1a2b125a3e1aaf5cb65bff8c0e9bae7fe8,",
+      "key": "3f20ca1a2b125a3e1aaf5cb65bff8c0e9bae7fe8",
+      "name": "Blur / XL",
+      "sourceType": "STYLE",
+      "effects": [
+        {
+          "type": "BACKGROUND_BLUR",
+          "visible": true,
+          "radius": 24,
+          "boundVariables": {},
+          "blurType": "NORMAL"
+        }
+      ],
+      "cssProperty": "backdrop-filter",
+      "noEffect": false,
+      "token": "effects.blur.xl"
+    },
+    {
+      "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+      "id": "S:8676ff3ddf7df0f78c2ec79a406834ddb4ad6509,",
+      "key": "8676ff3ddf7df0f78c2ec79a406834ddb4ad6509",
+      "name": "Shadow / XS",
+      "sourceType": "STYLE",
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 2,
+          "boundVariables": {},
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.03999999910593033
+          },
+          "offset": {
+            "x": 0,
+            "y": 1
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ],
+      "cssProperty": "box-shadow",
+      "token": "effects.shadow.xs"
+    },
+    {
+      "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+      "id": "S:68a5d6e536395d8cfce9070fc830e5debb3bac0f,",
+      "key": "68a5d6e536395d8cfce9070fc830e5debb3bac0f",
+      "name": "Shadow / 2XL",
+      "sourceType": "STYLE",
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 36,
+          "boundVariables": {},
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.14000000059604645
+          },
+          "offset": {
+            "x": 0,
+            "y": 12
+          },
+          "spread": -6,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ],
+      "cssProperty": "box-shadow",
+      "token": "effects.shadow.2xl"
+    },
+    {
+      "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+      "id": "S:78ea0f383bbfa8f0938e276891cf472704fb154e,",
+      "key": "78ea0f383bbfa8f0938e276891cf472704fb154e",
+      "name": "Shadow / Inner",
+      "sourceType": "STYLE",
+      "effects": [
+        {
+          "type": "INNER_SHADOW",
+          "visible": true,
+          "radius": 2,
+          "boundVariables": {},
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.05999999865889549
+          },
+          "offset": {
+            "x": 0,
+            "y": 1
+          },
+          "spread": 0,
+          "blendMode": "NORMAL"
+        }
+      ],
+      "cssProperty": "box-shadow",
+      "token": "effects.shadow.inner"
+    },
+    {
+      "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+      "id": "S:34cc865e3fbb3a166693991e65c619cf9aca7446,",
+      "key": "34cc865e3fbb3a166693991e65c619cf9aca7446",
+      "name": "Shadow / Bottom",
+      "sourceType": "STYLE",
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 3,
+          "boundVariables": {},
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.05999999865889549
+          },
+          "offset": {
+            "x": 0,
+            "y": 1
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ],
+      "cssProperty": "box-shadow",
+      "token": "effects.shadow.bottom"
+    },
+    {
+      "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+      "id": "S:9645bbbb77432648b520330346e618666a41f129,",
+      "key": "9645bbbb77432648b520330346e618666a41f129",
+      "name": "Shadow / Top",
+      "sourceType": "STYLE",
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 3,
+          "boundVariables": {},
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.05999999865889549
+          },
+          "offset": {
+            "x": 0,
+            "y": -1
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ],
+      "cssProperty": "box-shadow",
+      "token": "effects.shadow.top"
+    }
+  ]
+}

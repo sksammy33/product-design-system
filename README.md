@@ -5,7 +5,7 @@ A shared foundation for consistent product interfaces, connecting Figma design d
 **Version: 0.1.0 — Repository Foundation**
 **Design implementation is still in progress.**
 
-Phase 2 prepares documentation and empty workspaces. No tokens have been converted, no React components implemented, and no Storybook app or CI configured. This repository is not an installable component library.
+Phase 2 established documentation and workspaces. Phase 3 adds the private, versioned [design token package](packages/tokens/README.md), generated Light/Dark themes and local validation. React components, Storybook and CI remain unimplemented. This repository is not an installable component library.
 
 ## Source of truth
 
@@ -17,7 +17,7 @@ Changes to visual decisions must originate in Figma and be recorded with source 
 
 | Area | Responsibility | Current status |
 |---|---|---|
-| Foundations | Color, typography, spacing/layout, radius, borders, effects, motion and icons | [Documentation area](docs/foundations/README.md); extraction pending |
+| Foundations | Color, typography, spacing/layout, radius, borders, effects, motion and icons | [Documentation area](docs/foundations/README.md); [token extraction implemented](packages/tokens/README.md) |
 | Components | Reusable controls and compositions | [Documentation area](docs/components/README.md); no implementation |
 | Complex Components | Tables, date pickers, filters, search, command menus, upload, editors and charts | [Inventory scope](docs/complex-components/README.md); deferred |
 | Patterns | Repeated interaction and composition guidance | [Reserved area](docs/patterns/README.md) |
@@ -30,7 +30,7 @@ Planned flow: Figma → extracted tokens → generated developer outputs → Rea
 
 ## Repository structure
 
-- `packages/tokens/`: future source snapshots, token categories, conversion scripts and generated output.
+- `packages/tokens/`: raw Figma snapshots, normalized DTCG tokens, conversion/validation scripts and generated Light/Dark outputs.
 - `packages/react/`: future component and internal source folders and tests.
 - `apps/storybook/`: reserved configuration and story categories.
 - `docs/`: foundations, components, complex components, patterns, templates, accessibility and decisions.
@@ -46,12 +46,12 @@ The Design System is created to support WCAG 2.2 Level AA requirements at the de
 
 ## Development status
 
-The root and three workspaces have private package manifests at 0.1.0. No dependencies, build commands, test commands or exports are advertised yet. React, TypeScript, Storybook and test tooling will be configured in Phase 4. No setup/install step is needed to review this foundation.
+The root, React and Storybook manifests remain private at 0.1.0. The private token package is 0.2.0 and provides dependency-free build, validation and test commands; see its README. No dependency installation is required for token checks. React and Storybook tooling remain deferred.
 
 - **Storybook:** URL pending; not built or deployed.
 - **Package installation:** command pending package scope, build and publication; no installable package exists.
 - **First component group:** Button, Input, Checkbox, Radio and Switch, reserved only; implementation belongs to Phase 5.
-- **Next authorized stage:** none. Phase 3 requires approval.
+- **Current implemented stage:** Phase 3 tokens. Further stages require separate approval.
 
 ## Contributing and releases
 

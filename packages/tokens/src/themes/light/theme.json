@@ -1,0 +1,15 @@
+{
+  "$description": "GENERATED from the raw Figma snapshot. DO NOT EDIT. Run npm run build in packages/tokens.",
+  "mode": "Light",
+  "sources": [
+    "../../primitives/tokens.tokens.json",
+    "../../typography/tokens.tokens.json",
+    "../../spacing/tokens.tokens.json",
+    "../../radius/tokens.tokens.json",
+    "../../border/tokens.tokens.json",
+    "../../effects/tokens.tokens.json",
+    "../../motion/tokens.tokens.json",
+    "../../semantic/light.tokens.json",
+    "../../charts/light.tokens.json"
+  ]
+}

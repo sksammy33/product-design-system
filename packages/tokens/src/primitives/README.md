@@ -1,3 +1,5 @@
 # primitives
 
-Reserved for approved Figma-derived primitives data in Phase 3. No values or aliases are defined here. Preserve source identity and resolve ambiguities before conversion.
+Unrounded source palette colors and alpha.
+
+JSON in this directory is generated from the raw Figma snapshot. Do not edit it manually; see [the token guide](../../README.md).

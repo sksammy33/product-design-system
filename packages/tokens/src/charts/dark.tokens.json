@@ -1,0 +1,145 @@
+{
+  "$description": "GENERATED from the raw Figma snapshot. DO NOT EDIT. Run npm run build in packages/tokens.",
+  "color": {
+    "chart": {
+      "highlight": {
+        "$type": "color",
+        "$value": "{color.primitives.purple.400}",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:18:105",
+            "key": "18d3b7faa14970a1c55551f370cc67a69a5dafc3",
+            "name": "Highlight",
+            "collection": "Color / Chart",
+            "collectionId": "VariableCollectionId:18:97",
+            "mode": "Dark",
+            "modeId": "18:4",
+            "sourceType": "COLOR"
+          }
+        }
+      },
+      "negative": {
+        "$type": "color",
+        "$value": "{color.primitives.red.300}",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:18:104",
+            "key": "f1f3630ab14b9e29796ab473969cbc29853edbfe",
+            "name": "Negative",
+            "collection": "Color / Chart",
+            "collectionId": "VariableCollectionId:18:97",
+            "mode": "Dark",
+            "modeId": "18:4",
+            "sourceType": "COLOR"
+          }
+        }
+      },
+      "positive": {
+        "$type": "color",
+        "$value": "{color.primitives.green.300}",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:18:103",
+            "key": "08fa50897c89dbdf091a9cabf6396cd1b7b4c906",
+            "name": "Positive",
+            "collection": "Color / Chart",
+            "collectionId": "VariableCollectionId:18:97",
+            "mode": "Dark",
+            "modeId": "18:4",
+            "sourceType": "COLOR"
+          }
+        }
+      },
+      "series": {
+        "01": {
+          "$type": "color",
+          "$value": "{color.primitives.purple.400}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:98",
+              "key": "7b9c8a5c31e6a44e45b340bdd445d4fb42596661",
+              "name": "Series / 01",
+              "collection": "Color / Chart",
+              "collectionId": "VariableCollectionId:18:97",
+              "mode": "Dark",
+              "modeId": "18:4",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "02": {
+          "$type": "color",
+          "$value": "{color.primitives.blue.100}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:99",
+              "key": "e8a5f57dc494ca0207135ad6b2df44fcdfef9818",
+              "name": "Series / 02",
+              "collection": "Color / Chart",
+              "collectionId": "VariableCollectionId:18:97",
+              "mode": "Dark",
+              "modeId": "18:4",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "03": {
+          "$type": "color",
+          "$value": "{color.primitives.green.300}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:100",
+              "key": "7f16ec29c6cdfd81296b2d8bebdc25e1af778240",
+              "name": "Series / 03",
+              "collection": "Color / Chart",
+              "collectionId": "VariableCollectionId:18:97",
+              "mode": "Dark",
+              "modeId": "18:4",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "04": {
+          "$type": "color",
+          "$value": "{color.primitives.orange.100}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:101",
+              "key": "81bfd255eee23d85c923a311949f172935e7225f",
+              "name": "Series / 04",
+              "collection": "Color / Chart",
+              "collectionId": "VariableCollectionId:18:97",
+              "mode": "Dark",
+              "modeId": "18:4",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "05": {
+          "$type": "color",
+          "$value": "{color.primitives.red.300}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:102",
+              "key": "144202feced13b72278ce3cd874c741a0f4906a9",
+              "name": "Series / 05",
+              "collection": "Color / Chart",
+              "collectionId": "VariableCollectionId:18:97",
+              "mode": "Dark",
+              "modeId": "18:4",
+              "sourceType": "COLOR"
+            }
+          }
+        }
+      }
+    }
+  }
+}

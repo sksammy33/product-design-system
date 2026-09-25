@@ -1,3 +1,3 @@
-# themes/light
+# light theme
 
-Reserved for approved Figma-derived themes/light data in Phase 3. No values or aliases are defined here. Preserve source identity and resolve ambiguities before conversion.
+The generated composition manifest references shared foundations plus the corresponding semantic and chart mode. Mode names, not Figma IDs, select the source values. Do not edit generated JSON manually.

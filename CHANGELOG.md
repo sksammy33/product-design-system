@@ -1,5 +1,12 @@
 # Changelog
 
+## Token package 0.2.0 - Phase 3
+
+- Capture 292 current Figma variables, 16 text styles and 14 effect styles with source IDs, aliases, modes and raw snapshot hashes.
+- Generate DTCG-compatible tokens, Light/Dark semantic and chart themes, CSS custom properties and typed structured data.
+- Add dependency-free validation and regression tests. Preserve the five existing component spacing additions separately from the base scale.
+- Keep React, Storybook and publication out of scope.
+
 ## Version 0.1.0 — Repository Foundation
 
 2026-09-24

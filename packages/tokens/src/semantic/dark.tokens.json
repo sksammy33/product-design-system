@@ -1,0 +1,1900 @@
+{
+  "$description": "GENERATED from the raw Figma snapshot. DO NOT EDIT. Run npm run build in packages/tokens.",
+  "color": {
+    "semantic": {
+      "action": {
+        "danger": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.primitives.red.700}",
+            "$extensions": {
+              "org.product-design-system.figma": {
+                "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                "id": "VariableID:44:101",
+                "key": "1e87460f4497c1e1207cb69b598dd8ea0ae940ac",
+                "name": "Action / Danger / Default",
+                "collection": "Color / Semantic",
+                "collectionId": "VariableCollectionId:18:40",
+                "mode": "Dark",
+                "modeId": "18:2",
+                "sourceType": "COLOR"
+              }
+            }
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{color.primitives.red.400}",
+            "$extensions": {
+              "org.product-design-system.figma": {
+                "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                "id": "VariableID:44:102",
+                "key": "fbf32f54fc701d19b43dac08bc8a87e6989faee9",
+                "name": "Action / Danger / Hover",
+                "collection": "Color / Semantic",
+                "collectionId": "VariableCollectionId:18:40",
+                "mode": "Dark",
+                "modeId": "18:2",
+                "sourceType": "COLOR"
+              }
+            }
+          }
+        },
+        "destructive": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.primitives.red.700}",
+            "$extensions": {
+              "org.product-design-system.figma": {
+                "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                "id": "VariableID:18:82",
+                "key": "caaadbe85635cd0a48a5bebccb926cd04bb0013c",
+                "name": "Action / Destructive / Default",
+                "collection": "Color / Semantic",
+                "collectionId": "VariableCollectionId:18:40",
+                "mode": "Dark",
+                "modeId": "18:2",
+                "sourceType": "COLOR"
+              }
+            }
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{color.primitives.red.600}",
+            "$extensions": {
+              "org.product-design-system.figma": {
+                "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                "id": "VariableID:18:83",
+                "key": "c899d333a7b79f78bc03703642c949763067cf5d",
+                "name": "Action / Destructive / Hover",
+                "collection": "Color / Semantic",
+                "collectionId": "VariableCollectionId:18:40",
+                "mode": "Dark",
+                "modeId": "18:2",
+                "sourceType": "COLOR"
+              }
+            }
+          }
+        },
+        "primary": {
+          "active": {
+            "$type": "color",
+            "$value": "{color.primitives.purple.300}",
+            "$extensions": {
+              "org.product-design-system.figma": {
+                "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                "id": "VariableID:44:98",
+                "key": "483258ddf1cf3a78a04ec4f0d56e2564faac70d1",
+                "name": "Action / Primary / Active",
+                "collection": "Color / Semantic",
+                "collectionId": "VariableCollectionId:18:40",
+                "mode": "Dark",
+                "modeId": "18:2",
+                "sourceType": "COLOR"
+              }
+            }
+          },
+          "contrast": {
+            "$type": "color",
+            "$value": "{color.primitives.gray.0}",
+            "$extensions": {
+              "org.product-design-system.figma": {
+                "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                "id": "VariableID:18:81",
+                "key": "1b0e1d004df8b5dbbd3f9b97de54191484a3fd80",
+                "name": "Action / Primary / Contrast",
+                "collection": "Color / Semantic",
+                "collectionId": "VariableCollectionId:18:40",
+                "mode": "Dark",
+                "modeId": "18:2",
+                "sourceType": "COLOR"
+              }
+            }
+          },
+          "default": {
+            "$type": "color",
+            "$value": "{color.primitives.purple.600}",
+            "$extensions": {
+              "org.product-design-system.figma": {
+                "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                "id": "VariableID:18:77",
+                "key": "1344097403fbd9c4f234c3c8fa71c566a8ea087a",
+                "name": "Action / Primary / Default",
+                "collection": "Color / Semantic",
+                "collectionId": "VariableCollectionId:18:40",
+                "mode": "Dark",
+                "modeId": "18:2",
+                "sourceType": "COLOR"
+              }
+            }
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{color.primitives.purple.900}",
+            "$extensions": {
+              "org.product-design-system.figma": {
+                "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                "id": "VariableID:18:80",
+                "key": "cfffa6ee7246143bf41bcb0c4d0990d912894334",
+                "name": "Action / Primary / Disabled",
+                "collection": "Color / Semantic",
+                "collectionId": "VariableCollectionId:18:40",
+                "mode": "Dark",
+                "modeId": "18:2",
+                "sourceType": "COLOR"
+              }
+            }
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{color.primitives.purple.700}",
+            "$extensions": {
+              "org.product-design-system.figma": {
+                "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                "id": "VariableID:18:78",
+                "key": "c2bbb79244906a7c79d8c4fcc2209d2dd54058f4",
+                "name": "Action / Primary / Hover",
+                "collection": "Color / Semantic",
+                "collectionId": "VariableCollectionId:18:40",
+                "mode": "Dark",
+                "modeId": "18:2",
+                "sourceType": "COLOR"
+              }
+            }
+          },
+          "pressed": {
+            "$type": "color",
+            "$value": "{color.primitives.purple.800}",
+            "$extensions": {
+              "org.product-design-system.figma": {
+                "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                "id": "VariableID:18:79",
+                "key": "c72cc37f9cec1a6e5b425d45a97fa40b895c844b",
+                "name": "Action / Primary / Pressed",
+                "collection": "Color / Semantic",
+                "collectionId": "VariableCollectionId:18:40",
+                "mode": "Dark",
+                "modeId": "18:2",
+                "sourceType": "COLOR"
+              }
+            }
+          }
+        },
+        "secondary": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.primitives.gray.800}",
+            "$extensions": {
+              "org.product-design-system.figma": {
+                "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                "id": "VariableID:44:99",
+                "key": "9585c3ef9440d630a2be90f59ef3471d433883ae",
+                "name": "Action / Secondary / Default",
+                "collection": "Color / Semantic",
+                "collectionId": "VariableCollectionId:18:40",
+                "mode": "Dark",
+                "modeId": "18:2",
+                "sourceType": "COLOR"
+              }
+            }
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{color.primitives.gray.700}",
+            "$extensions": {
+              "org.product-design-system.figma": {
+                "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                "id": "VariableID:44:100",
+                "key": "aa5fb643d9e05a86f63b1b5fc5c208f235db44b1",
+                "name": "Action / Secondary / Hover",
+                "collection": "Color / Semantic",
+                "collectionId": "VariableCollectionId:18:40",
+                "mode": "Dark",
+                "modeId": "18:2",
+                "sourceType": "COLOR"
+              }
+            }
+          }
+        }
+      },
+      "background": {
+        "active": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.700}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:70",
+              "key": "b021dfed4070ab82f6e1250a8b8cd2238eb4d1f8",
+              "name": "Background / Active",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "brand": {
+          "$type": "color",
+          "$value": "{color.primitives.purple.500}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:53",
+              "key": "0bc1508aab1b4338c7ee575c1202b9d4dfc45004",
+              "name": "Background / Brand",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "brand-subtle": {
+          "$type": "color",
+          "$value": "{color.primitives.purple.950}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:54",
+              "key": "b271cf184050a6b2e421baffbe4151dc206907e7",
+              "name": "Background / Brand Subtle",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "danger": {
+          "$type": "color",
+          "$value": "{color.primitives.red.800}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:56",
+              "key": "4c55c02f6b77019995ff50e4d6e7ba3489fd89b2",
+              "name": "Background / Danger",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.900}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:50",
+              "key": "026833bc9d0db93f753b3fce7ded14bc4b48c467",
+              "name": "Background / Default",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.800}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:69",
+              "key": "0b6cb65d5839c6d78146b60e87b3fd6658900144",
+              "name": "Background / Hover",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "inverse": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.50}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:73",
+              "key": "6177bd8f7d1d35c5fae2a23c37162e6bde234632",
+              "name": "Background / Inverse",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "selected": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.800}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:71",
+              "key": "30ff78cd9009b7fb77ae51096c8e8b307ef6dd69",
+              "name": "Background / Selected",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "selected-hover": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.700}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:72",
+              "key": "9a413a3b995ca6df1e293388a654a2ac867b1e41",
+              "name": "Background / Selected Hover",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "subtle": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.900}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:51",
+              "key": "114aa76d73335a1f3d72aa4a42128339d89efbd5",
+              "name": "Background / Subtle",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{color.primitives.green.800}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:55",
+              "key": "18b1f80f9f5e9d20833e00d6aeb161f729605b61",
+              "name": "Background / Success",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "sunken": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.950}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:52",
+              "key": "81b8a423eb3079c95fab0ac4a463d8db31720544",
+              "name": "Background / Sunken",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        }
+      },
+      "border": {
+        "brand": {
+          "$type": "color",
+          "$value": "{color.primitives.purple.400}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:65",
+              "key": "930faafb4d43b6f92b99dfc67febe45786d06a48",
+              "name": "Border / Brand",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "danger": {
+          "$type": "color",
+          "$value": "{color.primitives.red.300}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:67",
+              "key": "b9ce459356a9ef21f93958ea02130cad48b301c5",
+              "name": "Border / Danger",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.700}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:62",
+              "key": "3d36b508b82e2822a39e3aca0c0ad65074c93f95",
+              "name": "Border / Default",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.700}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:87",
+              "key": "cd29da67b21ab5c00efff033c1627593b1de663f",
+              "name": "Border / Disabled",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "error": {
+          "$type": "color",
+          "$value": "{color.primitives.red.400}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:89",
+              "key": "7f1c18d8f2c9384695a0be3a7ea0bc3bc39e7cb7",
+              "name": "Border / Error",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "focus": {
+          "$type": "color",
+          "$value": "{color.primitives.purple.400}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:66",
+              "key": "681e54fdccac1792eb08cda67bbfea8bb150bb1a",
+              "name": "Border / Focus",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "interactive": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.500}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:88",
+              "key": "a7366c666605e6ab966aea49d84883a3b2312aab",
+              "name": "Border / Interactive",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "inverse": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.900}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:91",
+              "key": "3972be6c715fe940a102713a4db35877705ff462",
+              "name": "Border / Inverse",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "strong": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.400}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:64",
+              "key": "36ed76905954ace1b8048cd46366dfab82dda5d9",
+              "name": "Border / Strong",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "subtle": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.700}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:63",
+              "key": "eb2c836893e7810c25074a32bb56cb178e97ed71",
+              "name": "Border / Subtle",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{color.primitives.green.400}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:68",
+              "key": "435c0cb12aa587900f06adc8d43e67a60cbddedb",
+              "name": "Border / Success",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "{color.primitives.amber.400}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:90",
+              "key": "897706ed729425e03cee41e74f407d973560c614",
+              "name": "Border / Warning",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        }
+      },
+      "disabled": {
+        "background": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.950}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:95",
+              "key": "814e75f559ee19fe333b326260f3fb2a1195f68b",
+              "name": "Disabled / Background",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.800}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:96",
+              "key": "891fde3d98e9b02fc92dc0bcc89f2c3fea7afa40",
+              "name": "Disabled / Border",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.600}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:94",
+              "key": "87c7a2b384079e8a059e275a1f440900d6667b5c",
+              "name": "Disabled / Text",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        }
+      },
+      "field": {
+        "01": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.800}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:113",
+              "key": "259c643838332fa3231e742fd5cecace5c3f5f13",
+              "name": "Field / 01",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "01-hover": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.700}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:114",
+              "key": "b085b155571d9fa0a3a9c8fdabab609a4e2e761e",
+              "name": "Field / 01 Hover",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "02": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.700}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:115",
+              "key": "a71e63cdfc86cbfa6e89ce1a955854cd0b0df1a2",
+              "name": "Field / 02",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "02-hover": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.600}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:116",
+              "key": "4741c4cad5dda6c6d05feff195cacb2bd139dc5d",
+              "name": "Field / 02 Hover",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.800}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:117",
+              "key": "a1d7e91505aa8bf01aaa416df4d5323780a9d3b7",
+              "name": "Field / Disabled",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "readonly": {
+          "$type": "color",
+          "$value": "{color.primitives.transparent}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:118",
+              "key": "33fb9d7f51168a5aa7ba0a62707fe18516ca9dd3",
+              "name": "Field / Readonly",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        }
+      },
+      "focus": {
+        "border": {
+          "$type": "color",
+          "$value": "{color.primitives.purple.400}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:119",
+              "key": "e7e7868fdfed546d78c7d2c2cfcf8084fa5b9c76",
+              "name": "Focus / Border",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{color.primitives.purple.400}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:92",
+              "key": "827568ba329268d4d691392a6c7aaa7b201a9aeb",
+              "name": "Focus / Default",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "inset": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.900}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:120",
+              "key": "b24ffcd1903e6fff7a5df672f0ef6c16a2764380",
+              "name": "Focus / Inset",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "outline": {
+          "$type": "color",
+          "$value": "{color.primitives.purple.700}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:121",
+              "key": "53edb1e0f3ea21e0120be9d3be4b0fca949979cc",
+              "name": "Focus / Outline",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "strong": {
+          "$type": "color",
+          "$value": "{color.primitives.purple.500}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:93",
+              "key": "de9c29b98dffb4c0f78ee370b85b0207612b9502",
+              "name": "Focus / Strong",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        }
+      },
+      "icon": {
+        "brand": {
+          "$type": "color",
+          "$value": "{color.primitives.purple.400}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:73",
+              "key": "d80286983b907f5c6775828b0951ba10a4b6b82a",
+              "name": "Icon / Brand",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "danger": {
+          "$type": "color",
+          "$value": "{color.primitives.red.300}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:75",
+              "key": "1b6399e438f52fa747c6ade94e45e9bf81cb7023",
+              "name": "Icon / Danger",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.100}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:69",
+              "key": "fe1066ec4a6455fc0be1513cd457cab5defb78b6",
+              "name": "Icon / Default",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.600}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:71",
+              "key": "1f584bd06a40be54171830b3a19c1db2036f5517",
+              "name": "Icon / Disabled",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "error": {
+          "$type": "color",
+          "$value": "{color.primitives.red.400}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:95",
+              "key": "322366f8259624f73b2434665146dc4e42a75a9b",
+              "name": "Icon / Error",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "info": {
+          "$type": "color",
+          "$value": "{color.primitives.blue.400}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:97",
+              "key": "5367f52a78e05b69f642d626693c23e24f94fc39",
+              "name": "Icon / Info",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "information": {
+          "$type": "color",
+          "$value": "{color.primitives.blue.100}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:76",
+              "key": "4d78da78bd0791105979eda696ed36f1eb742301",
+              "name": "Icon / Information",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "interactive": {
+          "$type": "color",
+          "$value": "{color.primitives.purple.400}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:94",
+              "key": "0c25971277905385612b0211a30bfcfa181edebd",
+              "name": "Icon / Interactive",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "inverse": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.900}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:72",
+              "key": "62b6b9851dea2cd6c5d95aa7ea479a2305921c28",
+              "name": "Icon / Inverse",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "on-color": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.0}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:93",
+              "key": "292764cc36612840b742b56239ed5a83bc926219",
+              "name": "Icon / On Color",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "primary": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.100}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:92",
+              "key": "5770e53c239b05a3824daf324b27b9d96852b987",
+              "name": "Icon / Primary",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.400}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:70",
+              "key": "ac13c0f890131951e08154f7ff6f1a71f149ab71",
+              "name": "Icon / Secondary",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{color.primitives.green.400}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:74",
+              "key": "47626b2d024f43204c0a6f654081804336ba947f",
+              "name": "Icon / Success",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "{color.primitives.amber.400}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:96",
+              "key": "ecf4fa9732f38d52d688d680525571517f3d28ff",
+              "name": "Icon / Warning",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        }
+      },
+      "layer": {
+        "01": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.800}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:74",
+              "key": "90a3e07dd34827d62daf426f470029ebbcc436f6",
+              "name": "Layer / 01",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "01-active": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.600}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:76",
+              "key": "b8f62b1dabab2518bf81cacc1de52fb48abc3a46",
+              "name": "Layer / 01 Active",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "01-hover": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.700}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:75",
+              "key": "acf1db288fcea46833f03fe77b55567554f8f7fa",
+              "name": "Layer / 01 Hover",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "02": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.700}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:77",
+              "key": "fc64e10c96c419052bed86041b59e8fd7df81638",
+              "name": "Layer / 02",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "02-active": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.500}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:79",
+              "key": "d717db22aec8a3690cbb51cda3dac97994cc1b9c",
+              "name": "Layer / 02 Active",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "02-hover": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.600}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:78",
+              "key": "0481d18dfe5087e2876b83c0f987d5d8d99c505f",
+              "name": "Layer / 02 Hover",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "03": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.600}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:80",
+              "key": "402b3967bfec966940b6dc9681ae5702d3b7429f",
+              "name": "Layer / 03",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "accent-01": {
+          "$type": "color",
+          "$value": "{color.primitives.purple.900}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:81",
+              "key": "63d6de413d03b0f477075f7fd6753763daeb2eee",
+              "name": "Layer / Accent 01",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "accent-02": {
+          "$type": "color",
+          "$value": "{color.primitives.purple.800}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:82",
+              "key": "c7a14483864b9299a3113a144d7fbcdcc89f93a7",
+              "name": "Layer / Accent 02",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        }
+      },
+      "status": {
+        "danger": {
+          "background": {
+            "$type": "color",
+            "$value": "{color.primitives.red.800}",
+            "$extensions": {
+              "org.product-design-system.figma": {
+                "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                "id": "VariableID:18:86",
+                "key": "1b99bb9224f5dabdcdfa77388105bc42d5de68ca",
+                "name": "Status / Danger / Background",
+                "collection": "Color / Semantic",
+                "collectionId": "VariableCollectionId:18:40",
+                "mode": "Dark",
+                "modeId": "18:2",
+                "sourceType": "COLOR"
+              }
+            }
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{color.primitives.red.200}",
+            "$extensions": {
+              "org.product-design-system.figma": {
+                "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                "id": "VariableID:18:87",
+                "key": "6bd2b8a9148455e6873814316bb251f04f6e785a",
+                "name": "Status / Danger / Text",
+                "collection": "Color / Semantic",
+                "collectionId": "VariableCollectionId:18:40",
+                "mode": "Dark",
+                "modeId": "18:2",
+                "sourceType": "COLOR"
+              }
+            }
+          }
+        },
+        "info": {
+          "background": {
+            "$type": "color",
+            "$value": "{color.primitives.blue.600}",
+            "$extensions": {
+              "org.product-design-system.figma": {
+                "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                "id": "VariableID:18:88",
+                "key": "d6e64ed2e85f21f70657e84e8b87aed057ffa498",
+                "name": "Status / Info / Background",
+                "collection": "Color / Semantic",
+                "collectionId": "VariableCollectionId:18:40",
+                "mode": "Dark",
+                "modeId": "18:2",
+                "sourceType": "COLOR"
+              }
+            }
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{color.primitives.blue.100}",
+            "$extensions": {
+              "org.product-design-system.figma": {
+                "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                "id": "VariableID:18:89",
+                "key": "dca6677c77abb9f41675d3bdffbc11c7121bd425",
+                "name": "Status / Info / Text",
+                "collection": "Color / Semantic",
+                "collectionId": "VariableCollectionId:18:40",
+                "mode": "Dark",
+                "modeId": "18:2",
+                "sourceType": "COLOR"
+              }
+            }
+          }
+        },
+        "success": {
+          "background": {
+            "$type": "color",
+            "$value": "{color.primitives.green.800}",
+            "$extensions": {
+              "org.product-design-system.figma": {
+                "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                "id": "VariableID:18:84",
+                "key": "613309baf51ca8ba8f1eedd8b1948c0e22007473",
+                "name": "Status / Success / Background",
+                "collection": "Color / Semantic",
+                "collectionId": "VariableCollectionId:18:40",
+                "mode": "Dark",
+                "modeId": "18:2",
+                "sourceType": "COLOR"
+              }
+            }
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{color.primitives.green.300}",
+            "$extensions": {
+              "org.product-design-system.figma": {
+                "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                "id": "VariableID:18:85",
+                "key": "943b3c565e63e340bab6bae6548fc2bda53afa70",
+                "name": "Status / Success / Text",
+                "collection": "Color / Semantic",
+                "collectionId": "VariableCollectionId:18:40",
+                "mode": "Dark",
+                "modeId": "18:2",
+                "sourceType": "COLOR"
+              }
+            }
+          }
+        },
+        "warning": {
+          "background": {
+            "$type": "color",
+            "$value": "{color.primitives.orange.950}",
+            "$extensions": {
+              "org.product-design-system.figma": {
+                "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                "id": "VariableID:18:90",
+                "key": "d0e4bfc665b14191e36dc91c04ac79ecbb118de0",
+                "name": "Status / Warning / Background",
+                "collection": "Color / Semantic",
+                "collectionId": "VariableCollectionId:18:40",
+                "mode": "Dark",
+                "modeId": "18:2",
+                "sourceType": "COLOR"
+              }
+            }
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{color.primitives.orange.100}",
+            "$extensions": {
+              "org.product-design-system.figma": {
+                "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                "id": "VariableID:18:91",
+                "key": "e4eeed74f56287f10169a1f4a27c46ce98cfbc8c",
+                "name": "Status / Warning / Text",
+                "collection": "Color / Semantic",
+                "collectionId": "VariableCollectionId:18:40",
+                "mode": "Dark",
+                "modeId": "18:2",
+                "sourceType": "COLOR"
+              }
+            }
+          }
+        }
+      },
+      "support": {
+        "caution": {
+          "$type": "color",
+          "$value": "{color.primitives.orange.400}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:111",
+              "key": "a0e7d3216f257cb9c20eeea53bbae9a373eb19d1",
+              "name": "Support / Caution",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "caution-subtle": {
+          "$type": "color",
+          "$value": "{color.primitives.orange.950}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:112",
+              "key": "4cfc95559980cf175237fa8354323c400b5a33c9",
+              "name": "Support / Caution Subtle",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "error": {
+          "$type": "color",
+          "$value": "{color.primitives.red.400}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:103",
+              "key": "e4d1b4c180fa30a650e2f13d03cffd36d9759cc2",
+              "name": "Support / Error",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "error-subtle": {
+          "$type": "color",
+          "$value": "{color.primitives.red.950}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:104",
+              "key": "737f55df15e32af11f543a3886f2dfecb8c7a42f",
+              "name": "Support / Error Subtle",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "info": {
+          "$type": "color",
+          "$value": "{color.primitives.blue.400}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:109",
+              "key": "3574f2cbe8fabdda32d1d5c0f241acd409678893",
+              "name": "Support / Info",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "info-subtle": {
+          "$type": "color",
+          "$value": "{color.primitives.blue.950}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:110",
+              "key": "dc1d7f95b4c80710c4b139760671deeb43410ebb",
+              "name": "Support / Info Subtle",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{color.primitives.green.400}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:105",
+              "key": "e21b6421b200630eeb2a58ec4534deaf2600c81e",
+              "name": "Support / Success",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "success-subtle": {
+          "$type": "color",
+          "$value": "{color.primitives.green.950}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:106",
+              "key": "6e2d27260177e1835b7184e6044644930ecd9598",
+              "name": "Support / Success Subtle",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "{color.primitives.amber.400}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:107",
+              "key": "005ffe6050ed0505aaed9893df5dabdc8c66e79a",
+              "name": "Support / Warning",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "warning-subtle": {
+          "$type": "color",
+          "$value": "{color.primitives.amber.950}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:108",
+              "key": "3214c8aa3e01e197b6248174cd51ef2f0f151add",
+              "name": "Support / Warning Subtle",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        }
+      },
+      "surface": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.900}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:57",
+              "key": "4e433c7aa009786ca73c865ef0732c8264fe9dff",
+              "name": "Surface / Default",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.950}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:61",
+              "key": "7fbbd5b88546374e77c68242998ee117cfafbaf6",
+              "name": "Surface / Disabled",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "elevated": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.800}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:58",
+              "key": "fdb03ee5d9f2eb3bfcf9d6c5c20603c37c969759",
+              "name": "Surface / Elevated",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "hovered": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.800}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:59",
+              "key": "e43b02aa2272fb239367f43f3cbbb2aa5cb27d99",
+              "name": "Surface / Hovered",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "selected": {
+          "$type": "color",
+          "$value": "{color.primitives.purple.950}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:60",
+              "key": "aa891f33a586f205b45e331743bcad9710d8944c",
+              "name": "Surface / Selected",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        }
+      },
+      "text": {
+        "danger": {
+          "$type": "color",
+          "$value": "{color.primitives.red.300}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:48",
+              "key": "47519f0a5e99d334d59bbd94e322edf0c1034133",
+              "name": "Text / Danger",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.600}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:44",
+              "key": "2ee6b801f981c7d81acf3899b6298325563b0731",
+              "name": "Text / Disabled",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "error": {
+          "$type": "color",
+          "$value": "{color.primitives.red.400}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:85",
+              "key": "10c97d51591846e0ff2b4c0d11c1761b84fe144f",
+              "name": "Text / Error",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "inverse": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.900}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:45",
+              "key": "bda34262a7fd0d391ac12ac1eb7edecd83a2c982",
+              "name": "Text / Inverse",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "link": {
+          "$type": "color",
+          "$value": "{color.primitives.purple.400}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:46",
+              "key": "1949cddf4e9b249f61d869891e0930562ac14a44",
+              "name": "Text / Link",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "link-hover": {
+          "$type": "color",
+          "$value": "{color.primitives.purple.300}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:47",
+              "key": "c82f8148feff51d6910249150ef67ae4d0fb92d6",
+              "name": "Text / Link Hover",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "on-color": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.0}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:84",
+              "key": "8f2a32c23367857437cd6124ce6b3418b94f307f",
+              "name": "Text / On Color",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "placeholder": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.400}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:83",
+              "key": "e4dda224c83ba975c970080d1913decc32f66994",
+              "name": "Text / Placeholder",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "primary": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.50}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:41",
+              "key": "c21f764cd86854badebf561c85ac3ce773e6ebd8",
+              "name": "Text / Primary",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.400}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:42",
+              "key": "364a48f19d3d9e2169bf4db60a47f8fe7380eecc",
+              "name": "Text / Secondary",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{color.primitives.green.400}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:49",
+              "key": "ac43b79184e3bdb8176de20cb09f626c99bbc4c8",
+              "name": "Text / Success",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "tertiary": {
+          "$type": "color",
+          "$value": "{color.primitives.gray.400}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:18:43",
+              "key": "0e667216e41535988ff35721d640560941694886",
+              "name": "Text / Tertiary",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "{color.primitives.amber.400}",
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:44:86",
+              "key": "6d2fd4f3bf2c7cce1c11600322bf573ca7a36789",
+              "name": "Text / Warning",
+              "collection": "Color / Semantic",
+              "collectionId": "VariableCollectionId:18:40",
+              "mode": "Dark",
+              "modeId": "18:2",
+              "sourceType": "COLOR"
+            }
+          }
+        }
+      }
+    }
+  }
+}

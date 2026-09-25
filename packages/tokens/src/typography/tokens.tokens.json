@@ -1,0 +1,1611 @@
+{
+  "$description": "GENERATED from the raw Figma snapshot. DO NOT EDIT. Run npm run build in packages/tokens.",
+  "typography": {
+    "line-height": {
+      "body": {
+        "default": {
+          "$type": "dimension",
+          "$value": {
+            "value": 24,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:78",
+              "key": "966f80b12ac2220123c9b8c0bf420bf56ebb8bf0",
+              "name": "Typography / Line Height / Body / Default",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        },
+        "large": {
+          "$type": "dimension",
+          "$value": {
+            "value": 28,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:75",
+              "key": "d6beb94b10defa8613fa78637026b805f3dacf2e",
+              "name": "Typography / Line Height / Body / Large",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        },
+        "small": {
+          "$type": "dimension",
+          "$value": {
+            "value": 20,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:81",
+              "key": "8764002068ac5303d46f33981db74c77f4d48ec5",
+              "name": "Typography / Line Height / Body / Small",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        }
+      },
+      "caption": {
+        "default": {
+          "$type": "dimension",
+          "$value": {
+            "value": 16,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:93",
+              "key": "52a197d0124ad0019c8ce8a4b5d6321f00e9f72e",
+              "name": "Typography / Line Height / Caption / Default",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        }
+      },
+      "display": {
+        "large": {
+          "$type": "dimension",
+          "$value": {
+            "value": 64,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:48",
+              "key": "417501395cef6ad0b4183303ac1efb6f65b00576",
+              "name": "Typography / Line Height / Display / Large",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        },
+        "medium": {
+          "$type": "dimension",
+          "$value": {
+            "value": 56,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:51",
+              "key": "1dc6e62cccb635c478f1edc03af8e3b085d3d450",
+              "name": "Typography / Line Height / Display / Medium",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        },
+        "small": {
+          "$type": "dimension",
+          "$value": {
+            "value": 48,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:54",
+              "key": "2d1ea2bfb845b7b2dc68fc158964c88be3b27f9b",
+              "name": "Typography / Line Height / Display / Small",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        }
+      },
+      "heading": {
+        "h1": {
+          "$type": "dimension",
+          "$value": {
+            "value": 40,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:57",
+              "key": "5f991963faa14499d9540a8e8d345b06d610216e",
+              "name": "Typography / Line Height / Heading / H1",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        },
+        "h2": {
+          "$type": "dimension",
+          "$value": {
+            "value": 36,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:60",
+              "key": "65fa312880dd34e7f25b63d8e8514c734bbfc51d",
+              "name": "Typography / Line Height / Heading / H2",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        },
+        "h3": {
+          "$type": "dimension",
+          "$value": {
+            "value": 32,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:63",
+              "key": "8697a21c3526ba9f9e4f371a23c4d16281699f35",
+              "name": "Typography / Line Height / Heading / H3",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        },
+        "h4": {
+          "$type": "dimension",
+          "$value": {
+            "value": 28,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:66",
+              "key": "2802cb763b3bb8e30d6a056e5b4003d8d5e7b96e",
+              "name": "Typography / Line Height / Heading / H4",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        },
+        "h5": {
+          "$type": "dimension",
+          "$value": {
+            "value": 24,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:69",
+              "key": "a969a74a4a05d1422089eb68ed0c1fd667fbdb66",
+              "name": "Typography / Line Height / Heading / H5",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        },
+        "h6": {
+          "$type": "dimension",
+          "$value": {
+            "value": 24,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:72",
+              "key": "431e96c25bd729d43667d66634f1a207087c2cd5",
+              "name": "Typography / Line Height / Heading / H6",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        }
+      },
+      "label": {
+        "default": {
+          "$type": "dimension",
+          "$value": {
+            "value": 18,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:87",
+              "key": "1d6fa41f3ed9b795f3acfa20885899d6af597f17",
+              "name": "Typography / Line Height / Label / Default",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        },
+        "large": {
+          "$type": "dimension",
+          "$value": {
+            "value": 20,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:84",
+              "key": "2ca5142f4e01c406e2a89f9d5be2ec05cfcaf230",
+              "name": "Typography / Line Height / Label / Large",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        },
+        "small": {
+          "$type": "dimension",
+          "$value": {
+            "value": 16,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:90",
+              "key": "0303abffcba96cec40f674d37e8a8309878f9d63",
+              "name": "Typography / Line Height / Label / Small",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        }
+      }
+    },
+    "size": {
+      "body": {
+        "default": {
+          "$type": "dimension",
+          "$value": {
+            "value": 16,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:77",
+              "key": "ea026b9d309cf37099dae53af0379e08091ccf57",
+              "name": "Typography / Size / Body / Default",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        },
+        "large": {
+          "$type": "dimension",
+          "$value": {
+            "value": 18,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:74",
+              "key": "9886b16a34f775261dfbc0ef2827b8adb391fcfb",
+              "name": "Typography / Size / Body / Large",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        },
+        "small": {
+          "$type": "dimension",
+          "$value": {
+            "value": 14,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:80",
+              "key": "a1b395b8380cd3978afc20012f2f63175c697624",
+              "name": "Typography / Size / Body / Small",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        }
+      },
+      "caption": {
+        "default": {
+          "$type": "dimension",
+          "$value": {
+            "value": 12,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:92",
+              "key": "18b2cb89393fe1195411f71784a3cf4e1400e3a3",
+              "name": "Typography / Size / Caption / Default",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        }
+      },
+      "display": {
+        "large": {
+          "$type": "dimension",
+          "$value": {
+            "value": 56,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:47",
+              "key": "17a4073ea181ccb3af330a5b90c408fa58b7b61e",
+              "name": "Typography / Size / Display / Large",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        },
+        "medium": {
+          "$type": "dimension",
+          "$value": {
+            "value": 48,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:50",
+              "key": "9a10337c5d88ab0ab1d92645c054d9204f36b35c",
+              "name": "Typography / Size / Display / Medium",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        },
+        "small": {
+          "$type": "dimension",
+          "$value": {
+            "value": 40,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:53",
+              "key": "737cd2f81327db861361d0ccf73a60a235169bd5",
+              "name": "Typography / Size / Display / Small",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        }
+      },
+      "heading": {
+        "h1": {
+          "$type": "dimension",
+          "$value": {
+            "value": 32,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:56",
+              "key": "5569f1b7a7b47ea47fb11d81abb880797274c3da",
+              "name": "Typography / Size / Heading / H1",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        },
+        "h2": {
+          "$type": "dimension",
+          "$value": {
+            "value": 28,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:59",
+              "key": "ecc2011d7b044ca9c2cfd3c177708b4c7ef3da82",
+              "name": "Typography / Size / Heading / H2",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        },
+        "h3": {
+          "$type": "dimension",
+          "$value": {
+            "value": 24,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:62",
+              "key": "87c2a18de044a6b5e8707610b18138910a7f03ac",
+              "name": "Typography / Size / Heading / H3",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        },
+        "h4": {
+          "$type": "dimension",
+          "$value": {
+            "value": 20,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:65",
+              "key": "b31340e757f901a771035abee29bab62235beeab",
+              "name": "Typography / Size / Heading / H4",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        },
+        "h5": {
+          "$type": "dimension",
+          "$value": {
+            "value": 18,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:68",
+              "key": "c33b6e6d731aeab99396adc5c7bc463fba7d22d8",
+              "name": "Typography / Size / Heading / H5",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        },
+        "h6": {
+          "$type": "dimension",
+          "$value": {
+            "value": 16,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:71",
+              "key": "71f0f56f451df1a2193a62106cbd225e3a9a0e2b",
+              "name": "Typography / Size / Heading / H6",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        }
+      },
+      "label": {
+        "default": {
+          "$type": "dimension",
+          "$value": {
+            "value": 14,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:86",
+              "key": "285efa2cdabef3b89548d58d9d5e7e27b30fabdd",
+              "name": "Typography / Size / Label / Default",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        },
+        "large": {
+          "$type": "dimension",
+          "$value": {
+            "value": 16,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:83",
+              "key": "750aa7cea0b13e35bfd2a3f1b2c42c1f6a156db5",
+              "name": "Typography / Size / Label / Large",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        },
+        "small": {
+          "$type": "dimension",
+          "$value": {
+            "value": 12,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:89",
+              "key": "175f1b46cca2e888c1cbf0cf2b05cdd78f662b67",
+              "name": "Typography / Size / Label / Small",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        }
+      }
+    },
+    "styles": {
+      "body": {
+        "default": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Geist",
+            "fontWeight": 400,
+            "fontSize": {
+              "value": 16,
+              "unit": "px"
+            },
+            "lineHeight": 1.5,
+            "letterSpacing": {
+              "value": 0,
+              "unit": "px"
+            }
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "S:adad57c2b7b8cff81399de9b50329dab007cb086,",
+              "key": "adad57c2b7b8cff81399de9b50329dab007cb086",
+              "name": "Typography / Body / Default",
+              "sourceType": "STYLE",
+              "lineHeight": {
+                "unit": "PIXELS",
+                "value": 24
+              },
+              "letterSpacing": {
+                "unit": "PIXELS",
+                "value": 0
+              }
+            }
+          }
+        },
+        "large": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Geist",
+            "fontWeight": 400,
+            "fontSize": {
+              "value": 18,
+              "unit": "px"
+            },
+            "lineHeight": 1.5555555555555556,
+            "letterSpacing": {
+              "value": 0,
+              "unit": "px"
+            }
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "S:dcff90c24f1657b4186083d33835dc2ef4ca0a86,",
+              "key": "dcff90c24f1657b4186083d33835dc2ef4ca0a86",
+              "name": "Typography / Body / Large",
+              "sourceType": "STYLE",
+              "lineHeight": {
+                "unit": "PIXELS",
+                "value": 28
+              },
+              "letterSpacing": {
+                "unit": "PIXELS",
+                "value": 0
+              }
+            }
+          }
+        },
+        "small": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Geist",
+            "fontWeight": 400,
+            "fontSize": {
+              "value": 14,
+              "unit": "px"
+            },
+            "lineHeight": 1.4285714285714286,
+            "letterSpacing": {
+              "value": 0,
+              "unit": "px"
+            }
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "S:f4068954d46cf409327543f34516fa13ba6ded3e,",
+              "key": "f4068954d46cf409327543f34516fa13ba6ded3e",
+              "name": "Typography / Body / Small",
+              "sourceType": "STYLE",
+              "lineHeight": {
+                "unit": "PIXELS",
+                "value": 20
+              },
+              "letterSpacing": {
+                "unit": "PIXELS",
+                "value": 0
+              }
+            }
+          }
+        }
+      },
+      "caption": {
+        "default": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Geist",
+            "fontWeight": 400,
+            "fontSize": {
+              "value": 12,
+              "unit": "px"
+            },
+            "lineHeight": 1.3333333333333333,
+            "letterSpacing": {
+              "value": 0.25,
+              "unit": "px"
+            }
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "S:fdec83fa12234dc01e9a92b0c13be57752cdd1d9,",
+              "key": "fdec83fa12234dc01e9a92b0c13be57752cdd1d9",
+              "name": "Typography/Caption/Default",
+              "sourceType": "STYLE",
+              "lineHeight": {
+                "unit": "PIXELS",
+                "value": 16
+              },
+              "letterSpacing": {
+                "unit": "PIXELS",
+                "value": 0.25
+              }
+            }
+          }
+        }
+      },
+      "display": {
+        "large": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Geist",
+            "fontWeight": 600,
+            "fontSize": {
+              "value": 56,
+              "unit": "px"
+            },
+            "lineHeight": 1.1428571428571428,
+            "letterSpacing": {
+              "value": -1.5,
+              "unit": "px"
+            }
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "S:9829515ecc0baf56b9b3b47f7912da3b32991944,",
+              "key": "9829515ecc0baf56b9b3b47f7912da3b32991944",
+              "name": "Typography/Display/Large",
+              "sourceType": "STYLE",
+              "lineHeight": {
+                "unit": "PIXELS",
+                "value": 64
+              },
+              "letterSpacing": {
+                "unit": "PIXELS",
+                "value": -1.5
+              }
+            }
+          }
+        },
+        "medium": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Geist",
+            "fontWeight": 600,
+            "fontSize": {
+              "value": 48,
+              "unit": "px"
+            },
+            "lineHeight": 1.1666666666666667,
+            "letterSpacing": {
+              "value": -1,
+              "unit": "px"
+            }
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "S:a3f88bae05e1f082011469a6e08751314238c7aa,",
+              "key": "a3f88bae05e1f082011469a6e08751314238c7aa",
+              "name": "Typography / Display / Medium",
+              "sourceType": "STYLE",
+              "lineHeight": {
+                "unit": "PIXELS",
+                "value": 56
+              },
+              "letterSpacing": {
+                "unit": "PIXELS",
+                "value": -1
+              }
+            }
+          }
+        },
+        "small": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Geist",
+            "fontWeight": 600,
+            "fontSize": {
+              "value": 40,
+              "unit": "px"
+            },
+            "lineHeight": 1.2,
+            "letterSpacing": {
+              "value": -0.5,
+              "unit": "px"
+            }
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "S:493b5e8e76d8e8730fb3a85ef283e2e0266fa189,",
+              "key": "493b5e8e76d8e8730fb3a85ef283e2e0266fa189",
+              "name": "Typography / Display / Small",
+              "sourceType": "STYLE",
+              "lineHeight": {
+                "unit": "PIXELS",
+                "value": 48
+              },
+              "letterSpacing": {
+                "unit": "PIXELS",
+                "value": -0.5
+              }
+            }
+          }
+        }
+      },
+      "heading": {
+        "h1": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Geist",
+            "fontWeight": 600,
+            "fontSize": {
+              "value": 32,
+              "unit": "px"
+            },
+            "lineHeight": 1.25,
+            "letterSpacing": {
+              "value": -0.5,
+              "unit": "px"
+            }
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "S:2077b9c43a30d5b3d53015ebe43a277ac54497a6,",
+              "key": "2077b9c43a30d5b3d53015ebe43a277ac54497a6",
+              "name": "Typography / Heading / H1",
+              "sourceType": "STYLE",
+              "lineHeight": {
+                "unit": "PIXELS",
+                "value": 40
+              },
+              "letterSpacing": {
+                "unit": "PIXELS",
+                "value": -0.5
+              }
+            }
+          }
+        },
+        "h2": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Geist",
+            "fontWeight": 600,
+            "fontSize": {
+              "value": 28,
+              "unit": "px"
+            },
+            "lineHeight": 1.2857142857142858,
+            "letterSpacing": {
+              "value": -0.25,
+              "unit": "px"
+            }
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "S:d531a5a9b6ae45a6e44f56c14b291c2a54ede378,",
+              "key": "d531a5a9b6ae45a6e44f56c14b291c2a54ede378",
+              "name": "Typography / Heading / H2",
+              "sourceType": "STYLE",
+              "lineHeight": {
+                "unit": "PIXELS",
+                "value": 36
+              },
+              "letterSpacing": {
+                "unit": "PIXELS",
+                "value": -0.25
+              }
+            }
+          }
+        },
+        "h3": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Geist",
+            "fontWeight": 600,
+            "fontSize": {
+              "value": 24,
+              "unit": "px"
+            },
+            "lineHeight": 1.3333333333333333,
+            "letterSpacing": {
+              "value": 0,
+              "unit": "px"
+            }
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "S:2376a165aec0de2bf4f20e5671a5bab7ef12949a,",
+              "key": "2376a165aec0de2bf4f20e5671a5bab7ef12949a",
+              "name": "Typography / Heading / H3",
+              "sourceType": "STYLE",
+              "lineHeight": {
+                "unit": "PIXELS",
+                "value": 32
+              },
+              "letterSpacing": {
+                "unit": "PIXELS",
+                "value": 0
+              }
+            }
+          }
+        },
+        "h4": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Geist",
+            "fontWeight": 600,
+            "fontSize": {
+              "value": 20,
+              "unit": "px"
+            },
+            "lineHeight": 1.4,
+            "letterSpacing": {
+              "value": 0,
+              "unit": "px"
+            }
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "S:b8f3ff903f8a5c9184987e6246afeef7ec44bd8b,",
+              "key": "b8f3ff903f8a5c9184987e6246afeef7ec44bd8b",
+              "name": "Typography / Heading / H4",
+              "sourceType": "STYLE",
+              "lineHeight": {
+                "unit": "PIXELS",
+                "value": 28
+              },
+              "letterSpacing": {
+                "unit": "PIXELS",
+                "value": 0
+              }
+            }
+          }
+        },
+        "h5": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Geist",
+            "fontWeight": 600,
+            "fontSize": {
+              "value": 18,
+              "unit": "px"
+            },
+            "lineHeight": 1.3333333333333333,
+            "letterSpacing": {
+              "value": 0,
+              "unit": "px"
+            }
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "S:145a7c78028e94a1d017e479c0beb786c6f5687a,",
+              "key": "145a7c78028e94a1d017e479c0beb786c6f5687a",
+              "name": "Typography / Heading / H5",
+              "sourceType": "STYLE",
+              "lineHeight": {
+                "unit": "PIXELS",
+                "value": 24
+              },
+              "letterSpacing": {
+                "unit": "PIXELS",
+                "value": 0
+              }
+            }
+          }
+        },
+        "h6": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Geist",
+            "fontWeight": 600,
+            "fontSize": {
+              "value": 16,
+              "unit": "px"
+            },
+            "lineHeight": 1.5,
+            "letterSpacing": {
+              "value": 0,
+              "unit": "px"
+            }
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "S:8927450e3582098fd8fbbfd2777c6b0003bb36ed,",
+              "key": "8927450e3582098fd8fbbfd2777c6b0003bb36ed",
+              "name": "Typography / Heading / H6",
+              "sourceType": "STYLE",
+              "lineHeight": {
+                "unit": "PIXELS",
+                "value": 24
+              },
+              "letterSpacing": {
+                "unit": "PIXELS",
+                "value": 0
+              }
+            }
+          }
+        }
+      },
+      "label": {
+        "default": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Geist",
+            "fontWeight": 500,
+            "fontSize": {
+              "value": 14,
+              "unit": "px"
+            },
+            "lineHeight": 1.2857142857142858,
+            "letterSpacing": {
+              "value": 0.15000000596046448,
+              "unit": "px"
+            }
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "S:de4f40e7155223d5959be446d389493ddea99ec2,",
+              "key": "de4f40e7155223d5959be446d389493ddea99ec2",
+              "name": "Typography / Label / Default",
+              "sourceType": "STYLE",
+              "lineHeight": {
+                "unit": "PIXELS",
+                "value": 18
+              },
+              "letterSpacing": {
+                "unit": "PIXELS",
+                "value": 0.15000000596046448
+              }
+            }
+          }
+        },
+        "large": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Geist",
+            "fontWeight": 500,
+            "fontSize": {
+              "value": 16,
+              "unit": "px"
+            },
+            "lineHeight": 1.25,
+            "letterSpacing": {
+              "value": 0.15000000596046448,
+              "unit": "px"
+            }
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "S:e6a18dfc99eb5dfcae129f783ca6f430d6136312,",
+              "key": "e6a18dfc99eb5dfcae129f783ca6f430d6136312",
+              "name": "Typography / Label / Large",
+              "sourceType": "STYLE",
+              "lineHeight": {
+                "unit": "PIXELS",
+                "value": 20
+              },
+              "letterSpacing": {
+                "unit": "PIXELS",
+                "value": 0.15000000596046448
+              }
+            }
+          }
+        },
+        "small": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "Geist",
+            "fontWeight": 500,
+            "fontSize": {
+              "value": 12,
+              "unit": "px"
+            },
+            "lineHeight": 1.3333333333333333,
+            "letterSpacing": {
+              "value": 0.25,
+              "unit": "px"
+            }
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "S:b9d510388e6747305ea14a88316bd80170fa352c,",
+              "key": "b9d510388e6747305ea14a88316bd80170fa352c",
+              "name": "Typography / Label / Small",
+              "sourceType": "STYLE",
+              "lineHeight": {
+                "unit": "PIXELS",
+                "value": 16
+              },
+              "letterSpacing": {
+                "unit": "PIXELS",
+                "value": 0.25
+              }
+            }
+          }
+        }
+      }
+    },
+    "tracking": {
+      "body": {
+        "default": {
+          "$type": "dimension",
+          "$value": {
+            "value": 0,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:79",
+              "key": "8b9089d1bb46570434c0cbfcab71562b22d58fbd",
+              "name": "Typography / Tracking / Body / Default",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        },
+        "large": {
+          "$type": "dimension",
+          "$value": {
+            "value": 0,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:76",
+              "key": "852cded408cc07ccf5783c1b8085b21f1aad862b",
+              "name": "Typography / Tracking / Body / Large",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        },
+        "small": {
+          "$type": "dimension",
+          "$value": {
+            "value": 0,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:82",
+              "key": "b422e5ba9886c134a4b41f678f112b0e37c64578",
+              "name": "Typography / Tracking / Body / Small",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        }
+      },
+      "caption": {
+        "default": {
+          "$type": "dimension",
+          "$value": {
+            "value": 0.25,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:94",
+              "key": "cbd6c3778d3d3652b2840019be3a290fd3aa3c0d",
+              "name": "Typography / Tracking / Caption / Default",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        }
+      },
+      "display": {
+        "large": {
+          "$type": "dimension",
+          "$value": {
+            "value": -1.5,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:49",
+              "key": "1866ed51de384e917b33ac9c7302a1a1ff33848a",
+              "name": "Typography / Tracking / Display / Large",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        },
+        "medium": {
+          "$type": "dimension",
+          "$value": {
+            "value": -1,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:52",
+              "key": "a9fd00079a3110ecb0eccc9583056d922f12a891",
+              "name": "Typography / Tracking / Display / Medium",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        },
+        "small": {
+          "$type": "dimension",
+          "$value": {
+            "value": -0.5,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:55",
+              "key": "790bae6ba65517ce71f34c4e000bacded9137ad6",
+              "name": "Typography / Tracking / Display / Small",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        }
+      },
+      "heading": {
+        "h1": {
+          "$type": "dimension",
+          "$value": {
+            "value": -0.5,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:58",
+              "key": "63ae3182ce9a4605c582538df729196dfac72a14",
+              "name": "Typography / Tracking / Heading / H1",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        },
+        "h2": {
+          "$type": "dimension",
+          "$value": {
+            "value": -0.25,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:61",
+              "key": "1b2422a56589bf89b89584658411a25c940f7823",
+              "name": "Typography / Tracking / Heading / H2",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        },
+        "h3": {
+          "$type": "dimension",
+          "$value": {
+            "value": 0,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:64",
+              "key": "b2781f687d9da2c4a2d189f1c208c7416fcbaa17",
+              "name": "Typography / Tracking / Heading / H3",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        },
+        "h4": {
+          "$type": "dimension",
+          "$value": {
+            "value": 0,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:67",
+              "key": "a2dabdd19ef74bbb9d16baa9dfd852c9f93fc764",
+              "name": "Typography / Tracking / Heading / H4",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        },
+        "h5": {
+          "$type": "dimension",
+          "$value": {
+            "value": 0,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:70",
+              "key": "0626f2d54276123e6d209a0293eb5d2f7266544e",
+              "name": "Typography / Tracking / Heading / H5",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        },
+        "h6": {
+          "$type": "dimension",
+          "$value": {
+            "value": 0,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:73",
+              "key": "e0014ade48c471b733e7473d8bd2d9f332ffc223",
+              "name": "Typography / Tracking / Heading / H6",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        }
+      },
+      "label": {
+        "default": {
+          "$type": "dimension",
+          "$value": {
+            "value": 0.15000000596046448,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:88",
+              "key": "b6e64c10ddbd602493da1b5d326de9d9d3c42b2d",
+              "name": "Typography / Tracking / Label / Default",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        },
+        "large": {
+          "$type": "dimension",
+          "$value": {
+            "value": 0.15000000596046448,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:85",
+              "key": "a98033d878d248cd7a76646b63147a00cbd75752",
+              "name": "Typography / Tracking / Label / Large",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        },
+        "small": {
+          "$type": "dimension",
+          "$value": {
+            "value": 0.25,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:24:91",
+              "key": "ecaf8759cad1d0605db51a79e59a5fa33fb47761",
+              "name": "Typography / Tracking / Label / Small",
+              "collection": "Typography",
+              "collectionId": "VariableCollectionId:24:46",
+              "mode": "Default",
+              "modeId": "24:0",
+              "sourceType": "FLOAT"
+            }
+          }
+        }
+      }
+    },
+    "weight": {
+      "bold": {
+        "$type": "fontWeight",
+        "$value": 700,
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:24:98",
+            "key": "95da91cd021dc1cc907eddcac69680e3bbc49712",
+            "name": "Typography / Weight / Bold",
+            "collection": "Typography",
+            "collectionId": "VariableCollectionId:24:46",
+            "mode": "Default",
+            "modeId": "24:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      },
+      "medium": {
+        "$type": "fontWeight",
+        "$value": 500,
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:24:96",
+            "key": "54ec95ee5a057d94cba7190682ef8696bb43e4ad",
+            "name": "Typography / Weight / Medium",
+            "collection": "Typography",
+            "collectionId": "VariableCollectionId:24:46",
+            "mode": "Default",
+            "modeId": "24:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      },
+      "regular": {
+        "$type": "fontWeight",
+        "$value": 400,
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:24:95",
+            "key": "7a40421a62eca37f28564a6ec168ae3fe291c594",
+            "name": "Typography / Weight / Regular",
+            "collection": "Typography",
+            "collectionId": "VariableCollectionId:24:46",
+            "mode": "Default",
+            "modeId": "24:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      },
+      "semibold": {
+        "$type": "fontWeight",
+        "$value": 600,
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:24:97",
+            "key": "d624f3e753b64e0cd261913ae9003ec36e1e700c",
+            "name": "Typography / Weight / SemiBold",
+            "collection": "Typography",
+            "collectionId": "VariableCollectionId:24:46",
+            "mode": "Default",
+            "modeId": "24:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      }
+    }
+  }
+}

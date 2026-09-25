@@ -1,0 +1,185 @@
+{
+  "$description": "GENERATED from the raw Figma snapshot. DO NOT EDIT. Run npm run build in packages/tokens.",
+  "radius": {
+    "2xl": {
+      "$type": "dimension",
+      "$value": {
+        "value": 16,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:57:9",
+          "key": "3e86d32e97d4dff6b39d56b3ecfe6978092b4ad4",
+          "name": "Radius/2XL",
+          "collection": "Radius",
+          "collectionId": "VariableCollectionId:57:2",
+          "mode": "Default",
+          "modeId": "57:0",
+          "sourceType": "FLOAT"
+        }
+      }
+    },
+    "3xl": {
+      "$type": "dimension",
+      "$value": {
+        "value": 24,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:57:10",
+          "key": "c9baf825f75213b7c376ac7c0ccfdc8f42f77783",
+          "name": "Radius/3XL",
+          "collection": "Radius",
+          "collectionId": "VariableCollectionId:57:2",
+          "mode": "Default",
+          "modeId": "57:0",
+          "sourceType": "FLOAT"
+        }
+      }
+    },
+    "full": {
+      "$type": "dimension",
+      "$value": {
+        "value": 9999,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:57:11",
+          "key": "65a1a07b0d86bcf92003f83188cbfef272cd3bfe",
+          "name": "Radius/Full",
+          "collection": "Radius",
+          "collectionId": "VariableCollectionId:57:2",
+          "mode": "Default",
+          "modeId": "57:0",
+          "sourceType": "FLOAT"
+        }
+      }
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:57:7",
+          "key": "8864545cb7fcc94e96ae5eb7311b64801da00023",
+          "name": "Radius/LG",
+          "collection": "Radius",
+          "collectionId": "VariableCollectionId:57:2",
+          "mode": "Default",
+          "modeId": "57:0",
+          "sourceType": "FLOAT"
+        }
+      }
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": {
+        "value": 6,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:57:6",
+          "key": "6c4871a6e7eecae26a551d8a570bac6dec446ae2",
+          "name": "Radius/MD",
+          "collection": "Radius",
+          "collectionId": "VariableCollectionId:57:2",
+          "mode": "Default",
+          "modeId": "57:0",
+          "sourceType": "FLOAT"
+        }
+      }
+    },
+    "none": {
+      "$type": "dimension",
+      "$value": {
+        "value": 0,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:57:3",
+          "key": "db97364a62fce5ec63852aa7aaa78d0c482abcdb",
+          "name": "Radius/None",
+          "collection": "Radius",
+          "collectionId": "VariableCollectionId:57:2",
+          "mode": "Default",
+          "modeId": "57:0",
+          "sourceType": "FLOAT"
+        }
+      }
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": {
+        "value": 4,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:57:5",
+          "key": "fff372ad3a355a76e74ed88fee1894da0bb95f17",
+          "name": "Radius/SM",
+          "collection": "Radius",
+          "collectionId": "VariableCollectionId:57:2",
+          "mode": "Default",
+          "modeId": "57:0",
+          "sourceType": "FLOAT"
+        }
+      }
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": {
+        "value": 12,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:57:8",
+          "key": "4c614700c132aa86501831a22a048f192df56db1",
+          "name": "Radius/XL",
+          "collection": "Radius",
+          "collectionId": "VariableCollectionId:57:2",
+          "mode": "Default",
+          "modeId": "57:0",
+          "sourceType": "FLOAT"
+        }
+      }
+    },
+    "xs": {
+      "$type": "dimension",
+      "$value": {
+        "value": 2,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:57:4",
+          "key": "539d3ba53c3d13c069b82c70a4eb3fa6fcf40174",
+          "name": "Radius/XS",
+          "collection": "Radius",
+          "collectionId": "VariableCollectionId:57:2",
+          "mode": "Default",
+          "modeId": "57:0",
+          "sourceType": "FLOAT"
+        }
+      }
+    }
+  }
+}

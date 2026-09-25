@@ -1,0 +1,110 @@
+{
+  "$description": "GENERATED from the raw Figma snapshot. DO NOT EDIT. Run npm run build in packages/tokens.",
+  "motion": {
+    "fast": {
+      "$type": "duration",
+      "$value": {
+        "value": 100,
+        "unit": "ms"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:77:665",
+          "key": "b6ffe89a49a2d6e60d51dccd25ad64da581ffd7b",
+          "name": "Motion / Fast",
+          "collection": "Motion",
+          "collectionId": "VariableCollectionId:77:663",
+          "mode": "Default",
+          "modeId": "77:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "100ms"
+    },
+    "instant": {
+      "$type": "duration",
+      "$value": {
+        "value": 0,
+        "unit": "ms"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:77:664",
+          "key": "34eb815ea6c0f0f6c6172448ef5692bf0f487718",
+          "name": "Motion / Instant",
+          "collection": "Motion",
+          "collectionId": "VariableCollectionId:77:663",
+          "mode": "Default",
+          "modeId": "77:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "0ms"
+    },
+    "moderate": {
+      "$type": "duration",
+      "$value": {
+        "value": 300,
+        "unit": "ms"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:77:667",
+          "key": "29cefe2ec4da0b1baa2130e02132ac96bc524036",
+          "name": "Motion / Moderate",
+          "collection": "Motion",
+          "collectionId": "VariableCollectionId:77:663",
+          "mode": "Default",
+          "modeId": "77:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "300ms"
+    },
+    "normal": {
+      "$type": "duration",
+      "$value": {
+        "value": 200,
+        "unit": "ms"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:77:666",
+          "key": "70bcce80cd58e0256673b6a8d4924f8ab46dd252",
+          "name": "Motion / Normal",
+          "collection": "Motion",
+          "collectionId": "VariableCollectionId:77:663",
+          "mode": "Default",
+          "modeId": "77:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "200ms"
+    },
+    "slow": {
+      "$type": "duration",
+      "$value": {
+        "value": 500,
+        "unit": "ms"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:77:668",
+          "key": "f2573ce824e333214d409ffa397061a06b23dfba",
+          "name": "Motion / Slow",
+          "collection": "Motion",
+          "collectionId": "VariableCollectionId:77:663",
+          "mode": "Default",
+          "modeId": "77:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "500ms"
+    }
+  }
+}

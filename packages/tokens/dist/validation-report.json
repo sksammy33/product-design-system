@@ -1,0 +1,88 @@
+{
+  "$description": "GENERATED from the raw Figma snapshot. DO NOT EDIT. Run npm run build in packages/tokens.",
+  "status": "passed",
+  "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+  "extractedAt": "2026-09-25T20:04:48.981Z",
+  "variableCount": 292,
+  "auditVariableCount": 287,
+  "difference": 5,
+  "textStyleCount": 16,
+  "effectStyleCount": 14,
+  "tokensPerTheme": 322,
+  "cssPropertiesPerTheme": 391,
+  "collections": [
+    {
+      "name": "Color / Primitives",
+      "count": 60,
+      "modes": [
+        "Default"
+      ]
+    },
+    {
+      "name": "Color / Semantic",
+      "count": 109,
+      "modes": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "name": "Color / Chart",
+      "count": 8,
+      "modes": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "name": "Typography",
+      "count": 52,
+      "modes": [
+        "Default"
+      ]
+    },
+    {
+      "name": "Spacing",
+      "count": 45,
+      "modes": [
+        "Default"
+      ]
+    },
+    {
+      "name": "Radius",
+      "count": 9,
+      "modes": [
+        "Default"
+      ]
+    },
+    {
+      "name": "Border",
+      "count": 4,
+      "modes": [
+        "Default"
+      ]
+    },
+    {
+      "name": "Motion",
+      "count": 5,
+      "modes": [
+        "Default"
+      ]
+    }
+  ],
+  "aliasesByTheme": {
+    "Light": 142,
+    "Dark": 142
+  },
+  "checks": [
+    "snapshot hashes",
+    "source counts and membership",
+    "source IDs",
+    "mode names and completeness",
+    "alias targets/types/cycles",
+    "DTCG value types",
+    "normalized names and group collisions",
+    "CSS name collisions",
+    "source-to-output reproducibility"
+  ]
+}

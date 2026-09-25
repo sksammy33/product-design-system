@@ -1,0 +1,865 @@
+{
+  "$description": "GENERATED from the raw Figma snapshot. DO NOT EDIT. Run npm run build in packages/tokens.",
+  "spacing": {
+    "component": {
+      "input": {
+        "padding": {
+          "medium": {
+            "vertical": {
+              "$type": "dimension",
+              "$value": {
+                "value": 10,
+                "unit": "px"
+              },
+              "$extensions": {
+                "org.product-design-system.figma": {
+                  "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                  "id": "VariableID:323:1354",
+                  "key": "57598c62e522f1e8b1cdcc4d5dfbee45a8398406",
+                  "name": "Component / Input / Padding / Medium / Vertical",
+                  "collection": "Spacing",
+                  "collectionId": "VariableCollectionId:32:262",
+                  "mode": "Default",
+                  "modeId": "32:0",
+                  "sourceType": "FLOAT"
+                }
+              },
+              "$description": "Component-specific Input Medium vertical padding."
+            }
+          },
+          "small": {
+            "horizontal": {
+              "$type": "dimension",
+              "$value": {
+                "value": 10,
+                "unit": "px"
+              },
+              "$extensions": {
+                "org.product-design-system.figma": {
+                  "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                  "id": "VariableID:323:1353",
+                  "key": "a1d334bdc0be19521bb0dfe2bbcf4db942dbb2fc",
+                  "name": "Component / Input / Padding / Small / Horizontal",
+                  "collection": "Spacing",
+                  "collectionId": "VariableCollectionId:32:262",
+                  "mode": "Default",
+                  "modeId": "32:0",
+                  "sourceType": "FLOAT"
+                }
+              },
+              "$description": "Component-specific Input Small horizontal padding; retained from validated implementation audit."
+            },
+            "vertical": {
+              "$type": "dimension",
+              "$value": {
+                "value": 6,
+                "unit": "px"
+              },
+              "$extensions": {
+                "org.product-design-system.figma": {
+                  "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                  "id": "VariableID:323:1352",
+                  "key": "c4f2930050e3f30a5751acb5b40933e417247244",
+                  "name": "Component / Input / Padding / Small / Vertical",
+                  "collection": "Spacing",
+                  "collectionId": "VariableCollectionId:32:262",
+                  "mode": "Default",
+                  "modeId": "32:0",
+                  "sourceType": "FLOAT"
+                }
+              },
+              "$description": "Component-specific Input Small vertical padding; retained from validated implementation audit."
+            }
+          }
+        }
+      },
+      "textarea": {
+        "padding": {
+          "medium": {
+            "vertical": {
+              "$type": "dimension",
+              "$value": {
+                "value": 10,
+                "unit": "px"
+              },
+              "$extensions": {
+                "org.product-design-system.figma": {
+                  "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                  "id": "VariableID:323:1356",
+                  "key": "3a53f6f8db3a92197b457d465abe61e0b41f342d",
+                  "name": "Component / Textarea / Padding / Medium / Vertical",
+                  "collection": "Spacing",
+                  "collectionId": "VariableCollectionId:32:262",
+                  "mode": "Default",
+                  "modeId": "32:0",
+                  "sourceType": "FLOAT"
+                }
+              },
+              "$description": "Component-specific Textarea Medium vertical padding."
+            }
+          },
+          "small": {
+            "horizontal": {
+              "$type": "dimension",
+              "$value": {
+                "value": 10,
+                "unit": "px"
+              },
+              "$extensions": {
+                "org.product-design-system.figma": {
+                  "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                  "id": "VariableID:323:1355",
+                  "key": "1c565368f6f25368e55f06d133731bde9e558411",
+                  "name": "Component / Textarea / Padding / Small / Horizontal",
+                  "collection": "Spacing",
+                  "collectionId": "VariableCollectionId:32:262",
+                  "mode": "Default",
+                  "modeId": "32:0",
+                  "sourceType": "FLOAT"
+                }
+              },
+              "$description": "Component-specific Textarea Small horizontal padding."
+            }
+          }
+        }
+      }
+    },
+    "inline": {
+      "lg": {
+        "$type": "dimension",
+        "$value": "{spacing.space.16}",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:281",
+            "key": "5dd14e30cc067ca0a84b2252933f6a2de5723061",
+            "name": "Spacing / Inline / LG",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": "{spacing.space.12}",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:280",
+            "key": "870fe0d9cb32540fdf9d4d39ebb3137373b646dc",
+            "name": "Spacing / Inline / MD",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      },
+      "sm": {
+        "$type": "dimension",
+        "$value": "{spacing.space.8}",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:279",
+            "key": "972331bdee2d6a06debbfb99c39e5bc7025445de",
+            "name": "Spacing / Inline / SM",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      },
+      "xl": {
+        "$type": "dimension",
+        "$value": "{spacing.space.24}",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:282",
+            "key": "0e8c730ad3e2b0fc5cba3dc5d4b36f42cf295d6f",
+            "name": "Spacing / Inline / XL",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      },
+      "xs": {
+        "$type": "dimension",
+        "$value": "{spacing.space.4}",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:278",
+            "key": "f3cd33d75e396e150bc55d5d94f62017cac180d0",
+            "name": "Spacing / Inline / XS",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      }
+    },
+    "inset": {
+      "lg": {
+        "$type": "dimension",
+        "$value": "{spacing.space.24}",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:291",
+            "key": "f3776ccf294e87360fb2c312b32cce020311d531",
+            "name": "Spacing / Inset / LG",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": "{spacing.space.16}",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:290",
+            "key": "9286bb64e2a1f98c3a43e3f0a843b10bae22d73f",
+            "name": "Spacing / Inset / MD",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      },
+      "sm": {
+        "$type": "dimension",
+        "$value": "{spacing.space.8}",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:289",
+            "key": "6df957e9eb6958729208609bd43ee9050ac48543",
+            "name": "Spacing / Inset / SM",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      },
+      "xl": {
+        "$type": "dimension",
+        "$value": "{spacing.space.32}",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:292",
+            "key": "d79cda6552c9e5dc5efdf4c13a65598b9c733aa5",
+            "name": "Spacing / Inset / XL",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      },
+      "xs": {
+        "$type": "dimension",
+        "$value": "{spacing.space.4}",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:288",
+            "key": "7588215a762e76c031dc696c9cb8eebe9ec2bfa9",
+            "name": "Spacing / Inset / XS",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      }
+    },
+    "layout": {
+      "lg": {
+        "$type": "dimension",
+        "$value": "{spacing.space.64}",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:301",
+            "key": "cb5d865279d5d367cb41b1e731f4d1c78ea9163e",
+            "name": "Spacing / Layout / LG",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": "{spacing.space.32}",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:300",
+            "key": "b0be8e613a2253fcf2f93462c9604f2ca268f622",
+            "name": "Spacing / Layout / MD",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      },
+      "sm": {
+        "$type": "dimension",
+        "$value": "{spacing.space.24}",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:299",
+            "key": "a089c6657de33843445301b407e291959a23040c",
+            "name": "Spacing / Layout / SM",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      },
+      "xl": {
+        "$type": "dimension",
+        "$value": "{spacing.space.96}",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:302",
+            "key": "e6bf97b6f582b3c960cac0339aed069bdb02cc25",
+            "name": "Spacing / Layout / XL",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      },
+      "xs": {
+        "$type": "dimension",
+        "$value": "{spacing.space.16}",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:298",
+            "key": "19c8aac89d2b7903377876e10e20af7e4cbe1312",
+            "name": "Spacing / Layout / XS",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      }
+    },
+    "section": {
+      "lg": {
+        "$type": "dimension",
+        "$value": "{spacing.space.48}",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:296",
+            "key": "46e62eb2d558280421a56cc974f5d9e1e978721b",
+            "name": "Spacing / Section / LG",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": "{spacing.space.32}",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:295",
+            "key": "0a1db329193c50c9927236df817a3d322294650d",
+            "name": "Spacing / Section / MD",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      },
+      "sm": {
+        "$type": "dimension",
+        "$value": "{spacing.space.24}",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:294",
+            "key": "7c8aa0c0e865327409d9e7aa535ea6dcde2e349f",
+            "name": "Spacing / Section / SM",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      },
+      "xl": {
+        "$type": "dimension",
+        "$value": "{spacing.space.64}",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:297",
+            "key": "1dda49c9ef726d06927982f142765d575799e2fb",
+            "name": "Spacing / Section / XL",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      },
+      "xs": {
+        "$type": "dimension",
+        "$value": "{spacing.space.16}",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:293",
+            "key": "28911f45bdd2bd4c1ce423ed1391e4ed365a6016",
+            "name": "Spacing / Section / XS",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      }
+    },
+    "space": {
+      "0": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0,
+          "unit": "px"
+        },
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:263",
+            "key": "bbcba79a0ed4222db6c0e1db32ffb49365e94e97",
+            "name": "Space / 0",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      },
+      "2": {
+        "$type": "dimension",
+        "$value": {
+          "value": 2,
+          "unit": "px"
+        },
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:264",
+            "key": "4184d8ca5aa4f9f14e6b63658436d771e79a18cd",
+            "name": "Space / 2",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      },
+      "4": {
+        "$type": "dimension",
+        "$value": {
+          "value": 4,
+          "unit": "px"
+        },
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:265",
+            "key": "dfdca2e5e30085bba060160584d6d90d9881460c",
+            "name": "Space / 4",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      },
+      "8": {
+        "$type": "dimension",
+        "$value": {
+          "value": 8,
+          "unit": "px"
+        },
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:266",
+            "key": "0e8febb8547fc566b591a1d395a430a91c3c15e9",
+            "name": "Space / 8",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      },
+      "12": {
+        "$type": "dimension",
+        "$value": {
+          "value": 12,
+          "unit": "px"
+        },
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:267",
+            "key": "d54df446e19fe14fff10e825f4b2f1f9757f356d",
+            "name": "Space / 12",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      },
+      "16": {
+        "$type": "dimension",
+        "$value": {
+          "value": 16,
+          "unit": "px"
+        },
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:268",
+            "key": "3dab59256196c1b24b5ab6905c14e73a9605b3fe",
+            "name": "Space / 16",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      },
+      "20": {
+        "$type": "dimension",
+        "$value": {
+          "value": 20,
+          "unit": "px"
+        },
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:269",
+            "key": "a021e196ae0895758a5876984e824ca9c9a9eeac",
+            "name": "Space / 20",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      },
+      "24": {
+        "$type": "dimension",
+        "$value": {
+          "value": 24,
+          "unit": "px"
+        },
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:270",
+            "key": "b6dea626ebd3f1563abab7184a745e8c6948589c",
+            "name": "Space / 24",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      },
+      "32": {
+        "$type": "dimension",
+        "$value": {
+          "value": 32,
+          "unit": "px"
+        },
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:271",
+            "key": "308fb3b4bb10239716ecb7ea0e236e23b1429fe4",
+            "name": "Space / 32",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      },
+      "40": {
+        "$type": "dimension",
+        "$value": {
+          "value": 40,
+          "unit": "px"
+        },
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:272",
+            "key": "4e1cbd095d276da1f8f7c423297efeb4c6a43bed",
+            "name": "Space / 40",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      },
+      "48": {
+        "$type": "dimension",
+        "$value": {
+          "value": 48,
+          "unit": "px"
+        },
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:273",
+            "key": "7685af9e58ca99ef53a9d6368ee46d2ff88de58e",
+            "name": "Space / 48",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      },
+      "64": {
+        "$type": "dimension",
+        "$value": {
+          "value": 64,
+          "unit": "px"
+        },
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:274",
+            "key": "bdbadf4a1905ea57bc81278c0e91b58a503c0224",
+            "name": "Space / 64",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      },
+      "80": {
+        "$type": "dimension",
+        "$value": {
+          "value": 80,
+          "unit": "px"
+        },
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:275",
+            "key": "d3b20cc85f8d87995f851e1d23e2b402a160a31b",
+            "name": "Space / 80",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      },
+      "96": {
+        "$type": "dimension",
+        "$value": {
+          "value": 96,
+          "unit": "px"
+        },
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:276",
+            "key": "0a112be00042adb8729b24857c2bf04f5ea67a0f",
+            "name": "Space / 96",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      },
+      "128": {
+        "$type": "dimension",
+        "$value": {
+          "value": 128,
+          "unit": "px"
+        },
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:277",
+            "key": "8eec6fe23b80b7efb39c077d5a4ebbabca5c1eaf",
+            "name": "Space / 128",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      }
+    },
+    "stack": {
+      "lg": {
+        "$type": "dimension",
+        "$value": "{spacing.space.24}",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:286",
+            "key": "fa0b0457af991ea1d889424619645f12af52c3e7",
+            "name": "Spacing / Stack / LG",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": "{spacing.space.16}",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:285",
+            "key": "06f688efdda9f93d5a69fdad05e8a15514ed1a55",
+            "name": "Spacing / Stack / MD",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      },
+      "sm": {
+        "$type": "dimension",
+        "$value": "{spacing.space.8}",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:284",
+            "key": "c1fc6a4068eba37c35b75ed63988827035748b07",
+            "name": "Spacing / Stack / SM",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      },
+      "xl": {
+        "$type": "dimension",
+        "$value": "{spacing.space.32}",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:287",
+            "key": "11e70689b6b3827c71fe42ba1accd1d53cbd53ac",
+            "name": "Spacing / Stack / XL",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      },
+      "xs": {
+        "$type": "dimension",
+        "$value": "{spacing.space.4}",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "VariableID:32:283",
+            "key": "3e89be1233fa60c0c7cfd9c135e29428b2e567bb",
+            "name": "Spacing / Stack / XS",
+            "collection": "Spacing",
+            "collectionId": "VariableCollectionId:32:262",
+            "mode": "Default",
+            "modeId": "32:0",
+            "sourceType": "FLOAT"
+          }
+        }
+      }
+    }
+  }
+}

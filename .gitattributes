@@ -1,0 +1,3 @@
+# Preserve token generation and raw snapshot hash checks on every platform.
+packages/tokens/** text eol=lf
+packages/tokens/figma/*.json -text

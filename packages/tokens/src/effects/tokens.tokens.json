@@ -1,0 +1,725 @@
+{
+  "$description": "GENERATED from the raw Figma snapshot. DO NOT EDIT. Run npm run build in packages/tokens.",
+  "effects": {
+    "blur": {
+      "lg": {
+        "$type": "dimension",
+        "$value": {
+          "value": 16,
+          "unit": "px"
+        },
+        "$description": "Heavy glass surfaces, immersive overlays",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "S:7b41545fa4c864e9f8ecb128771c3783eb264af2,",
+            "key": "7b41545fa4c864e9f8ecb128771c3783eb264af2",
+            "name": "Blur / LG",
+            "sourceType": "STYLE",
+            "effects": [
+              {
+                "type": "BACKGROUND_BLUR",
+                "visible": true,
+                "radius": 16,
+                "boundVariables": {},
+                "blurType": "NORMAL"
+              }
+            ],
+            "cssProperty": "backdrop-filter",
+            "noEffect": false
+          }
+        }
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": {
+          "value": 8,
+          "unit": "px"
+        },
+        "$description": "Overlays, backdrop effects, standard glass surfaces",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "S:c109b17fe8058c18c5f5ed3767634c8504b82990,",
+            "key": "c109b17fe8058c18c5f5ed3767634c8504b82990",
+            "name": "Blur / MD",
+            "sourceType": "STYLE",
+            "effects": [
+              {
+                "type": "BACKGROUND_BLUR",
+                "visible": true,
+                "radius": 8,
+                "boundVariables": {},
+                "blurType": "NORMAL"
+              }
+            ],
+            "cssProperty": "backdrop-filter",
+            "noEffect": false
+          }
+        }
+      },
+      "none": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0,
+          "unit": "px"
+        },
+        "$description": "No blur applied",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "S:3a3ad62dd946e91b291d6a5118504eb6da2e8260,",
+            "key": "3a3ad62dd946e91b291d6a5118504eb6da2e8260",
+            "name": "Blur / None",
+            "sourceType": "STYLE",
+            "effects": [],
+            "cssProperty": "backdrop-filter",
+            "noEffect": true
+          }
+        }
+      },
+      "sm": {
+        "$type": "dimension",
+        "$value": {
+          "value": 4,
+          "unit": "px"
+        },
+        "$description": "Subtle overlay softening, light frosted surfaces",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "S:c552c5c713a34c457a371f41718f10263a9d3800,",
+            "key": "c552c5c713a34c457a371f41718f10263a9d3800",
+            "name": "Blur / SM",
+            "sourceType": "STYLE",
+            "effects": [
+              {
+                "type": "BACKGROUND_BLUR",
+                "visible": true,
+                "radius": 4,
+                "boundVariables": {},
+                "blurType": "NORMAL"
+              }
+            ],
+            "cssProperty": "backdrop-filter",
+            "noEffect": false
+          }
+        }
+      },
+      "xl": {
+        "$type": "dimension",
+        "$value": {
+          "value": 24,
+          "unit": "px"
+        },
+        "$description": "Full-screen backdrops, deep immersive blur",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "S:3f20ca1a2b125a3e1aaf5cb65bff8c0e9bae7fe8,",
+            "key": "3f20ca1a2b125a3e1aaf5cb65bff8c0e9bae7fe8",
+            "name": "Blur / XL",
+            "sourceType": "STYLE",
+            "effects": [
+              {
+                "type": "BACKGROUND_BLUR",
+                "visible": true,
+                "radius": 24,
+                "boundVariables": {},
+                "blurType": "NORMAL"
+              }
+            ],
+            "cssProperty": "backdrop-filter",
+            "noEffect": false
+          }
+        }
+      }
+    },
+    "shadow": {
+      "2xl": {
+        "$type": "shadow",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0,
+                0,
+                0
+              ],
+              "alpha": 0.14000000059604645
+            },
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 12,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 36,
+              "unit": "px"
+            },
+            "spread": {
+              "value": -6,
+              "unit": "px"
+            },
+            "inset": false
+          }
+        ],
+        "$description": "Highest-priority floating surfaces — command palettes, critical overlays",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "S:68a5d6e536395d8cfce9070fc830e5debb3bac0f,",
+            "key": "68a5d6e536395d8cfce9070fc830e5debb3bac0f",
+            "name": "Shadow / 2XL",
+            "sourceType": "STYLE",
+            "effects": [
+              {
+                "type": "DROP_SHADOW",
+                "visible": true,
+                "radius": 36,
+                "boundVariables": {},
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 0.14000000059604645
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 12
+                },
+                "spread": -6,
+                "blendMode": "NORMAL",
+                "showShadowBehindNode": false
+              }
+            ],
+            "cssProperty": "box-shadow"
+          }
+        }
+      },
+      "bottom": {
+        "$type": "shadow",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0,
+                0,
+                0
+              ],
+              "alpha": 0.05999999865889549
+            },
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 1,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 3,
+              "unit": "px"
+            },
+            "spread": {
+              "value": 0,
+              "unit": "px"
+            },
+            "inset": false
+          }
+        ],
+        "$description": "Directional bottom separation — sticky headers, top bars, navigation",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "S:34cc865e3fbb3a166693991e65c619cf9aca7446,",
+            "key": "34cc865e3fbb3a166693991e65c619cf9aca7446",
+            "name": "Shadow / Bottom",
+            "sourceType": "STYLE",
+            "effects": [
+              {
+                "type": "DROP_SHADOW",
+                "visible": true,
+                "radius": 3,
+                "boundVariables": {},
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 0.05999999865889549
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 1
+                },
+                "spread": 0,
+                "blendMode": "NORMAL",
+                "showShadowBehindNode": false
+              }
+            ],
+            "cssProperty": "box-shadow"
+          }
+        }
+      },
+      "inner": {
+        "$type": "shadow",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0,
+                0,
+                0
+              ],
+              "alpha": 0.05999999865889549
+            },
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 1,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 2,
+              "unit": "px"
+            },
+            "spread": {
+              "value": 0,
+              "unit": "px"
+            },
+            "inset": true
+          }
+        ],
+        "$description": "Inset surfaces — input fields, recessed panels, pressed states",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "S:78ea0f383bbfa8f0938e276891cf472704fb154e,",
+            "key": "78ea0f383bbfa8f0938e276891cf472704fb154e",
+            "name": "Shadow / Inner",
+            "sourceType": "STYLE",
+            "effects": [
+              {
+                "type": "INNER_SHADOW",
+                "visible": true,
+                "radius": 2,
+                "boundVariables": {},
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 0.05999999865889549
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 1
+                },
+                "spread": 0,
+                "blendMode": "NORMAL"
+              }
+            ],
+            "cssProperty": "box-shadow"
+          }
+        }
+      },
+      "lg": {
+        "$type": "shadow",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0,
+                0,
+                0
+              ],
+              "alpha": 0.10000000149011612
+            },
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 4,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 12,
+              "unit": "px"
+            },
+            "spread": {
+              "value": -2,
+              "unit": "px"
+            },
+            "inset": false
+          }
+        ],
+        "$description": "Dropdowns, popovers, tooltips, contextual menus",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "S:8360aea8b89fdb994cfb96f4bb89caccbd55ca18,",
+            "key": "8360aea8b89fdb994cfb96f4bb89caccbd55ca18",
+            "name": "Shadow / LG",
+            "sourceType": "STYLE",
+            "effects": [
+              {
+                "type": "DROP_SHADOW",
+                "visible": true,
+                "radius": 12,
+                "boundVariables": {},
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 0.10000000149011612
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 4
+                },
+                "spread": -2,
+                "blendMode": "NORMAL",
+                "showShadowBehindNode": false
+              }
+            ],
+            "cssProperty": "box-shadow"
+          }
+        }
+      },
+      "md": {
+        "$type": "shadow",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0,
+                0,
+                0
+              ],
+              "alpha": 0.07999999821186066
+            },
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 2,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 6,
+              "unit": "px"
+            },
+            "spread": {
+              "value": -1,
+              "unit": "px"
+            },
+            "inset": false
+          }
+        ],
+        "$description": "Cards, floating elements, raised containers",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "S:7b2f3280fae6529030cdc7093afdb882c7ad20a2,",
+            "key": "7b2f3280fae6529030cdc7093afdb882c7ad20a2",
+            "name": "Shadow / MD",
+            "sourceType": "STYLE",
+            "effects": [
+              {
+                "type": "DROP_SHADOW",
+                "visible": true,
+                "radius": 6,
+                "boundVariables": {},
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 0.07999999821186066
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 2
+                },
+                "spread": -1,
+                "blendMode": "NORMAL",
+                "showShadowBehindNode": false
+              }
+            ],
+            "cssProperty": "box-shadow"
+          }
+        }
+      },
+      "sm": {
+        "$type": "shadow",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0,
+                0,
+                0
+              ],
+              "alpha": 0.05999999865889549
+            },
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 1,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 3,
+              "unit": "px"
+            },
+            "spread": {
+              "value": 0,
+              "unit": "px"
+            },
+            "inset": false
+          }
+        ],
+        "$description": "Subtle separation — cards resting on surface, list items",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "S:90e11efbaeda074655fc9d9a4ceecf99085f4d1d,",
+            "key": "90e11efbaeda074655fc9d9a4ceecf99085f4d1d",
+            "name": "Shadow/SM",
+            "sourceType": "STYLE",
+            "effects": [
+              {
+                "type": "DROP_SHADOW",
+                "visible": true,
+                "radius": 3,
+                "boundVariables": {},
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 0.05999999865889549
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 1
+                },
+                "spread": 0,
+                "blendMode": "NORMAL",
+                "showShadowBehindNode": false
+              }
+            ],
+            "cssProperty": "box-shadow"
+          }
+        }
+      },
+      "top": {
+        "$type": "shadow",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0,
+                0,
+                0
+              ],
+              "alpha": 0.05999999865889549
+            },
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": -1,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 3,
+              "unit": "px"
+            },
+            "spread": {
+              "value": 0,
+              "unit": "px"
+            },
+            "inset": false
+          }
+        ],
+        "$description": "Directional top separation — bottom bars, footers, docked panels",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "S:9645bbbb77432648b520330346e618666a41f129,",
+            "key": "9645bbbb77432648b520330346e618666a41f129",
+            "name": "Shadow / Top",
+            "sourceType": "STYLE",
+            "effects": [
+              {
+                "type": "DROP_SHADOW",
+                "visible": true,
+                "radius": 3,
+                "boundVariables": {},
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 0.05999999865889549
+                },
+                "offset": {
+                  "x": 0,
+                  "y": -1
+                },
+                "spread": 0,
+                "blendMode": "NORMAL",
+                "showShadowBehindNode": false
+              }
+            ],
+            "cssProperty": "box-shadow"
+          }
+        }
+      },
+      "xl": {
+        "$type": "shadow",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0,
+                0,
+                0
+              ],
+              "alpha": 0.11999999731779099
+            },
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 8,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 24,
+              "unit": "px"
+            },
+            "spread": {
+              "value": -4,
+              "unit": "px"
+            },
+            "inset": false
+          }
+        ],
+        "$description": "Modals, dialogs, high-elevation overlays",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "S:35743e25a6dd6a735da1792459b7472152901ddc,",
+            "key": "35743e25a6dd6a735da1792459b7472152901ddc",
+            "name": "Shadow / XL",
+            "sourceType": "STYLE",
+            "effects": [
+              {
+                "type": "DROP_SHADOW",
+                "visible": true,
+                "radius": 24,
+                "boundVariables": {},
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 0.11999999731779099
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 8
+                },
+                "spread": -4,
+                "blendMode": "NORMAL",
+                "showShadowBehindNode": false
+              }
+            ],
+            "cssProperty": "box-shadow"
+          }
+        }
+      },
+      "xs": {
+        "$type": "shadow",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0,
+                0,
+                0
+              ],
+              "alpha": 0.03999999910593033
+            },
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 1,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 2,
+              "unit": "px"
+            },
+            "spread": {
+              "value": 0,
+              "unit": "px"
+            },
+            "inset": false
+          }
+        ],
+        "$description": "Very subtle separation — borders, dividers, slight lift",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "S:8676ff3ddf7df0f78c2ec79a406834ddb4ad6509,",
+            "key": "8676ff3ddf7df0f78c2ec79a406834ddb4ad6509",
+            "name": "Shadow / XS",
+            "sourceType": "STYLE",
+            "effects": [
+              {
+                "type": "DROP_SHADOW",
+                "visible": true,
+                "radius": 2,
+                "boundVariables": {},
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 0.03999999910593033
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 1
+                },
+                "spread": 0,
+                "blendMode": "NORMAL",
+                "showShadowBehindNode": false
+              }
+            ],
+            "cssProperty": "box-shadow"
+          }
+        }
+      }
+    }
+  }
+}

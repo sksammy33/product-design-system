@@ -1,0 +1,85 @@
+{
+  "$description": "GENERATED from the raw Figma snapshot. DO NOT EDIT. Run npm run build in packages/tokens.",
+  "border": {
+    "default": {
+      "$type": "dimension",
+      "$value": {
+        "value": 1,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:67:4",
+          "key": "50846b80ec34bf7a384cb57bd9ae86e779d21faf",
+          "name": "Border / Default",
+          "collection": "Border",
+          "collectionId": "VariableCollectionId:67:2",
+          "mode": "Default",
+          "modeId": "67:0",
+          "sourceType": "FLOAT"
+        }
+      }
+    },
+    "emphasis": {
+      "$type": "dimension",
+      "$value": {
+        "value": 3,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:67:6",
+          "key": "1ac3adcee0ba2f0aa681aeb397a6671cf0d24647",
+          "name": "Border / Emphasis",
+          "collection": "Border",
+          "collectionId": "VariableCollectionId:67:2",
+          "mode": "Default",
+          "modeId": "67:0",
+          "sourceType": "FLOAT"
+        }
+      }
+    },
+    "none": {
+      "$type": "dimension",
+      "$value": {
+        "value": 0,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:67:3",
+          "key": "c1bc9194bad8f5896175d2f48b68bf142d1df4c7",
+          "name": "Border / None",
+          "collection": "Border",
+          "collectionId": "VariableCollectionId:67:2",
+          "mode": "Default",
+          "modeId": "67:0",
+          "sourceType": "FLOAT"
+        }
+      }
+    },
+    "strong": {
+      "$type": "dimension",
+      "$value": {
+        "value": 2,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:67:5",
+          "key": "5bbdfba1abb1472f765ffd8af5ca4db970aafd49",
+          "name": "Border / Strong",
+          "collection": "Border",
+          "collectionId": "VariableCollectionId:67:2",
+          "mode": "Default",
+          "modeId": "67:0",
+          "sourceType": "FLOAT"
+        }
+      }
+    }
+  }
+}

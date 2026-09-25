@@ -1,3 +1,5 @@
 # spacing
 
-Reserved for approved Figma-derived spacing data in Phase 3. No values or aliases are defined here. Preserve source identity and resolve ambiguities before conversion.
+Base Space values, semantic Inline/Stack/Inset/Section/Layout aliases, and separate component padding tokens.
+
+JSON in this directory is generated from the raw Figma snapshot. Do not edit it manually; see [the token guide](../../README.md).

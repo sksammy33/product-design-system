@@ -1,7 +1,24 @@
 {
   "name": "@product-design-system/tokens",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "license": "UNLICENSED",
-  "description": "Reserved workspace; implementation and dependencies pending."
+  "type": "module",
+  "description": "Figma-derived design tokens and Light/Dark CSS themes.",
+  "engines": { "node": ">=22" },
+  "files": ["dist"],
+  "exports": {
+    ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" },
+    "./tokens.css": "./dist/tokens.css",
+    "./light.css": "./dist/light.css",
+    "./dark.css": "./dist/dark.css",
+    "./light.json": "./dist/light.tokens.json",
+    "./dark.json": "./dist/dark.tokens.json",
+    "./tokens.json": "./dist/tokens.json"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "validate": "node scripts/build.mjs --check",
+    "test": "node --test scripts/validation.test.mjs"
+  }
 }
