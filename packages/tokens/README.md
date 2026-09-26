@@ -8,7 +8,7 @@ Figma → raw snapshot → normalized DTCG token files → Light/Dark themes →
 
 The [current Figma system](https://www.figma.com/design/A5R8vBTXZzfV5aj3omQYFG/Product-Design-System?node-id=5-2) is the visual source of truth. The [Phase 1 audit](../../docs/phase-1-implementation-plan.md) is the baseline, not a substitute for current values.
 
-The refreshed read-only snapshot contains **316 variables**, compared with **297** in the previous snapshot and **287** in the audit, plus **16 text styles** and **14 effect styles**. Spacing increased from 50 to 69 in this refresh; all other collection counts are unchanged:
+The refreshed read-only snapshot contains **317 variables**, compared with **316** in the previous snapshot and **287** in the audit, plus **16 text styles** and **14 effect styles**. This refresh adds the Opacity collection with one variable; all eight existing collections are unchanged:
 
 | Collection | Variables | Modes |
 |---|---:|---|
@@ -20,6 +20,7 @@ The refreshed read-only snapshot contains **316 variables**, compared with **297
 | Radius | 9 | Default |
 | Border | 4 | Default |
 | Motion | 5 | Default |
+| Opacity | 1 | Default |
 
 The five earlier Input/Textarea additions remain unchanged; they are not additions to the global spacing scale:
 
@@ -41,11 +42,11 @@ The previous refresh added these five component spacing variables, which remain 
 | VariableID:344:10440 | Component / Button / Split / Large / Dropdown Padding X | 14 |
 | VariableID:344:10441 | Component / Button Group / Segment Overlap | -1 |
 
-All 297 previous variables, 16 text styles and 14 effect styles are unchanged, including IDs, aliases, modes and values. No global spacing or typography scale changed. The overlap is intentionally negative to collapse shared borders; validation allows this exact source-backed exception while rejecting negative padding and global spacing.
+All 316 previous variables, 16 text styles and 14 effect styles are unchanged, including IDs, aliases, modes and values. No global spacing or typography scale changed. The overlap is intentionally negative to collapse shared borders; validation allows this exact source-backed exception while rejecting negative padding and global spacing.
 
 Read-only inspection of Button set `78:1026` confirmed its labels now use existing text styles: XS/Small use Label Small (12/16 Medium), Medium uses Label Default (14/18 Medium), and Large/XL use Label Large (16/20 Medium). No 13px labels remain in that set. This refresh does not modify Figma or implement components.
 
-The finalized sizing refresh adds 19 variables: ten literal Button dimensions and nine specialized aliases. They remain under `spacing.component.button.*`; the source collection is Spacing. XS 14px icons are intentional optical sizing. FAB Small/Medium/Large alias Button Medium/Large/XL for heights and icons. Social Small/Medium/Large provider icons alias Button Small/Large/XL icon sizes. Aliases remain references in normalized JSON and CSS.
+The previous finalized sizing refresh added 19 variables: ten literal Button dimensions and nine specialized aliases. They remain under `spacing.component.button.*`; the source collection is Spacing. XS 14px icons are intentional optical sizing. FAB Small/Medium/Large alias Button Medium/Large/XL for heights and icons. Social Small/Medium/Large provider icons alias Button Small/Large/XL icon sizes. Aliases remain references in normalized JSON and CSS.
 
 | Source ID | Name within Spacing | Value or target |
 |---|---|---|
@@ -69,15 +70,19 @@ The finalized sizing refresh adds 19 variables: ten literal Button dimensions an
 | VariableID:351:1525 | Component / Button / Social / Medium / Provider Icon Size | Alias: Component / Button / Large / Icon Size |
 | VariableID:351:1526 | Component / Button / Social / Large / Provider Icon Size | Alias: Component / Button / XL / Icon Size |
 
+The current refresh adds only `Opacity / Disabled` (`VariableID:361:1691`, collection `VariableCollectionId:361:1690`). Figma authors this FLOAT as **50** with the `OPACITY` scope; its Default mode (`361:0`) resolves to **0.5** overall opacity. Raw JSON retains 50 unchanged. Normalized `opacity.disabled` is a DTCG `number` with value 0.5 and no unit. Its extension preserves the original value, scope and percent-to-unitless conversion metadata. Both themes emit `--opacity-disabled: 0.5`.
+
+Read-only inspection confirmed all 45 disabled Button variants bind this variable and resolve to 0.5. This is a shared semantic token, not a Button-only token. Other authored opacity treatments (40%, 60%, 70%, and 100%) are outside this conversion and remain untouched. No component or Figma edits are included.
+
 ## Layout
 
 - `figma/`: unnormalized, bounded raw API snapshots, source metadata and SHA256 manifest.
-- `src/`: normalized token documents grouped into primitives, semantic, typography, spacing, radius, border, effects, motion and charts.
+- `src/`: normalized token documents grouped into primitives, semantic, typography, spacing, radius, border, effects, motion, opacity and charts.
 - `src/themes/{light,dark}/theme.json`: composition manifests referencing shared foundations and mode-specific color documents. These manifests are package metadata, not DTCG token documents.
 - `scripts/`: dependency-free conversion, validation, regression tests and read-only Figma export recipe.
 - `dist/`: generated CSS, DTCG theme JSON, typed JavaScript data, source mapping and validation report.
 
-All source variables appear once per theme. The 16 text styles and 14 effect styles add 30 tokens, for **346 tokens per theme**. CSS expands typography properties and blur functions into **415 custom properties per theme**.
+All source variables appear once per theme. The 16 text styles and 14 effect styles add 30 tokens, for **347 tokens per theme**. CSS expands typography properties and blur functions into **416 custom properties per theme**.
 
 ## Names, primitives and aliases
 
@@ -116,7 +121,7 @@ On Windows with PowerShell script restrictions, use `npm.cmd`. Direct equivalent
 
 Build reads only the checked-in raw snapshot; it does not contact or change Figma. Validate checks snapshot hashes, source counts/membership, aliases and cycles, types/values, complete mode names, duplicate normalized names, token/group collisions and CSS collisions. It also regenerates expected content in memory and compares every generated file byte-for-byte, rejecting stale or manually edited outputs. New/unsupported source units, bindings or effects fail explicitly.
 
-The current expected inventory is deliberately fixed at 316, not forced back to 287. A later source-count change requires inventory review and a converter update. Regression tests exercise failure cases, mode-ID changes and the signed Button Group overlap.
+The current expected inventory is deliberately fixed at 317, not forced back to 287. A later source-count change requires inventory review and a converter update. Regression tests exercise failure cases, mode-ID changes the signed Button Group overlap, and opacity scope/type/range validation. Opacity percentages must be finite numbers in 0–100 before conversion; normalized opacity must be a unitless number in 0–1, including through aliases.
 
 ## Consume
 

@@ -6190,6 +6190,30 @@ export const tokens = {
       },
       "$description": "Social provider artwork size for Large Social Buttons."
     },
+    "opacity.disabled": {
+      "$type": "number",
+      "$value": 0.5,
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:361:1691",
+          "key": "8cb80862d5e16e510a9c3c0301f9730fbd01cf09",
+          "name": "Disabled",
+          "collection": "Opacity",
+          "collectionId": "VariableCollectionId:361:1690",
+          "mode": "Default",
+          "modeId": "361:0",
+          "sourceType": "FLOAT",
+          "scopes": [
+            "OPACITY"
+          ],
+          "originalValue": 50,
+          "sourceUnit": "percent",
+          "normalizedUnit": "unitless"
+        }
+      },
+      "$description": "System-level Disabled opacity. Figma OPACITY-scoped numeric value 50 resolves to 50% (0.5) overall opacity; combine with semantic Disabled colors where specified."
+    },
     "typography.styles.display.large": {
       "$type": "typography",
       "$value": {
@@ -13625,6 +13649,30 @@ export const tokens = {
       },
       "$description": "Social provider artwork size for Large Social Buttons."
     },
+    "opacity.disabled": {
+      "$type": "number",
+      "$value": 0.5,
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:361:1691",
+          "key": "8cb80862d5e16e510a9c3c0301f9730fbd01cf09",
+          "name": "Disabled",
+          "collection": "Opacity",
+          "collectionId": "VariableCollectionId:361:1690",
+          "mode": "Default",
+          "modeId": "361:0",
+          "sourceType": "FLOAT",
+          "scopes": [
+            "OPACITY"
+          ],
+          "originalValue": 50,
+          "sourceUnit": "percent",
+          "normalizedUnit": "unitless"
+        }
+      },
+      "$description": "System-level Disabled opacity. Figma OPACITY-scoped numeric value 50 resolves to 50% (0.5) overall opacity; combine with semantic Disabled colors where specified."
+    },
     "typography.styles.display.large": {
       "$type": "typography",
       "$value": {
@@ -15078,6 +15126,7 @@ export const cssVariables = {
     "--motion-moderate": "300ms",
     "--motion-normal": "200ms",
     "--motion-slow": "500ms",
+    "--opacity-disabled": "0.5",
     "--radius-2xl": "16px",
     "--radius-3xl": "24px",
     "--radius-full": "9999px",
@@ -15495,6 +15544,7 @@ export const cssVariables = {
     "--motion-moderate": "300ms",
     "--motion-normal": "200ms",
     "--motion-slow": "500ms",
+    "--opacity-disabled": "0.5",
     "--radius-2xl": "16px",
     "--radius-3xl": "24px",
     "--radius-full": "9999px",

@@ -9,6 +9,7 @@
     "../../border/tokens.tokens.json",
     "../../effects/tokens.tokens.json",
     "../../motion/tokens.tokens.json",
+    "../../opacity/tokens.tokens.json",
     "../../semantic/light.tokens.json",
     "../../charts/light.tokens.json"
   ]

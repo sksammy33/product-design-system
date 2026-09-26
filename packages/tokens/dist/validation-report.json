@@ -2,14 +2,14 @@
   "$description": "GENERATED from the raw Figma snapshot. DO NOT EDIT. Run npm run build in packages/tokens.",
   "status": "passed",
   "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
-  "extractedAt": "2026-09-26T09:30:55.210Z",
-  "variableCount": 316,
+  "extractedAt": "2026-09-26T09:48:14.474Z",
+  "variableCount": 317,
   "auditVariableCount": 287,
-  "difference": 29,
+  "difference": 30,
   "textStyleCount": 16,
   "effectStyleCount": 14,
-  "tokensPerTheme": 346,
-  "cssPropertiesPerTheme": 415,
+  "tokensPerTheme": 347,
+  "cssPropertiesPerTheme": 416,
   "collections": [
     {
       "name": "Color / Primitives",
@@ -68,6 +68,13 @@
       "modes": [
         "Default"
       ]
+    },
+    {
+      "name": "Opacity",
+      "count": 1,
+      "modes": [
+        "Default"
+      ]
     }
   ],
   "aliasesByTheme": {
@@ -81,6 +88,7 @@
     "mode names and completeness",
     "alias targets/types/cycles",
     "DTCG value types",
+    "opacity scope, percentage conversion and unitless range",
     "normalized names and group collisions",
     "CSS name collisions",
     "source-to-output reproducibility"

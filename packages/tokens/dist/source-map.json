@@ -2212,6 +2212,13 @@
       "collectionId": "VariableCollectionId:32:262",
       "token": "spacing.component.button.social.large.provider-icon-size",
       "css": "--spacing-component-button-social-large-provider-icon-size"
+    },
+    {
+      "id": "VariableID:361:1691",
+      "name": "Disabled",
+      "collectionId": "VariableCollectionId:361:1690",
+      "token": "opacity.disabled",
+      "css": "--opacity-disabled"
     }
   ],
   "styles": [

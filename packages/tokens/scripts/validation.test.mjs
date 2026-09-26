@@ -10,9 +10,9 @@ const set = (v, value) => { v.valuesByMode[firstMode(v)] = value; };
 
 test('complete current inventory, exact paths, no lost styles, both modes', () => {
   const { themes, paths } = normalize(source);
-  assert.equal(paths.size, 316);
+  assert.equal(paths.size, 317);
   for (const theme of ['Light', 'Dark']) {
-    assert.equal(Object.keys(themes[theme]).length, 346);
+    assert.equal(Object.keys(themes[theme]).length, 347);
     assert.equal(themes[theme]['border.default'].$type, 'dimension');
     assert.equal(themes[theme]['color.semantic.border.default'].$type, 'color');
     assert.equal(themes[theme]['spacing.inline.sm'].$value, '{spacing.space.8}');
@@ -32,7 +32,8 @@ test('every source variable matches its normalized literal or alias in each mode
     else if (v.resolvedType === 'COLOR') {
       assert.deepEqual(token.$value.components, [raw.r, raw.g, raw.b]);
       assert.equal(token.$value.alpha, raw.a);
-    } else assert.equal(typeof token.$value === 'object' ? token.$value.value : token.$value, raw);
+    } else if (c.name === 'Opacity') assert.equal(token.$value, raw / 100);
+    else assert.equal(typeof token.$value === 'object' ? token.$value.value : token.$value, raw);
   }
 });
 test('mode IDs may change while Light/Dark mapping stays identical', () => {
@@ -112,9 +113,9 @@ test('rejects missing normalized values and malformed alias values', () => {
 test('outputs are deterministic', () => assert.deepEqual(outputs(source), outputs(structuredClone(source))));
 test('package exports load generated ESM data', async () => {
   const { tokens, cssVariables } = await import('@product-design-system/tokens');
-  assert.equal(Object.keys(tokens.Light).length, 346);
-  assert.equal(Object.keys(tokens.Dark).length, 346);
-  assert.equal(Object.keys(cssVariables.Dark).length, 415);
+  assert.equal(Object.keys(tokens.Light).length, 347);
+  assert.equal(Object.keys(tokens.Dark).length, 347);
+  assert.equal(Object.keys(cssVariables.Dark).length, 416);
 });
 test('approved Button spacing retains source identity and signed overlap in both CSS themes', () => {
   const expected = [
@@ -280,4 +281,48 @@ test('finalized Button dimensions and specialized aliases survive both theme out
       } else assert.equal(css[name], value.value + 'px');
     }
   }
+});
+
+test('opacity preserves authored percentage metadata and emits unitless CSS in both themes', () => {
+  const v = byName(source, 'Disabled', 'Opacity');
+  assert.equal(v.id, 'VariableID:361:1691');
+  assert.equal(v.valuesByMode[firstMode(v)], 50);
+  const { themes } = normalize(source);
+  for (const tokens of Object.values(themes)) {
+    const t = tokens['opacity.disabled'];
+    assert.equal(t.$type, 'number');
+    assert.equal(t.$value, 0.5);
+    assert.equal(t.$extensions[extension].originalValue, 50);
+    assert.equal(t.$extensions[extension].sourceType, 'FLOAT');
+    assert.equal(t.$extensions[extension].sourceUnit, 'percent');
+    assert.equal(t.$extensions[extension].normalizedUnit, 'unitless');
+    assert.deepEqual(t.$extensions[extension].scopes, ['OPACITY']);
+    assert.equal(declarations(tokens)['--opacity-disabled'], '0.5');
+  }
+  assert.match(outputs(source)['dist/index.d.ts'], /\$type: "number"; \$value: number \| Alias/);
+});
+test('opacity percentage conversion supports boundaries without guessing value scale', () => {
+  for (const [raw, normalized] of [[0, 0], [0.5, 0.005], [50, 0.5], [100, 1]]) {
+    const { themes } = normalize(mutate(s => set(byName(s, 'Disabled', 'Opacity'), raw)));
+    assert.equal(themes.Light['opacity.disabled'].$value, normalized);
+  }
+});
+test('opacity rejects invalid source scope, type, units and ranges', () => {
+  for (const raw of [-1, 101, NaN, Infinity, '50', '50%', { value: 50, unit: '%' }]) {
+    assert.throws(() => normalize(mutate(s => set(byName(s, 'Disabled', 'Opacity'), raw))), /Invalid/);
+  }
+  assert.throws(() => normalize(mutate(s => { byName(s, 'Disabled', 'Opacity').scopes = ['ALL_SCOPES']; })), /opacity scope/);
+  assert.throws(() => normalize(mutate(s => { byName(s, 'Disabled', 'Opacity').resolvedType = 'STRING'; })), /Type mismatch/);
+  assert.throws(() => normalize(mutate(s => set(byName(s, 'Disabled', 'Opacity'), { type: 'VARIABLE_ALIAS', id: byName(s, 'Space / 8').id }))), /Alias type mismatch/);
+});
+test('normalized opacity rejects dimensions, percentages, nonfinite values and out-of-range aliases', () => {
+  for (const value of [-0.1, 1.1, 50, NaN, Infinity, '0.5', { value: 0.5, unit: 'px' }]) {
+    assert.throws(() => validateTokens({ 'opacity.disabled': { $type: 'number', $value: value } }), /Invalid/);
+  }
+  assert.throws(() => validateTokens({ 'opacity.disabled': { $type: 'dimension', $value: { value: 0.5, unit: 'px' } } }), /unitless number/);
+  const tokens = { base: { $type: 'number', $value: 0.5 }, 'opacity.disabled': { $type: 'number', $value: '{base}' } };
+  assert.equal(validateTokens(tokens)['opacity.disabled'], 0.5);
+  assert.equal(declarations(tokens)['--opacity-disabled'], 'var(--base)');
+  tokens.base.$value = 50;
+  assert.throws(() => validateTokens(tokens), /opacity range/);
 });

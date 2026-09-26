@@ -205,6 +205,7 @@
   --motion-moderate: 300ms;
   --motion-normal: 200ms;
   --motion-slow: 500ms;
+  --opacity-disabled: 0.5;
   --radius-2xl: 16px;
   --radius-3xl: 24px;
   --radius-full: 9999px;
@@ -623,6 +624,7 @@
   --motion-moderate: 300ms;
   --motion-normal: 200ms;
   --motion-slow: 500ms;
+  --opacity-disabled: 0.5;
   --radius-2xl: 16px;
   --radius-3xl: 24px;
   --radius-full: 9999px;

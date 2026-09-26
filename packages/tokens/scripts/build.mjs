@@ -15,6 +15,7 @@ const collectionConfig = {
   Radius: ['radius', 'radius', 9, ['Default']],
   Border: ['border', 'border', 4, ['Default']],
   Motion: ['motion', 'motion', 5, ['Default']],
+  Opacity: ['opacity', 'opacity', 1, ['Default']],
 };
 export function assert(ok, message) { if (!ok) throw new Error(message); }
 export const json = value => JSON.stringify(value, null, 2) + '\n';
@@ -75,6 +76,10 @@ function variableType(v, c) {
     return 'color';
   }
   assert(v.resolvedType === 'FLOAT', 'Type mismatch: ' + v.name);
+  if (c.name === 'Opacity') {
+    assert(v.scopes?.length === 1 && v.scopes[0] === 'OPACITY', 'Unconfirmed opacity scope: ' + v.name);
+    return 'number';
+  }
   if (c.name === 'Typography') {
     assert(/^Typography\s*\/\s*(Size|Line Height|Tracking|Weight)\s*\//.test(v.name), 'Unknown typography quantity: ' + v.name);
     return /\/\s*Weight\s*\//.test(v.name) ? 'fontWeight' : 'dimension';
@@ -82,6 +87,10 @@ function variableType(v, c) {
   return c.name === 'Motion' ? 'duration' : 'dimension';
 }
 function literal(v, type, source) {
+  if (type === 'number') {
+    assert(finite(v) && v >= 0 && v <= 100, 'Invalid authored opacity percentage: ' + source.name);
+    return v / 100;
+  }
   if (type === 'color') return color(v);
   if (type === 'duration') {
     assert(source.description.trim() === v + 'ms', 'Unconfirmed motion unit: ' + source.name);
@@ -117,8 +126,8 @@ export function normalize(snapshot) {
   const variables = unique(snapshot.variables, v => v.id, 'variable ID');
   const styles = [...snapshot.textStyles, ...snapshot.effectStyles];
   unique(styles, s => s.id, 'style ID');
-  assert(snapshot.collections.length === 8, 'Source collection count mismatch');
-  assert(snapshot.variables.length === 316, 'Source variable count mismatch; review changed Figma inventory');
+  assert(snapshot.collections.length === 9, 'Source collection count mismatch');
+  assert(snapshot.variables.length === 317, 'Source variable count mismatch; review changed Figma inventory');
   assert(snapshot.textStyles.length === 16 && snapshot.effectStyles.length === 14, 'Source style count mismatch');
   const paths = new Map(), names = new Map(), cssNames = new Set();
   const types = new Map();
@@ -174,6 +183,9 @@ export function normalize(snapshot) {
         normalized = literal(value, type, v);
       }
       const token = { $type: type, $value: normalized, $extensions: { [extension]: sourceMeta(v, c, mode) } };
+      if (c.name === 'Opacity') Object.assign(token.$extensions[extension], {
+        scopes: v.scopes, originalValue: value, sourceUnit: 'percent', normalizedUnit: 'unitless',
+      });
       if (v.description) token.$description = v.description;
       const category = collectionConfig[c.name][1];
       register(paths.get(v.id), token, category, theme);
@@ -242,6 +254,7 @@ export function validateTokens(tokens) {
     if (done.has(path)) return done.get(path);
     const t = tokens[path];
     assert(t && Object.hasOwn(t, '$value'), 'Missing value: ' + path);
+    if (path.startsWith('opacity.')) assert(t.$type === 'number', 'Opacity must use unitless number type: ' + path);
     let value = t.$value;
     if (ref(value)) {
       const target = value.slice(1, -1);
@@ -250,6 +263,7 @@ export function validateTokens(tokens) {
       value = resolveToken(target, [...stack, path]);
     }
     validValue(t.$type, value, path);
+    if (path.startsWith('opacity.')) assert(value >= 0 && value <= 1, 'Invalid normalized opacity range: ' + path);
     done.set(path, value);
     return value;
   }
@@ -263,6 +277,8 @@ function validValue(type, v, path) {
   } else if (type === 'dimension' || type === 'duration') {
     if (!(finite(v?.value) && (type === 'dimension' ? ['px', 'rem'] : ['ms', 's']).includes(v.unit))) fail();
     if (type === 'duration' && v.value < 0) fail();
+  } else if (type === 'number') {
+    if (!finite(v)) fail();
   } else if (type === 'fontWeight') {
     if (!(finite(v) && v >= 1 && v <= 1000)) fail();
   } else if (type === 'typography') {
@@ -284,7 +300,7 @@ function cssValue(type, value) {
   if (ref(value)) return 'var(' + cssName(value.slice(1, -1)) + ')';
   if (type === 'color') return 'color(srgb ' + value.components.join(' ') + ' / ' + value.alpha + ')';
   if (type === 'dimension' || type === 'duration') return value.value + value.unit;
-  if (type === 'fontWeight') return String(value);
+  if (type === 'fontWeight' || type === 'number') return String(value);
   if (type === 'shadow') return value.map(s =>
     (s.inset ? 'inset ' : '') + [s.offsetX, s.offsetY, s.blur, s.spread].map(d => cssValue('dimension', d)).join(' ') + ' ' + cssValue('color', s.color)).join(', ');
   throw new Error('Unsupported CSS type: ' + type);
@@ -320,7 +336,7 @@ function cssBlock(selector, values) {
 export function outputs(snapshot) {
   const { themes, files, paths } = normalize(snapshot);
   const output = Object.fromEntries(Object.entries(files).map(([p, data]) => [p, json(data)]));
-  const categories = ['primitives/tokens', 'typography/tokens', 'spacing/tokens', 'radius/tokens', 'border/tokens', 'effects/tokens', 'motion/tokens'];
+  const categories = ['primitives/tokens', 'typography/tokens', 'spacing/tokens', 'radius/tokens', 'border/tokens', 'effects/tokens', 'motion/tokens', 'opacity/tokens'];
   for (const theme of ['Light', 'Dark']) {
     const name = theme.toLowerCase();
     output['src/themes/' + name + '/theme.json'] = json({ $description: notice, mode: theme,
@@ -342,7 +358,7 @@ export function outputs(snapshot) {
     'export type Alias = \`{\${TokenName}}\`;\n' +
     'export type Shadow = { color: Color; offsetX: Dimension; offsetY: Dimension; blur: Dimension; spread: Dimension; inset: boolean };\n' +
     'export type Typography = { fontFamily: string; fontWeight: number; fontSize: Dimension; lineHeight: number; letterSpacing: Dimension };\n' +
-    'export type Token = ({ $type: "color"; $value: Color | Alias } | { $type: "dimension"; $value: Dimension | Alias } | { $type: "duration"; $value: { value: number; unit: "ms" | "s" } | Alias } | { $type: "fontWeight"; $value: number | Alias } | { $type: "shadow"; $value: Shadow[] | Alias } | { $type: "typography"; $value: Typography | Alias }) & { $description?: string; $extensions: Record<string, unknown> };\n' +
+    'export type Token = ({ $type: "color"; $value: Color | Alias } | { $type: "dimension"; $value: Dimension | Alias } | { $type: "duration"; $value: { value: number; unit: "ms" | "s" } | Alias } | { $type: "fontWeight"; $value: number | Alias } | { $type: "number"; $value: number | Alias } | { $type: "shadow"; $value: Shadow[] | Alias } | { $type: "typography"; $value: Typography | Alias }) & { $description?: string; $extensions: Record<string, unknown> };\n' +
     'export declare const tokens: Record<Theme, Record<TokenName, Token>>;\n' +
     'export type CSSVariableName = ' + Object.keys(light).sort().map(JSON.stringify).join(' | ') + ';\n' +
     'export declare const cssVariables: Record<Theme, Record<CSSVariableName, string>>;\n';
@@ -355,7 +371,7 @@ export function outputs(snapshot) {
     tokensPerTheme: names.length, cssPropertiesPerTheme: Object.keys(light).length,
     collections: snapshot.collections.map(c => ({ name: c.name, count: c.variableIds.length, modes: c.modes.map(m => m.name) })),
     aliasesByTheme: Object.fromEntries(Object.entries(themes).map(([m, t]) => [m, Object.values(t).filter(t => ref(t.$value)).length])),
-    checks: ['snapshot hashes', 'source counts and membership', 'source IDs', 'mode names and completeness', 'alias targets/types/cycles', 'DTCG value types', 'normalized names and group collisions', 'CSS name collisions', 'source-to-output reproducibility'] });
+    checks: ['snapshot hashes', 'source counts and membership', 'source IDs', 'mode names and completeness', 'alias targets/types/cycles', 'DTCG value types', 'opacity scope, percentage conversion and unitless range', 'normalized names and group collisions', 'CSS name collisions', 'source-to-output reproducibility'] });
   return output;
 }
 export function run(check = false) {
@@ -369,7 +385,7 @@ export function run(check = false) {
     if (check) assert(existsSync(target) && readFileSync(target, 'utf8') === bytes, 'Generated file missing or modified: ' + path);
     else { mkdirSync(dirname(target), { recursive: true }); writeFileSync(target, bytes); }
   }
-  console.log((check ? 'Validated' : 'Generated') + ' ' + Object.keys(expected).length + ' files: 316 variables + 16 text styles + 14 effect styles; 346 tokens per theme; Light and Dark.');
+  console.log((check ? 'Validated' : 'Generated') + ' ' + Object.keys(expected).length + ' files: 317 variables + 16 text styles + 14 effect styles; 347 tokens per theme; Light and Dark.');
 }
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   try { run(process.argv.includes('--check')); } catch (error) { console.error(error.message); process.exitCode = 1; }
