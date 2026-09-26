@@ -1,3 +1,7 @@
-# Component tests
+# Browser testing
 
-Reserved for behavior, forms and accessibility-related interaction tests. Test tooling and scripts are not installed; no passing-test claim is made.
+Vitest + Playwright Chromium and vitest-browser-react support render, pointer/keyboard and native form behavior tests. The shared axe assertion fails on detected violations; the negative fixture proves failure on missing labels.
+
+`fixtures/ToolingFixture.tsx` is native HTML for infrastructure verification only. It is not a public Design System component. Tests consume the built React stylesheet and current token exports.
+
+Build React first, then run `npm run test:browser -- --project react` from the repository root. See [manual testing requirements](../../../docs/development.md#testing-and-accessibility).

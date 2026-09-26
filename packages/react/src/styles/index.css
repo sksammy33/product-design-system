@@ -1,0 +1,12 @@
+@import '@product-design-system/tokens/tokens.css';
+
+/* Opt-in scope; no reset or alternate theme values. */
+.pds-scope {
+  color: var(--color-semantic-text-primary);
+  background-color: var(--color-semantic-background-default);
+  font-family: var(--typography-styles-body-default-font-family);
+  font-size: var(--typography-styles-body-default-font-size);
+  font-weight: var(--typography-styles-body-default-font-weight);
+  line-height: var(--typography-styles-body-default-line-height);
+  letter-spacing: var(--typography-styles-body-default-letter-spacing);
+}

@@ -1,5 +1,11 @@
 # Changelog
 
+## Phase 4 - React, Storybook and testing tooling
+
+- Configure private React/TypeScript ESM and CSS builds using the existing token package.
+- Add Storybook React/Vite, Light/Dark controls, browser interaction tests and axe accessibility checks.
+- Add locked dependencies, CI verification and concise development guidance. No production components, new tokens or publishing.
+
 ## Token package 0.2.0 - Phase 3
 
 - Capture 292 current Figma variables, 16 text styles and 14 effect styles with source IDs, aliases, modes and raw snapshot hashes.

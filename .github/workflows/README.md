@@ -1,5 +1,7 @@
-# Future CI workflows
+# CI foundation
 
-No executable workflow is configured.
+`ci.yml` runs on main pushes, pull requests and manual dispatch. It uses Node 24, installs the npm lockfile and Playwright Chromium, and runs the root `verify` command.
 
-Later jobs will validate tokens, check TypeScript, run component tests, run automated accessibility checks, and build Storybook. Configure versions, triggers and required checks with the actual tooling in a later phase. Manual keyboard/screen-reader review remains separate. This document is not a passing CI status.
+Gates cover token integrity/build/tests, React ESM/CSS/declarations, TypeScript, Chromium fixture and story tests with axe checks, and the static Storybook build. A final diff rejects generated token changes. No publishing or deployment is configured.
+
+Run `npm run check:ci` for local YAML/command-reference validation. Hosted execution is only verified after the workflow actually runs on GitHub. Automated accessibility checks supplement [manual testing](../../docs/development.md#testing-and-accessibility).

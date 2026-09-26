@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "types": [
+      "node",
+      "vite/client",
+      "@vitest/browser-playwright"
+    ]
+  },
+  "include": [
+    "packages/react/src",
+    "packages/react/tests",
+    "packages/react/vite.config.ts",
+    "apps/storybook/.storybook",
+    "apps/storybook/stories",
+    "vitest.config.ts"
+  ]
+}

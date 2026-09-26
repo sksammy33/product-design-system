@@ -1,3 +1,3 @@
-# qa
+# QA tooling fixture
 
-Reserved story area. No stories or examples are executable yet. Add evidence-backed qa documentation when the corresponding setup and implementation are authorized.
+The only executable stories verify tooling with native HTML. Light supports toolbar switching; Dark fixes that mode for browser checks. The fixture is shared with the React browser tests and is not a production component or visual specification.

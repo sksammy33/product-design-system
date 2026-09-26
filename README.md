@@ -5,7 +5,7 @@ A shared foundation for consistent product interfaces, connecting Figma design d
 **Version: 0.1.0 — Repository Foundation**
 **Design implementation is still in progress.**
 
-Phase 2 established documentation and workspaces. Phase 3 adds the private, versioned [design token package](packages/tokens/README.md), generated Light/Dark themes and local validation. React components, Storybook and CI remain unimplemented. This repository is not an installable component library.
+Phase 2 established documentation and workspaces. Phase 3 adds the private, versioned [design token package](packages/tokens/README.md), generated Light/Dark themes and local validation. Phase 4 adds React/TypeScript packaging, Storybook, browser tests and CI tooling; production components remain unimplemented. This repository is not an installable component library.
 
 ## Source of truth
 
@@ -24,18 +24,18 @@ Changes to visual decisions must originate in Figma and be recorded with source 
 | Templates | Page compositions built from the system | [Reserved area](docs/templates/README.md) |
 | Accessibility | Design guidance and runtime requirements | [Overview](docs/accessibility/overview.md); no conformance claim |
 | Documentation | Usage, source mapping, constraints and decisions | [Index](docs/README.md) |
-| QA | Future visual, behavior and accessibility verification | [QA plan](docs/qa.md); tests not configured |
+| QA | Future visual, behavior and accessibility verification | [QA foundation](docs/qa.md); token and browser fixture tests configured |
 
 Planned flow: Figma → extracted tokens → generated developer outputs → React components → Storybook → verified reusable packages. GitHub will track source and change history.
 
 ## Repository structure
 
 - `packages/tokens/`: raw Figma snapshots, normalized DTCG tokens, conversion/validation scripts and generated Light/Dark outputs.
-- `packages/react/`: future component and internal source folders and tests.
-- `apps/storybook/`: reserved configuration and story categories.
+- `packages/react/`: library build, scoped token CSS, declarations and browser test infrastructure; component folders remain reserved.
+- `apps/storybook/`: React/Vite configuration, theme toolbar, accessibility checks and QA tooling fixture.
 - `docs/`: foundations, components, complex components, patterns, templates, accessibility and decisions.
 - `assets/`: custom assets and provenance guidance.
-- `.github/workflows/`: future validation pipeline documentation.
+- `.github/workflows/`: executable build/test verification workflow.
 - `.changeset/`: future release tooling guidance.
 
 See [the full repository tree and file inventory](docs/repository-foundation.md).
@@ -46,12 +46,12 @@ The Design System is created to support WCAG 2.2 Level AA requirements at the de
 
 ## Development status
 
-The root, React and Storybook manifests remain private at 0.1.0. The private token package is 0.2.0 and provides dependency-free build, validation and test commands; see its README. No dependency installation is required for token checks. React and Storybook tooling remain deferred.
+The root, React and Storybook manifests remain private at 0.1.0. The private token package is 0.2.0 and provides dependency-free build, validation and test commands; see its README. No dependency installation is required for token checks. See [development setup and commands](docs/development.md) for React, TypeScript, Storybook, testing and CI tooling.
 
-- **Storybook:** URL pending; not built or deployed.
+- **Storybook:** run `npm run build:react` then `npm run storybook`; no hosted deployment.
 - **Package installation:** command pending package scope, build and publication; no installable package exists.
 - **First component group:** Button, Input, Checkbox, Radio and Switch, reserved only; implementation belongs to Phase 5.
-- **Current implemented stage:** Phase 3 tokens. Further stages require separate approval.
+- **Current implemented stage:** Phase 4 tooling. Phase 5 production components require separate approval.
 
 ## Contributing and releases
 

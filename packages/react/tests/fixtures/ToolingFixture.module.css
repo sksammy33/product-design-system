@@ -1,0 +1,21 @@
+.fixture {
+  padding: var(--spacing-inset-md);
+}
+.fixture form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--spacing-inline-sm);
+}
+.fixture :is(input, button) {
+  color: var(--color-semantic-text-primary);
+  background-color: var(--color-semantic-background-default);
+  font: inherit;
+  border: var(--border-default) solid var(--color-semantic-border-interactive);
+  border-radius: var(--radius-sm);
+  padding: var(--spacing-inset-xs);
+}
+.fixture :is(input, button):focus-visible {
+  outline: var(--border-strong) solid var(--color-semantic-focus-default);
+  outline-offset: var(--spacing-space-2);
+}

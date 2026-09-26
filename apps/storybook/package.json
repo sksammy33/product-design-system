@@ -3,5 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "license": "UNLICENSED",
-  "description": "Reserved workspace; implementation and dependencies pending."
+  "type": "module",
+  "description": "Storybook tooling and verification fixture; no production component stories.",
+  "scripts": {
+    "dev": "storybook dev -p 6006 --no-open --disable-telemetry",
+    "build": "storybook build --disable-telemetry"
+  },
+  "dependencies": {
+    "@product-design-system/react": "0.1.0",
+    "@product-design-system/tokens": "0.2.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "storybook": "10.6.0",
+    "@storybook/react-vite": "10.6.0",
+    "@storybook/addon-a11y": "10.6.0",
+    "@storybook/addon-docs": "10.6.0",
+    "@storybook/addon-vitest": "10.6.0"
+  }
 }
