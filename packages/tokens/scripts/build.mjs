@@ -11,7 +11,7 @@ const collectionConfig = {
   'Color / Semantic': ['color.semantic', 'semantic', 109, ['Light', 'Dark']],
   'Color / Chart': ['color.chart', 'charts', 8, ['Light', 'Dark']],
   Typography: ['typography', 'typography', 52, ['Default']],
-  Spacing: ['spacing', 'spacing', 50, ['Default']],
+  Spacing: ['spacing', 'spacing', 69, ['Default']],
   Radius: ['radius', 'radius', 9, ['Default']],
   Border: ['border', 'border', 4, ['Default']],
   Motion: ['motion', 'motion', 5, ['Default']],
@@ -118,7 +118,7 @@ export function normalize(snapshot) {
   const styles = [...snapshot.textStyles, ...snapshot.effectStyles];
   unique(styles, s => s.id, 'style ID');
   assert(snapshot.collections.length === 8, 'Source collection count mismatch');
-  assert(snapshot.variables.length === 297, 'Source variable count mismatch; review changed Figma inventory');
+  assert(snapshot.variables.length === 316, 'Source variable count mismatch; review changed Figma inventory');
   assert(snapshot.textStyles.length === 16 && snapshot.effectStyles.length === 14, 'Source style count mismatch');
   const paths = new Map(), names = new Map(), cssNames = new Set();
   const types = new Map();
@@ -369,7 +369,7 @@ export function run(check = false) {
     if (check) assert(existsSync(target) && readFileSync(target, 'utf8') === bytes, 'Generated file missing or modified: ' + path);
     else { mkdirSync(dirname(target), { recursive: true }); writeFileSync(target, bytes); }
   }
-  console.log((check ? 'Validated' : 'Generated') + ' ' + Object.keys(expected).length + ' files: 297 variables + 16 text styles + 14 effect styles; 327 tokens per theme; Light and Dark.');
+  console.log((check ? 'Validated' : 'Generated') + ' ' + Object.keys(expected).length + ' files: 316 variables + 16 text styles + 14 effect styles; 346 tokens per theme; Light and Dark.');
 }
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   try { run(process.argv.includes('--check')); } catch (error) { console.error(error.message); process.exitCode = 1; }

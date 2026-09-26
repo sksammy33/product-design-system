@@ -5818,6 +5818,378 @@ export const tokens = {
       },
       "$description": "Intentional one-pixel overlap between adjacent Button Group segments to collapse shared borders."
     },
+    "spacing.component.button.xs.height": {
+      "$type": "dimension",
+      "$value": {
+        "value": 28,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1508",
+          "key": "89d53d98547ee68fa75416b8c06604de256e0d26",
+          "name": "Component / Button / XS / Height",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "Canonical XS Button height across the five-tier Button system."
+    },
+    "spacing.component.button.xs.icon-size": {
+      "$type": "dimension",
+      "$value": {
+        "value": 14,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1509",
+          "key": "52792e382990f4338c33cd57c56a62005006c276",
+          "name": "Component / Button / XS / Icon Size",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "Canonical XS generic Button icon and spinner size."
+    },
+    "spacing.component.button.small.height": {
+      "$type": "dimension",
+      "$value": {
+        "value": 32,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1510",
+          "key": "0de1296bfc75d3fe7f579e556b571aa98043257d",
+          "name": "Component / Button / Small / Height",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "Canonical Small Button height across the five-tier Button system."
+    },
+    "spacing.component.button.small.icon-size": {
+      "$type": "dimension",
+      "$value": {
+        "value": 16,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1511",
+          "key": "11d6ffc401a78d3983e416a84e3963829f820eec",
+          "name": "Component / Button / Small / Icon Size",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "Canonical Small generic Button icon and spinner size."
+    },
+    "spacing.component.button.medium.height": {
+      "$type": "dimension",
+      "$value": {
+        "value": 40,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1512",
+          "key": "0c940379d2977d9d947903bcd55627c0bf953f8a",
+          "name": "Component / Button / Medium / Height",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "Canonical Medium Button height across the five-tier Button system."
+    },
+    "spacing.component.button.medium.icon-size": {
+      "$type": "dimension",
+      "$value": {
+        "value": 18,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1513",
+          "key": "e96c4307034e59de75559f5346426f034602e92b",
+          "name": "Component / Button / Medium / Icon Size",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "Canonical Medium generic Button icon and spinner size."
+    },
+    "spacing.component.button.large.height": {
+      "$type": "dimension",
+      "$value": {
+        "value": 48,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1514",
+          "key": "4da7a3103240219804187f8a4def7d491e3356fb",
+          "name": "Component / Button / Large / Height",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "Canonical Large Button height across the five-tier Button system."
+    },
+    "spacing.component.button.large.icon-size": {
+      "$type": "dimension",
+      "$value": {
+        "value": 20,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1515",
+          "key": "cc85b0aed0cad9edbe630adbc57c69dabd2c563d",
+          "name": "Component / Button / Large / Icon Size",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "Canonical Large generic Button icon and spinner size."
+    },
+    "spacing.component.button.xl.height": {
+      "$type": "dimension",
+      "$value": {
+        "value": 56,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1516",
+          "key": "7d8e1e3406c92a37e1062c6e8b8d27d5190902fb",
+          "name": "Component / Button / XL / Height",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "Canonical XL Button height across the five-tier Button system."
+    },
+    "spacing.component.button.xl.icon-size": {
+      "$type": "dimension",
+      "$value": {
+        "value": 24,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1517",
+          "key": "162fa4ffde62e277f121533fc2ebd0a53dc6620b",
+          "name": "Component / Button / XL / Icon Size",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "Canonical XL generic Button icon and spinner size."
+    },
+    "spacing.component.button.fab.small.height": {
+      "$type": "dimension",
+      "$value": "{spacing.component.button.medium.height}",
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1518",
+          "key": "6797f98968a1a6ab45ace3fdaafe1d4e049846ab",
+          "name": "Component / Button / FAB / Small / Height",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "FAB Small height; intentionally aligns to the base Button Medium height tier."
+    },
+    "spacing.component.button.fab.medium.height": {
+      "$type": "dimension",
+      "$value": "{spacing.component.button.large.height}",
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1519",
+          "key": "d55a0d8c4ce54ca43632984848543b6622c89637",
+          "name": "Component / Button / FAB / Medium / Height",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "FAB Medium height; intentionally aligns to the base Button Large height tier."
+    },
+    "spacing.component.button.fab.large.height": {
+      "$type": "dimension",
+      "$value": "{spacing.component.button.xl.height}",
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1520",
+          "key": "11479274bb61723e97273b3df70dc17462e9bff5",
+          "name": "Component / Button / FAB / Large / Height",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "FAB Large height; intentionally aligns to the base Button XL height tier."
+    },
+    "spacing.component.button.fab.small.icon-size": {
+      "$type": "dimension",
+      "$value": "{spacing.component.button.medium.icon-size}",
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1521",
+          "key": "07ccd4f77a8f063c7d840b632d89ad87de6849cc",
+          "name": "Component / Button / FAB / Small / Icon Size",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "FAB Small icon size; intentionally one optical tier above base Small."
+    },
+    "spacing.component.button.fab.medium.icon-size": {
+      "$type": "dimension",
+      "$value": "{spacing.component.button.large.icon-size}",
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1522",
+          "key": "ca5f1860adef6f83e8f4dbf7ed2659e56d141d69",
+          "name": "Component / Button / FAB / Medium / Icon Size",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "FAB Medium icon size; intentionally one optical tier above base Medium."
+    },
+    "spacing.component.button.fab.large.icon-size": {
+      "$type": "dimension",
+      "$value": "{spacing.component.button.xl.icon-size}",
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1523",
+          "key": "3e7f69ccf02c1e3c5299ef5cddb3d7b1bef95759",
+          "name": "Component / Button / FAB / Large / Icon Size",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "FAB Large icon size; intentionally one optical tier above base Large."
+    },
+    "spacing.component.button.social.small.provider-icon-size": {
+      "$type": "dimension",
+      "$value": "{spacing.component.button.small.icon-size}",
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1524",
+          "key": "efc3693188ef08b9b6821cddd80d7bc7f6c59e37",
+          "name": "Component / Button / Social / Small / Provider Icon Size",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "Social provider artwork size for Small Social Buttons."
+    },
+    "spacing.component.button.social.medium.provider-icon-size": {
+      "$type": "dimension",
+      "$value": "{spacing.component.button.large.icon-size}",
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1525",
+          "key": "7978dc88cf30b5ac6d3eb8f52fb4e586c7daf706",
+          "name": "Component / Button / Social / Medium / Provider Icon Size",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "Social provider artwork size for Medium Social Buttons."
+    },
+    "spacing.component.button.social.large.provider-icon-size": {
+      "$type": "dimension",
+      "$value": "{spacing.component.button.xl.icon-size}",
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1526",
+          "key": "882be359dc7cd4ecd1f1270d96ced43c43703dd4",
+          "name": "Component / Button / Social / Large / Provider Icon Size",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "Social provider artwork size for Large Social Buttons."
+    },
     "typography.styles.display.large": {
       "$type": "typography",
       "$value": {
@@ -12881,6 +13253,378 @@ export const tokens = {
       },
       "$description": "Intentional one-pixel overlap between adjacent Button Group segments to collapse shared borders."
     },
+    "spacing.component.button.xs.height": {
+      "$type": "dimension",
+      "$value": {
+        "value": 28,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1508",
+          "key": "89d53d98547ee68fa75416b8c06604de256e0d26",
+          "name": "Component / Button / XS / Height",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "Canonical XS Button height across the five-tier Button system."
+    },
+    "spacing.component.button.xs.icon-size": {
+      "$type": "dimension",
+      "$value": {
+        "value": 14,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1509",
+          "key": "52792e382990f4338c33cd57c56a62005006c276",
+          "name": "Component / Button / XS / Icon Size",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "Canonical XS generic Button icon and spinner size."
+    },
+    "spacing.component.button.small.height": {
+      "$type": "dimension",
+      "$value": {
+        "value": 32,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1510",
+          "key": "0de1296bfc75d3fe7f579e556b571aa98043257d",
+          "name": "Component / Button / Small / Height",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "Canonical Small Button height across the five-tier Button system."
+    },
+    "spacing.component.button.small.icon-size": {
+      "$type": "dimension",
+      "$value": {
+        "value": 16,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1511",
+          "key": "11d6ffc401a78d3983e416a84e3963829f820eec",
+          "name": "Component / Button / Small / Icon Size",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "Canonical Small generic Button icon and spinner size."
+    },
+    "spacing.component.button.medium.height": {
+      "$type": "dimension",
+      "$value": {
+        "value": 40,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1512",
+          "key": "0c940379d2977d9d947903bcd55627c0bf953f8a",
+          "name": "Component / Button / Medium / Height",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "Canonical Medium Button height across the five-tier Button system."
+    },
+    "spacing.component.button.medium.icon-size": {
+      "$type": "dimension",
+      "$value": {
+        "value": 18,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1513",
+          "key": "e96c4307034e59de75559f5346426f034602e92b",
+          "name": "Component / Button / Medium / Icon Size",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "Canonical Medium generic Button icon and spinner size."
+    },
+    "spacing.component.button.large.height": {
+      "$type": "dimension",
+      "$value": {
+        "value": 48,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1514",
+          "key": "4da7a3103240219804187f8a4def7d491e3356fb",
+          "name": "Component / Button / Large / Height",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "Canonical Large Button height across the five-tier Button system."
+    },
+    "spacing.component.button.large.icon-size": {
+      "$type": "dimension",
+      "$value": {
+        "value": 20,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1515",
+          "key": "cc85b0aed0cad9edbe630adbc57c69dabd2c563d",
+          "name": "Component / Button / Large / Icon Size",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "Canonical Large generic Button icon and spinner size."
+    },
+    "spacing.component.button.xl.height": {
+      "$type": "dimension",
+      "$value": {
+        "value": 56,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1516",
+          "key": "7d8e1e3406c92a37e1062c6e8b8d27d5190902fb",
+          "name": "Component / Button / XL / Height",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "Canonical XL Button height across the five-tier Button system."
+    },
+    "spacing.component.button.xl.icon-size": {
+      "$type": "dimension",
+      "$value": {
+        "value": 24,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1517",
+          "key": "162fa4ffde62e277f121533fc2ebd0a53dc6620b",
+          "name": "Component / Button / XL / Icon Size",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "Canonical XL generic Button icon and spinner size."
+    },
+    "spacing.component.button.fab.small.height": {
+      "$type": "dimension",
+      "$value": "{spacing.component.button.medium.height}",
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1518",
+          "key": "6797f98968a1a6ab45ace3fdaafe1d4e049846ab",
+          "name": "Component / Button / FAB / Small / Height",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "FAB Small height; intentionally aligns to the base Button Medium height tier."
+    },
+    "spacing.component.button.fab.medium.height": {
+      "$type": "dimension",
+      "$value": "{spacing.component.button.large.height}",
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1519",
+          "key": "d55a0d8c4ce54ca43632984848543b6622c89637",
+          "name": "Component / Button / FAB / Medium / Height",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "FAB Medium height; intentionally aligns to the base Button Large height tier."
+    },
+    "spacing.component.button.fab.large.height": {
+      "$type": "dimension",
+      "$value": "{spacing.component.button.xl.height}",
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1520",
+          "key": "11479274bb61723e97273b3df70dc17462e9bff5",
+          "name": "Component / Button / FAB / Large / Height",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "FAB Large height; intentionally aligns to the base Button XL height tier."
+    },
+    "spacing.component.button.fab.small.icon-size": {
+      "$type": "dimension",
+      "$value": "{spacing.component.button.medium.icon-size}",
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1521",
+          "key": "07ccd4f77a8f063c7d840b632d89ad87de6849cc",
+          "name": "Component / Button / FAB / Small / Icon Size",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "FAB Small icon size; intentionally one optical tier above base Small."
+    },
+    "spacing.component.button.fab.medium.icon-size": {
+      "$type": "dimension",
+      "$value": "{spacing.component.button.large.icon-size}",
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1522",
+          "key": "ca5f1860adef6f83e8f4dbf7ed2659e56d141d69",
+          "name": "Component / Button / FAB / Medium / Icon Size",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "FAB Medium icon size; intentionally one optical tier above base Medium."
+    },
+    "spacing.component.button.fab.large.icon-size": {
+      "$type": "dimension",
+      "$value": "{spacing.component.button.xl.icon-size}",
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1523",
+          "key": "3e7f69ccf02c1e3c5299ef5cddb3d7b1bef95759",
+          "name": "Component / Button / FAB / Large / Icon Size",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "FAB Large icon size; intentionally one optical tier above base Large."
+    },
+    "spacing.component.button.social.small.provider-icon-size": {
+      "$type": "dimension",
+      "$value": "{spacing.component.button.small.icon-size}",
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1524",
+          "key": "efc3693188ef08b9b6821cddd80d7bc7f6c59e37",
+          "name": "Component / Button / Social / Small / Provider Icon Size",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "Social provider artwork size for Small Social Buttons."
+    },
+    "spacing.component.button.social.medium.provider-icon-size": {
+      "$type": "dimension",
+      "$value": "{spacing.component.button.large.icon-size}",
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1525",
+          "key": "7978dc88cf30b5ac6d3eb8f52fb4e586c7daf706",
+          "name": "Component / Button / Social / Medium / Provider Icon Size",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "Social provider artwork size for Medium Social Buttons."
+    },
+    "spacing.component.button.social.large.provider-icon-size": {
+      "$type": "dimension",
+      "$value": "{spacing.component.button.xl.icon-size}",
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:351:1526",
+          "key": "882be359dc7cd4ecd1f1270d96ced43c43703dd4",
+          "name": "Component / Button / Social / Large / Provider Icon Size",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "Social provider artwork size for Large Social Buttons."
+    },
     "typography.styles.display.large": {
       "$type": "typography",
       "$value": {
@@ -14344,10 +15088,29 @@ export const cssVariables = {
     "--radius-xl": "12px",
     "--radius-xs": "2px",
     "--spacing-component-button-group-segment-overlap": "-1px",
+    "--spacing-component-button-fab-large-height": "var(--spacing-component-button-xl-height)",
+    "--spacing-component-button-fab-large-icon-size": "var(--spacing-component-button-xl-icon-size)",
+    "--spacing-component-button-fab-medium-height": "var(--spacing-component-button-large-height)",
+    "--spacing-component-button-fab-medium-icon-size": "var(--spacing-component-button-large-icon-size)",
+    "--spacing-component-button-fab-small-height": "var(--spacing-component-button-medium-height)",
+    "--spacing-component-button-fab-small-icon-size": "var(--spacing-component-button-medium-icon-size)",
+    "--spacing-component-button-large-height": "48px",
+    "--spacing-component-button-large-icon-size": "20px",
+    "--spacing-component-button-medium-height": "40px",
+    "--spacing-component-button-medium-icon-size": "18px",
+    "--spacing-component-button-small-height": "32px",
     "--spacing-component-button-small-icon-gap": "6px",
+    "--spacing-component-button-small-icon-size": "16px",
     "--spacing-component-button-small-padding-y": "6px",
+    "--spacing-component-button-social-large-provider-icon-size": "var(--spacing-component-button-xl-icon-size)",
+    "--spacing-component-button-social-medium-provider-icon-size": "var(--spacing-component-button-large-icon-size)",
+    "--spacing-component-button-social-small-provider-icon-size": "var(--spacing-component-button-small-icon-size)",
     "--spacing-component-button-split-large-dropdown-padding-x": "14px",
     "--spacing-component-button-split-medium-dropdown-padding-x": "10px",
+    "--spacing-component-button-xl-height": "56px",
+    "--spacing-component-button-xl-icon-size": "24px",
+    "--spacing-component-button-xs-height": "28px",
+    "--spacing-component-button-xs-icon-size": "14px",
     "--spacing-component-input-padding-medium-vertical": "10px",
     "--spacing-component-input-padding-small-horizontal": "10px",
     "--spacing-component-input-padding-small-vertical": "6px",
@@ -14742,10 +15505,29 @@ export const cssVariables = {
     "--radius-xl": "12px",
     "--radius-xs": "2px",
     "--spacing-component-button-group-segment-overlap": "-1px",
+    "--spacing-component-button-fab-large-height": "var(--spacing-component-button-xl-height)",
+    "--spacing-component-button-fab-large-icon-size": "var(--spacing-component-button-xl-icon-size)",
+    "--spacing-component-button-fab-medium-height": "var(--spacing-component-button-large-height)",
+    "--spacing-component-button-fab-medium-icon-size": "var(--spacing-component-button-large-icon-size)",
+    "--spacing-component-button-fab-small-height": "var(--spacing-component-button-medium-height)",
+    "--spacing-component-button-fab-small-icon-size": "var(--spacing-component-button-medium-icon-size)",
+    "--spacing-component-button-large-height": "48px",
+    "--spacing-component-button-large-icon-size": "20px",
+    "--spacing-component-button-medium-height": "40px",
+    "--spacing-component-button-medium-icon-size": "18px",
+    "--spacing-component-button-small-height": "32px",
     "--spacing-component-button-small-icon-gap": "6px",
+    "--spacing-component-button-small-icon-size": "16px",
     "--spacing-component-button-small-padding-y": "6px",
+    "--spacing-component-button-social-large-provider-icon-size": "var(--spacing-component-button-xl-icon-size)",
+    "--spacing-component-button-social-medium-provider-icon-size": "var(--spacing-component-button-large-icon-size)",
+    "--spacing-component-button-social-small-provider-icon-size": "var(--spacing-component-button-small-icon-size)",
     "--spacing-component-button-split-large-dropdown-padding-x": "14px",
     "--spacing-component-button-split-medium-dropdown-padding-x": "10px",
+    "--spacing-component-button-xl-height": "56px",
+    "--spacing-component-button-xl-icon-size": "24px",
+    "--spacing-component-button-xs-height": "28px",
+    "--spacing-component-button-xs-icon-size": "14px",
     "--spacing-component-input-padding-medium-vertical": "10px",
     "--spacing-component-input-padding-small-horizontal": "10px",
     "--spacing-component-input-padding-small-vertical": "6px",

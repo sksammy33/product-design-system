@@ -2,14 +2,14 @@
   "$description": "GENERATED from the raw Figma snapshot. DO NOT EDIT. Run npm run build in packages/tokens.",
   "status": "passed",
   "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
-  "extractedAt": "2026-09-26T07:00:00.384Z",
-  "variableCount": 297,
+  "extractedAt": "2026-09-26T09:30:55.210Z",
+  "variableCount": 316,
   "auditVariableCount": 287,
-  "difference": 10,
+  "difference": 29,
   "textStyleCount": 16,
   "effectStyleCount": 14,
-  "tokensPerTheme": 327,
-  "cssPropertiesPerTheme": 396,
+  "tokensPerTheme": 346,
+  "cssPropertiesPerTheme": 415,
   "collections": [
     {
       "name": "Color / Primitives",
@@ -43,7 +43,7 @@
     },
     {
       "name": "Spacing",
-      "count": 50,
+      "count": 69,
       "modes": [
         "Default"
       ]
@@ -71,8 +71,8 @@
     }
   ],
   "aliasesByTheme": {
-    "Light": 142,
-    "Dark": 142
+    "Light": 151,
+    "Dark": 151
   },
   "checks": [
     "snapshot hashes",

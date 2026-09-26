@@ -3,7 +3,7 @@
 These JSON payloads came directly from read-only Figma Plugin API calls for file `A5R8vBTXZzfV5aj3omQYFG`. Source names, IDs, values, descriptions, aliases and mode IDs are unchanged. The only filesystem serialization addition is a trailing newline.
 
 - `collections.json`: source file key, extraction timestamp, collection identities, mode names/IDs, defaults and variable membership.
-- `variables-01.json` through `variables-10.json`: 30 variables per bounded response (27 in the final batch), with source offsets and total count: 297 variables, five more than the previous snapshot.
+- `variables-01.json` through `variables-11.json`: 30 variables per bounded response (16 in the final batch), with source offsets and total count: 316 variables, 19 more than the previous snapshot.
 - `styles.json`: 16 complete text-style records and 14 effect-style records, separately from variables.
 - `manifest.json`: locally generated capture metadata and SHA256 hashes of the raw files. This manifest is not itself a raw Figma response.
 

@@ -2079,6 +2079,139 @@
       "collectionId": "VariableCollectionId:32:262",
       "token": "spacing.component.button-group.segment-overlap",
       "css": "--spacing-component-button-group-segment-overlap"
+    },
+    {
+      "id": "VariableID:351:1508",
+      "name": "Component / Button / XS / Height",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.button.xs.height",
+      "css": "--spacing-component-button-xs-height"
+    },
+    {
+      "id": "VariableID:351:1509",
+      "name": "Component / Button / XS / Icon Size",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.button.xs.icon-size",
+      "css": "--spacing-component-button-xs-icon-size"
+    },
+    {
+      "id": "VariableID:351:1510",
+      "name": "Component / Button / Small / Height",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.button.small.height",
+      "css": "--spacing-component-button-small-height"
+    },
+    {
+      "id": "VariableID:351:1511",
+      "name": "Component / Button / Small / Icon Size",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.button.small.icon-size",
+      "css": "--spacing-component-button-small-icon-size"
+    },
+    {
+      "id": "VariableID:351:1512",
+      "name": "Component / Button / Medium / Height",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.button.medium.height",
+      "css": "--spacing-component-button-medium-height"
+    },
+    {
+      "id": "VariableID:351:1513",
+      "name": "Component / Button / Medium / Icon Size",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.button.medium.icon-size",
+      "css": "--spacing-component-button-medium-icon-size"
+    },
+    {
+      "id": "VariableID:351:1514",
+      "name": "Component / Button / Large / Height",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.button.large.height",
+      "css": "--spacing-component-button-large-height"
+    },
+    {
+      "id": "VariableID:351:1515",
+      "name": "Component / Button / Large / Icon Size",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.button.large.icon-size",
+      "css": "--spacing-component-button-large-icon-size"
+    },
+    {
+      "id": "VariableID:351:1516",
+      "name": "Component / Button / XL / Height",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.button.xl.height",
+      "css": "--spacing-component-button-xl-height"
+    },
+    {
+      "id": "VariableID:351:1517",
+      "name": "Component / Button / XL / Icon Size",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.button.xl.icon-size",
+      "css": "--spacing-component-button-xl-icon-size"
+    },
+    {
+      "id": "VariableID:351:1518",
+      "name": "Component / Button / FAB / Small / Height",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.button.fab.small.height",
+      "css": "--spacing-component-button-fab-small-height"
+    },
+    {
+      "id": "VariableID:351:1519",
+      "name": "Component / Button / FAB / Medium / Height",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.button.fab.medium.height",
+      "css": "--spacing-component-button-fab-medium-height"
+    },
+    {
+      "id": "VariableID:351:1520",
+      "name": "Component / Button / FAB / Large / Height",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.button.fab.large.height",
+      "css": "--spacing-component-button-fab-large-height"
+    },
+    {
+      "id": "VariableID:351:1521",
+      "name": "Component / Button / FAB / Small / Icon Size",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.button.fab.small.icon-size",
+      "css": "--spacing-component-button-fab-small-icon-size"
+    },
+    {
+      "id": "VariableID:351:1522",
+      "name": "Component / Button / FAB / Medium / Icon Size",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.button.fab.medium.icon-size",
+      "css": "--spacing-component-button-fab-medium-icon-size"
+    },
+    {
+      "id": "VariableID:351:1523",
+      "name": "Component / Button / FAB / Large / Icon Size",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.button.fab.large.icon-size",
+      "css": "--spacing-component-button-fab-large-icon-size"
+    },
+    {
+      "id": "VariableID:351:1524",
+      "name": "Component / Button / Social / Small / Provider Icon Size",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.button.social.small.provider-icon-size",
+      "css": "--spacing-component-button-social-small-provider-icon-size"
+    },
+    {
+      "id": "VariableID:351:1525",
+      "name": "Component / Button / Social / Medium / Provider Icon Size",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.button.social.medium.provider-icon-size",
+      "css": "--spacing-component-button-social-medium-provider-icon-size"
+    },
+    {
+      "id": "VariableID:351:1526",
+      "name": "Component / Button / Social / Large / Provider Icon Size",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.button.social.large.provider-icon-size",
+      "css": "--spacing-component-button-social-large-provider-icon-size"
     }
   ],
   "styles": [

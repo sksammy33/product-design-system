@@ -10,9 +10,9 @@ const set = (v, value) => { v.valuesByMode[firstMode(v)] = value; };
 
 test('complete current inventory, exact paths, no lost styles, both modes', () => {
   const { themes, paths } = normalize(source);
-  assert.equal(paths.size, 297);
+  assert.equal(paths.size, 316);
   for (const theme of ['Light', 'Dark']) {
-    assert.equal(Object.keys(themes[theme]).length, 327);
+    assert.equal(Object.keys(themes[theme]).length, 346);
     assert.equal(themes[theme]['border.default'].$type, 'dimension');
     assert.equal(themes[theme]['color.semantic.border.default'].$type, 'color');
     assert.equal(themes[theme]['spacing.inline.sm'].$value, '{spacing.space.8}');
@@ -112,9 +112,9 @@ test('rejects missing normalized values and malformed alias values', () => {
 test('outputs are deterministic', () => assert.deepEqual(outputs(source), outputs(structuredClone(source))));
 test('package exports load generated ESM data', async () => {
   const { tokens, cssVariables } = await import('@product-design-system/tokens');
-  assert.equal(Object.keys(tokens.Light).length, 327);
-  assert.equal(Object.keys(tokens.Dark).length, 327);
-  assert.equal(Object.keys(cssVariables.Dark).length, 396);
+  assert.equal(Object.keys(tokens.Light).length, 346);
+  assert.equal(Object.keys(tokens.Dark).length, 346);
+  assert.equal(Object.keys(cssVariables.Dark).length, 415);
 });
 test('approved Button spacing retains source identity and signed overlap in both CSS themes', () => {
   const expected = [
@@ -132,6 +132,152 @@ test('approved Button spacing retains source identity and signed overlap in both
       assert.equal(tokens[path].$type, 'dimension');
       assert.deepEqual(tokens[path].$value, { value, unit: 'px' });
       assert.equal(css['--' + path.replaceAll('.', '-')], value + 'px');
+    }
+  }
+});
+
+test('finalized Button dimensions and specialized aliases survive both theme outputs', () => {
+  const expected = [
+  [
+    "spacing.component.button.xs.height",
+    "VariableID:351:1508",
+    {
+      "value": 28,
+      "unit": "px"
+    }
+  ],
+  [
+    "spacing.component.button.xs.icon-size",
+    "VariableID:351:1509",
+    {
+      "value": 14,
+      "unit": "px"
+    }
+  ],
+  [
+    "spacing.component.button.small.height",
+    "VariableID:351:1510",
+    {
+      "value": 32,
+      "unit": "px"
+    }
+  ],
+  [
+    "spacing.component.button.small.icon-size",
+    "VariableID:351:1511",
+    {
+      "value": 16,
+      "unit": "px"
+    }
+  ],
+  [
+    "spacing.component.button.medium.height",
+    "VariableID:351:1512",
+    {
+      "value": 40,
+      "unit": "px"
+    }
+  ],
+  [
+    "spacing.component.button.medium.icon-size",
+    "VariableID:351:1513",
+    {
+      "value": 18,
+      "unit": "px"
+    }
+  ],
+  [
+    "spacing.component.button.large.height",
+    "VariableID:351:1514",
+    {
+      "value": 48,
+      "unit": "px"
+    }
+  ],
+  [
+    "spacing.component.button.large.icon-size",
+    "VariableID:351:1515",
+    {
+      "value": 20,
+      "unit": "px"
+    }
+  ],
+  [
+    "spacing.component.button.xl.height",
+    "VariableID:351:1516",
+    {
+      "value": 56,
+      "unit": "px"
+    }
+  ],
+  [
+    "spacing.component.button.xl.icon-size",
+    "VariableID:351:1517",
+    {
+      "value": 24,
+      "unit": "px"
+    }
+  ],
+  [
+    "spacing.component.button.fab.small.height",
+    "VariableID:351:1518",
+    "{spacing.component.button.medium.height}"
+  ],
+  [
+    "spacing.component.button.fab.medium.height",
+    "VariableID:351:1519",
+    "{spacing.component.button.large.height}"
+  ],
+  [
+    "spacing.component.button.fab.large.height",
+    "VariableID:351:1520",
+    "{spacing.component.button.xl.height}"
+  ],
+  [
+    "spacing.component.button.fab.small.icon-size",
+    "VariableID:351:1521",
+    "{spacing.component.button.medium.icon-size}"
+  ],
+  [
+    "spacing.component.button.fab.medium.icon-size",
+    "VariableID:351:1522",
+    "{spacing.component.button.large.icon-size}"
+  ],
+  [
+    "spacing.component.button.fab.large.icon-size",
+    "VariableID:351:1523",
+    "{spacing.component.button.xl.icon-size}"
+  ],
+  [
+    "spacing.component.button.social.small.provider-icon-size",
+    "VariableID:351:1524",
+    "{spacing.component.button.small.icon-size}"
+  ],
+  [
+    "spacing.component.button.social.medium.provider-icon-size",
+    "VariableID:351:1525",
+    "{spacing.component.button.large.icon-size}"
+  ],
+  [
+    "spacing.component.button.social.large.provider-icon-size",
+    "VariableID:351:1526",
+    "{spacing.component.button.xl.icon-size}"
+  ]
+];
+  const { themes } = normalize(source);
+  for (const tokens of Object.values(themes)) {
+    const css = declarations(tokens);
+    const resolved = validateTokens(tokens);
+    for (const [path, id, value] of expected) {
+      assert.equal(tokens[path].$extensions[extension].id, id);
+      assert.equal(tokens[path].$type, 'dimension');
+      assert.deepEqual(tokens[path].$value, value);
+      const name = '--' + path.replaceAll('.', '-');
+      if (typeof value === 'string') {
+        const target = value.slice(1, -1);
+        assert.equal(css[name], 'var(--' + target.replaceAll('.', '-') + ')');
+        assert.deepEqual(resolved[path], resolved[target]);
+      } else assert.equal(css[name], value.value + 'px');
     }
   }
 });

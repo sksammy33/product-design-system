@@ -8,7 +8,7 @@ Figma → raw snapshot → normalized DTCG token files → Light/Dark themes →
 
 The [current Figma system](https://www.figma.com/design/A5R8vBTXZzfV5aj3omQYFG/Product-Design-System?node-id=5-2) is the visual source of truth. The [Phase 1 audit](../../docs/phase-1-implementation-plan.md) is the baseline, not a substitute for current values.
 
-The refreshed read-only snapshot contains **297 variables**, compared with **292** in the previous snapshot and **287** in the audit, plus **16 text styles** and **14 effect styles**. Spacing increased from 45 to 50 in this refresh; all other collection counts are unchanged:
+The refreshed read-only snapshot contains **316 variables**, compared with **297** in the previous snapshot and **287** in the audit, plus **16 text styles** and **14 effect styles**. Spacing increased from 50 to 69 in this refresh; all other collection counts are unchanged:
 
 | Collection | Variables | Modes |
 |---|---:|---|
@@ -16,7 +16,7 @@ The refreshed read-only snapshot contains **297 variables**, compared with **292
 | Color / Semantic | 109 | Light, Dark |
 | Color / Chart | 8 | Light, Dark |
 | Typography | 52 | Default |
-| Spacing | 50 | Default |
+| Spacing | 69 | Default |
 | Radius | 9 | Default |
 | Border | 4 | Default |
 | Motion | 5 | Default |
@@ -31,7 +31,7 @@ The five earlier Input/Textarea additions remain unchanged; they are not additio
 | VariableID:323:1355 | Component / Textarea / Padding / Small / Horizontal | 10 |
 | VariableID:323:1356 | Component / Textarea / Padding / Medium / Vertical | 10 |
 
-The current refresh adds exactly five approved component spacing variables:
+The previous refresh added these five component spacing variables, which remain unchanged:
 
 | Source ID | Name within Spacing | px |
 |---|---|---:|
@@ -41,9 +41,33 @@ The current refresh adds exactly five approved component spacing variables:
 | VariableID:344:10440 | Component / Button / Split / Large / Dropdown Padding X | 14 |
 | VariableID:344:10441 | Component / Button Group / Segment Overlap | -1 |
 
-All 292 previous variables, 16 text styles and 14 effect styles are unchanged, including IDs, aliases, modes and values. No global spacing or typography scale changed. The overlap is intentionally negative to collapse shared borders; validation allows this exact source-backed exception while rejecting negative padding and global spacing.
+All 297 previous variables, 16 text styles and 14 effect styles are unchanged, including IDs, aliases, modes and values. No global spacing or typography scale changed. The overlap is intentionally negative to collapse shared borders; validation allows this exact source-backed exception while rejecting negative padding and global spacing.
 
 Read-only inspection of Button set `78:1026` confirmed its labels now use existing text styles: XS/Small use Label Small (12/16 Medium), Medium uses Label Default (14/18 Medium), and Large/XL use Label Large (16/20 Medium). No 13px labels remain in that set. This refresh does not modify Figma or implement components.
+
+The finalized sizing refresh adds 19 variables: ten literal Button dimensions and nine specialized aliases. They remain under `spacing.component.button.*`; the source collection is Spacing. XS 14px icons are intentional optical sizing. FAB Small/Medium/Large alias Button Medium/Large/XL for heights and icons. Social Small/Medium/Large provider icons alias Button Small/Large/XL icon sizes. Aliases remain references in normalized JSON and CSS.
+
+| Source ID | Name within Spacing | Value or target |
+|---|---|---|
+| VariableID:351:1508 | Component / Button / XS / Height | 28px |
+| VariableID:351:1509 | Component / Button / XS / Icon Size | 14px |
+| VariableID:351:1510 | Component / Button / Small / Height | 32px |
+| VariableID:351:1511 | Component / Button / Small / Icon Size | 16px |
+| VariableID:351:1512 | Component / Button / Medium / Height | 40px |
+| VariableID:351:1513 | Component / Button / Medium / Icon Size | 18px |
+| VariableID:351:1514 | Component / Button / Large / Height | 48px |
+| VariableID:351:1515 | Component / Button / Large / Icon Size | 20px |
+| VariableID:351:1516 | Component / Button / XL / Height | 56px |
+| VariableID:351:1517 | Component / Button / XL / Icon Size | 24px |
+| VariableID:351:1518 | Component / Button / FAB / Small / Height | Alias: Component / Button / Medium / Height |
+| VariableID:351:1519 | Component / Button / FAB / Medium / Height | Alias: Component / Button / Large / Height |
+| VariableID:351:1520 | Component / Button / FAB / Large / Height | Alias: Component / Button / XL / Height |
+| VariableID:351:1521 | Component / Button / FAB / Small / Icon Size | Alias: Component / Button / Medium / Icon Size |
+| VariableID:351:1522 | Component / Button / FAB / Medium / Icon Size | Alias: Component / Button / Large / Icon Size |
+| VariableID:351:1523 | Component / Button / FAB / Large / Icon Size | Alias: Component / Button / XL / Icon Size |
+| VariableID:351:1524 | Component / Button / Social / Small / Provider Icon Size | Alias: Component / Button / Small / Icon Size |
+| VariableID:351:1525 | Component / Button / Social / Medium / Provider Icon Size | Alias: Component / Button / Large / Icon Size |
+| VariableID:351:1526 | Component / Button / Social / Large / Provider Icon Size | Alias: Component / Button / XL / Icon Size |
 
 ## Layout
 
@@ -53,7 +77,7 @@ Read-only inspection of Button set `78:1026` confirmed its labels now use existi
 - `scripts/`: dependency-free conversion, validation, regression tests and read-only Figma export recipe.
 - `dist/`: generated CSS, DTCG theme JSON, typed JavaScript data, source mapping and validation report.
 
-All source variables appear once per theme. The 16 text styles and 14 effect styles add 30 tokens, for **327 tokens per theme**. CSS expands typography properties and blur functions into **396 custom properties per theme**.
+All source variables appear once per theme. The 16 text styles and 14 effect styles add 30 tokens, for **346 tokens per theme**. CSS expands typography properties and blur functions into **415 custom properties per theme**.
 
 ## Names, primitives and aliases
 
@@ -92,7 +116,7 @@ On Windows with PowerShell script restrictions, use `npm.cmd`. Direct equivalent
 
 Build reads only the checked-in raw snapshot; it does not contact or change Figma. Validate checks snapshot hashes, source counts/membership, aliases and cycles, types/values, complete mode names, duplicate normalized names, token/group collisions and CSS collisions. It also regenerates expected content in memory and compares every generated file byte-for-byte, rejecting stale or manually edited outputs. New/unsupported source units, bindings or effects fail explicitly.
 
-The current expected inventory is deliberately fixed at 297, not forced back to 287. A later source-count change requires inventory review and a converter update. Regression tests exercise failure cases, mode-ID changes and the signed Button Group overlap.
+The current expected inventory is deliberately fixed at 316, not forced back to 287. A later source-count change requires inventory review and a converter update. Regression tests exercise failure cases, mode-ID changes and the signed Button Group overlap.
 
 ## Consume
 
