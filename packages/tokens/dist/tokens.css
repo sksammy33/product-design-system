@@ -168,7 +168,7 @@
   --color-semantic-surface-elevated: var(--color-primitives-gray-0);
   --color-semantic-surface-hovered: var(--color-primitives-gray-100);
   --color-semantic-surface-selected: var(--color-primitives-purple-50);
-  --color-semantic-text-danger: var(--color-primitives-red-600);
+  --color-semantic-text-danger: var(--color-primitives-red-700);
   --color-semantic-text-disabled: var(--color-primitives-gray-300);
   --color-semantic-text-error: var(--color-primitives-red-600);
   --color-semantic-text-inverse: var(--color-primitives-gray-0);

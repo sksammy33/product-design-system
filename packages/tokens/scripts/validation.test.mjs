@@ -80,6 +80,19 @@ test('standalone Light/Dark CSS includes foundations and both color collections'
     assert.match(result['dist/' + name + '.css'], /--spacing-space-8: 8px/);
   }
 });
+test('current Text Danger alias improves Light contrast and preserves Dark source mapping', () => {
+  const variable = byName(source, 'Text / Danger', 'Color / Semantic');
+  assert.equal(variable.id, 'VariableID:18:48');
+  assert.deepEqual(variable.valuesByMode['18:1'], { type: 'VARIABLE_ALIAS', id: 'VariableID:44:49' });
+  assert.deepEqual(variable.valuesByMode['18:2'], { type: 'VARIABLE_ALIAS', id: 'VariableID:18:31' });
+  const { themes } = normalize(source);
+  assert.equal(themes.Light['color.semantic.text.danger'].$value, '{color.primitives.red.700}');
+  assert.equal(themes.Dark['color.semantic.text.danger'].$value, '{color.primitives.red.300}');
+  for (const [mode, target] of [['Light', 'red.700'], ['Dark', 'red.300']]) {
+    assert.equal(declarations(themes[mode])['--color-semantic-text-danger'],
+      'var(--color-primitives-' + target.replaceAll('.', '-') + ')');
+  }
+});
 const failures = [
   ['missing variable', s => s.variables.pop(), /count mismatch/],
   ['duplicate source ID', s => { s.variables[1].id = s.variables[0].id; }, /Duplicate variable ID/],

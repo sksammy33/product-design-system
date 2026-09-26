@@ -1675,7 +1675,7 @@
       "text": {
         "danger": {
           "$type": "color",
-          "$value": "{color.primitives.red.600}",
+          "$value": "{color.primitives.red.700}",
           "$extensions": {
             "org.product-design-system.figma": {
               "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
@@ -1688,7 +1688,8 @@
               "modeId": "18:1",
               "sourceType": "COLOR"
             }
-          }
+          },
+          "$description": "Danger text and icon foreground. Light maps to Red / 700 for WCAG AA contrast on neutral hovered surfaces; Dark retains Red / 300."
         },
         "disabled": {
           "$type": "color",

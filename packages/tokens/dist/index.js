@@ -1047,7 +1047,7 @@ export const tokens = {
     },
     "color.semantic.text.danger": {
       "$type": "color",
-      "$value": "{color.primitives.red.600}",
+      "$value": "{color.primitives.red.700}",
       "$extensions": {
         "org.product-design-system.figma": {
           "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
@@ -1060,7 +1060,8 @@ export const tokens = {
           "modeId": "18:1",
           "sourceType": "COLOR"
         }
-      }
+      },
+      "$description": "Danger text and icon foreground. Light maps to Red / 700 for WCAG AA contrast on neutral hovered surfaces; Dark retains Red / 300."
     },
     "color.semantic.text.success": {
       "$type": "color",
@@ -8519,7 +8520,8 @@ export const tokens = {
           "modeId": "18:2",
           "sourceType": "COLOR"
         }
-      }
+      },
+      "$description": "Danger text and icon foreground. Light maps to Red / 700 for WCAG AA contrast on neutral hovered surfaces; Dark retains Red / 300."
     },
     "color.semantic.text.success": {
       "$type": "color",
@@ -15089,7 +15091,7 @@ export const cssVariables = {
     "--color-semantic-surface-elevated": "var(--color-primitives-gray-0)",
     "--color-semantic-surface-hovered": "var(--color-primitives-gray-100)",
     "--color-semantic-surface-selected": "var(--color-primitives-purple-50)",
-    "--color-semantic-text-danger": "var(--color-primitives-red-600)",
+    "--color-semantic-text-danger": "var(--color-primitives-red-700)",
     "--color-semantic-text-disabled": "var(--color-primitives-gray-300)",
     "--color-semantic-text-error": "var(--color-primitives-red-600)",
     "--color-semantic-text-inverse": "var(--color-primitives-gray-0)",

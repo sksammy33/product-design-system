@@ -8,6 +8,8 @@ Figma → raw snapshot → normalized DTCG token files → Light/Dark themes →
 
 The [current Figma system](https://www.figma.com/design/A5R8vBTXZzfV5aj3omQYFG/Product-Design-System?node-id=5-2) is the visual source of truth. The [Phase 1 audit](../../docs/phase-1-implementation-plan.md) is the baseline, not a substitute for current values.
 
+The latest refresh changes only `Color / Semantic → Text / Danger` in Light mode: its alias now targets `Color / Primitives → Red / 700` (`#B91C1C`) instead of Red / 600 (`#DC2626`). Dark still targets Red / 300 (`#FCA5A5`). Figma also adds an explanatory description to this variable. The inventory remains 317 variables, 16 text styles and 14 effect styles; no other source value or collection metadata changed. With the hovered surface token, this corrects the Light destructive text contrast pairing used by the Button variants. The raw snapshot preserves the exact alias IDs and description; generated CSS keeps the semantic reference chain.
+
 The refreshed read-only snapshot contains **317 variables**, compared with **316** in the previous snapshot and **287** in the audit, plus **16 text styles** and **14 effect styles**. This refresh adds the Opacity collection with one variable; all eight existing collections are unchanged:
 
 | Collection | Variables | Modes |

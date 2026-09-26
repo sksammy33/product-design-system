@@ -3426,7 +3426,8 @@
               "modeId": "18:2",
               "sourceType": "COLOR"
             }
-          }
+          },
+          "$description": "Danger text and icon foreground. Light maps to Red / 700 for WCAG AA contrast on neutral hovered surfaces; Dark retains Red / 300."
         },
         "disabled": {
           "$type": "color",
