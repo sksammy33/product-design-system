@@ -10,9 +10,9 @@ const set = (v, value) => { v.valuesByMode[firstMode(v)] = value; };
 
 test('complete current inventory, exact paths, no lost styles, both modes', () => {
   const { themes, paths } = normalize(source);
-  assert.equal(paths.size, 292);
+  assert.equal(paths.size, 297);
   for (const theme of ['Light', 'Dark']) {
-    assert.equal(Object.keys(themes[theme]).length, 322);
+    assert.equal(Object.keys(themes[theme]).length, 327);
     assert.equal(themes[theme]['border.default'].$type, 'dimension');
     assert.equal(themes[theme]['color.semantic.border.default'].$type, 'color');
     assert.equal(themes[theme]['spacing.inline.sm'].$value, '{spacing.space.8}');
@@ -93,6 +93,8 @@ const failures = [
   ['CSS collision', s => { byName(s, 'Spacing / Inline / SM').name = 'Spacing / Inline-MD'; }, /CSS naming collision/],
   ['invalid value', s => set(byName(s, 'Space / 8'), '8'), /Invalid numeric/],
   ['negative spacing', s => set(byName(s, 'Space / 8'), -8), /Invalid negative/],
+  ['negative Button padding', s => set(byName(s, 'Component / Button / Small / Padding Y'), -6), /Invalid negative/],
+  ['unreviewed Button Group overlap', s => set(byName(s, 'Component / Button Group / Segment Overlap'), -2), /Changed Button Group overlap/],
   ['unconfirmed duration unit', s => { byName(s, 'Motion / Fast').description = ''; }, /Unconfirmed motion unit/],
   ['invalid color', s => { set(s.variables.find(v => v.resolvedType === 'COLOR'), { r: 2, g: 0, b: 0, a: 1 }); }, /Invalid color/],
   ['unsupported effect', s => { s.effectStyles[0].effects[0].type = 'NOISE'; }, /Unsupported shadow/],
@@ -110,7 +112,26 @@ test('rejects missing normalized values and malformed alias values', () => {
 test('outputs are deterministic', () => assert.deepEqual(outputs(source), outputs(structuredClone(source))));
 test('package exports load generated ESM data', async () => {
   const { tokens, cssVariables } = await import('@product-design-system/tokens');
-  assert.equal(Object.keys(tokens.Light).length, 322);
-  assert.equal(Object.keys(tokens.Dark).length, 322);
-  assert.equal(Object.keys(cssVariables.Dark).length, 391);
+  assert.equal(Object.keys(tokens.Light).length, 327);
+  assert.equal(Object.keys(tokens.Dark).length, 327);
+  assert.equal(Object.keys(cssVariables.Dark).length, 396);
+});
+test('approved Button spacing retains source identity and signed overlap in both CSS themes', () => {
+  const expected = [
+    ['spacing.component.button.small.padding-y', 'VariableID:344:2171', 6],
+    ['spacing.component.button.small.icon-gap', 'VariableID:344:2172', 6],
+    ['spacing.component.button.split.medium.dropdown-padding-x', 'VariableID:344:10439', 10],
+    ['spacing.component.button.split.large.dropdown-padding-x', 'VariableID:344:10440', 14],
+    ['spacing.component.button-group.segment-overlap', 'VariableID:344:10441', -1],
+  ];
+  const { themes } = normalize(source);
+  for (const tokens of Object.values(themes)) {
+    const css = declarations(tokens);
+    for (const [path, id, value] of expected) {
+      assert.equal(tokens[path].$extensions[extension].id, id);
+      assert.equal(tokens[path].$type, 'dimension');
+      assert.deepEqual(tokens[path].$value, { value, unit: 'px' });
+      assert.equal(css['--' + path.replaceAll('.', '-')], value + 'px');
+    }
+  }
 });

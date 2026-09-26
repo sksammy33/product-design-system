@@ -11,7 +11,7 @@ const collectionConfig = {
   'Color / Semantic': ['color.semantic', 'semantic', 109, ['Light', 'Dark']],
   'Color / Chart': ['color.chart', 'charts', 8, ['Light', 'Dark']],
   Typography: ['typography', 'typography', 52, ['Default']],
-  Spacing: ['spacing', 'spacing', 45, ['Default']],
+  Spacing: ['spacing', 'spacing', 50, ['Default']],
   Radius: ['radius', 'radius', 9, ['Default']],
   Border: ['border', 'border', 4, ['Default']],
   Motion: ['motion', 'motion', 5, ['Default']],
@@ -118,7 +118,7 @@ export function normalize(snapshot) {
   const styles = [...snapshot.textStyles, ...snapshot.effectStyles];
   unique(styles, s => s.id, 'style ID');
   assert(snapshot.collections.length === 8, 'Source collection count mismatch');
-  assert(snapshot.variables.length === 292, 'Source variable count mismatch; review changed Figma inventory');
+  assert(snapshot.variables.length === 297, 'Source variable count mismatch; review changed Figma inventory');
   assert(snapshot.textStyles.length === 16 && snapshot.effectStyles.length === 14, 'Source style count mismatch');
   const paths = new Map(), names = new Map(), cssNames = new Set();
   const types = new Map();
@@ -165,7 +165,11 @@ export function normalize(snapshot) {
       } else {
         if (v.resolvedType === 'FLOAT') {
           assert(finite(value), 'Invalid numeric source value: ' + v.name);
-          if (c.name !== 'Typography' || !v.name.includes('Tracking')) assert(value >= 0, 'Invalid negative source value: ' + v.name);
+          // The approved Button Group overlap is a signed spacing dimension.
+          // Keep negative padding/global spacing rejected; do not widen this to all spacing.
+          const signedOverlap = v.id === 'VariableID:344:10441' && paths.get(v.id) === 'spacing.component.button-group.segment-overlap';
+          if (signedOverlap) assert(value === -1, 'Changed Button Group overlap; review current Figma source');
+          else if (c.name !== 'Typography' || !v.name.includes('Tracking')) assert(value >= 0, 'Invalid negative source value: ' + v.name);
         }
         normalized = literal(value, type, v);
       }
@@ -347,7 +351,7 @@ export function outputs(snapshot) {
     styles: Object.entries(themes.Light).filter(([, t]) => t.$extensions[extension].sourceType === 'STYLE').map(([p, t]) => ({ ...t.$extensions[extension], token: p })) });
   output['dist/validation-report.json'] = json({ $description: notice, status: 'passed',
     fileKey: snapshot.fileKey, extractedAt: snapshot.extractedAt, variableCount: snapshot.variables.length,
-    auditVariableCount: 287, difference: 5, textStyleCount: snapshot.textStyles.length, effectStyleCount: snapshot.effectStyles.length,
+    auditVariableCount: 287, difference: snapshot.variables.length - 287, textStyleCount: snapshot.textStyles.length, effectStyleCount: snapshot.effectStyles.length,
     tokensPerTheme: names.length, cssPropertiesPerTheme: Object.keys(light).length,
     collections: snapshot.collections.map(c => ({ name: c.name, count: c.variableIds.length, modes: c.modes.map(m => m.name) })),
     aliasesByTheme: Object.fromEntries(Object.entries(themes).map(([m, t]) => [m, Object.values(t).filter(t => ref(t.$value)).length])),
@@ -365,7 +369,7 @@ export function run(check = false) {
     if (check) assert(existsSync(target) && readFileSync(target, 'utf8') === bytes, 'Generated file missing or modified: ' + path);
     else { mkdirSync(dirname(target), { recursive: true }); writeFileSync(target, bytes); }
   }
-  console.log((check ? 'Validated' : 'Generated') + ' ' + Object.keys(expected).length + ' files: 292 variables + 16 text styles + 14 effect styles; 322 tokens per theme; Light and Dark.');
+  console.log((check ? 'Validated' : 'Generated') + ' ' + Object.keys(expected).length + ' files: 297 variables + 16 text styles + 14 effect styles; 327 tokens per theme; Light and Dark.');
 }
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   try { run(process.argv.includes('--check')); } catch (error) { console.error(error.message); process.exitCode = 1; }

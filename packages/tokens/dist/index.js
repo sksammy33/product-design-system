@@ -5713,6 +5713,111 @@ export const tokens = {
       },
       "$description": "Component-specific Textarea Medium vertical padding."
     },
+    "spacing.component.button.small.padding-y": {
+      "$type": "dimension",
+      "$value": {
+        "value": 6,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:344:2171",
+          "key": "99ae05763328bbfe5d04bf7cfb86e4142bab8899",
+          "name": "Component / Button / Small / Padding Y",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "Button-specific Small vertical padding. Preserves the approved 32px Button geometry with Label Small typography."
+    },
+    "spacing.component.button.small.icon-gap": {
+      "$type": "dimension",
+      "$value": {
+        "value": 6,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:344:2172",
+          "key": "b1770449146c52048f4478d6fa3a963c2b96a43a",
+          "name": "Component / Button / Small / Icon Gap",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "Button-specific Small content/icon gap between the global 4px and 8px spacing steps."
+    },
+    "spacing.component.button.split.medium.dropdown-padding-x": {
+      "$type": "dimension",
+      "$value": {
+        "value": 10,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:344:10439",
+          "key": "2692410b3990f58df0555c1219b5fb4f980d3a6f",
+          "name": "Component / Button / Split / Medium / Dropdown Padding X",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "Split Button Medium dropdown-segment horizontal padding; preserves the established 38px segment geometry."
+    },
+    "spacing.component.button.split.large.dropdown-padding-x": {
+      "$type": "dimension",
+      "$value": {
+        "value": 14,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:344:10440",
+          "key": "8dd098d02863b4037b31b30f17dda4558a9916e1",
+          "name": "Component / Button / Split / Large / Dropdown Padding X",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "Split Button Large dropdown-segment horizontal padding; preserves the established 48px square segment geometry."
+    },
+    "spacing.component.button-group.segment-overlap": {
+      "$type": "dimension",
+      "$value": {
+        "value": -1,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:344:10441",
+          "key": "ae1bb566e88a2db84be81ecf7f52ecabf19d716e",
+          "name": "Component / Button Group / Segment Overlap",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "Intentional one-pixel overlap between adjacent Button Group segments to collapse shared borders."
+    },
     "typography.styles.display.large": {
       "$type": "typography",
       "$value": {
@@ -12671,6 +12776,111 @@ export const tokens = {
       },
       "$description": "Component-specific Textarea Medium vertical padding."
     },
+    "spacing.component.button.small.padding-y": {
+      "$type": "dimension",
+      "$value": {
+        "value": 6,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:344:2171",
+          "key": "99ae05763328bbfe5d04bf7cfb86e4142bab8899",
+          "name": "Component / Button / Small / Padding Y",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "Button-specific Small vertical padding. Preserves the approved 32px Button geometry with Label Small typography."
+    },
+    "spacing.component.button.small.icon-gap": {
+      "$type": "dimension",
+      "$value": {
+        "value": 6,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:344:2172",
+          "key": "b1770449146c52048f4478d6fa3a963c2b96a43a",
+          "name": "Component / Button / Small / Icon Gap",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "Button-specific Small content/icon gap between the global 4px and 8px spacing steps."
+    },
+    "spacing.component.button.split.medium.dropdown-padding-x": {
+      "$type": "dimension",
+      "$value": {
+        "value": 10,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:344:10439",
+          "key": "2692410b3990f58df0555c1219b5fb4f980d3a6f",
+          "name": "Component / Button / Split / Medium / Dropdown Padding X",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "Split Button Medium dropdown-segment horizontal padding; preserves the established 38px segment geometry."
+    },
+    "spacing.component.button.split.large.dropdown-padding-x": {
+      "$type": "dimension",
+      "$value": {
+        "value": 14,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:344:10440",
+          "key": "8dd098d02863b4037b31b30f17dda4558a9916e1",
+          "name": "Component / Button / Split / Large / Dropdown Padding X",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "Split Button Large dropdown-segment horizontal padding; preserves the established 48px square segment geometry."
+    },
+    "spacing.component.button-group.segment-overlap": {
+      "$type": "dimension",
+      "$value": {
+        "value": -1,
+        "unit": "px"
+      },
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:344:10441",
+          "key": "ae1bb566e88a2db84be81ecf7f52ecabf19d716e",
+          "name": "Component / Button Group / Segment Overlap",
+          "collection": "Spacing",
+          "collectionId": "VariableCollectionId:32:262",
+          "mode": "Default",
+          "modeId": "32:0",
+          "sourceType": "FLOAT"
+        }
+      },
+      "$description": "Intentional one-pixel overlap between adjacent Button Group segments to collapse shared borders."
+    },
     "typography.styles.display.large": {
       "$type": "typography",
       "$value": {
@@ -14133,6 +14343,11 @@ export const cssVariables = {
     "--radius-sm": "4px",
     "--radius-xl": "12px",
     "--radius-xs": "2px",
+    "--spacing-component-button-group-segment-overlap": "-1px",
+    "--spacing-component-button-small-icon-gap": "6px",
+    "--spacing-component-button-small-padding-y": "6px",
+    "--spacing-component-button-split-large-dropdown-padding-x": "14px",
+    "--spacing-component-button-split-medium-dropdown-padding-x": "10px",
     "--spacing-component-input-padding-medium-vertical": "10px",
     "--spacing-component-input-padding-small-horizontal": "10px",
     "--spacing-component-input-padding-small-vertical": "6px",
@@ -14526,6 +14741,11 @@ export const cssVariables = {
     "--radius-sm": "4px",
     "--radius-xl": "12px",
     "--radius-xs": "2px",
+    "--spacing-component-button-group-segment-overlap": "-1px",
+    "--spacing-component-button-small-icon-gap": "6px",
+    "--spacing-component-button-small-padding-y": "6px",
+    "--spacing-component-button-split-large-dropdown-padding-x": "14px",
+    "--spacing-component-button-split-medium-dropdown-padding-x": "10px",
     "--spacing-component-input-padding-medium-vertical": "10px",
     "--spacing-component-input-padding-small-horizontal": "10px",
     "--spacing-component-input-padding-small-vertical": "6px",

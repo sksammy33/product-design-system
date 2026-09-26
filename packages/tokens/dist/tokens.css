@@ -214,6 +214,11 @@
   --radius-sm: 4px;
   --radius-xl: 12px;
   --radius-xs: 2px;
+  --spacing-component-button-group-segment-overlap: -1px;
+  --spacing-component-button-small-icon-gap: 6px;
+  --spacing-component-button-small-padding-y: 6px;
+  --spacing-component-button-split-large-dropdown-padding-x: 14px;
+  --spacing-component-button-split-medium-dropdown-padding-x: 10px;
   --spacing-component-input-padding-medium-vertical: 10px;
   --spacing-component-input-padding-small-horizontal: 10px;
   --spacing-component-input-padding-small-vertical: 6px;
@@ -608,6 +613,11 @@
   --radius-sm: 4px;
   --radius-xl: 12px;
   --radius-xs: 2px;
+  --spacing-component-button-group-segment-overlap: -1px;
+  --spacing-component-button-small-icon-gap: 6px;
+  --spacing-component-button-small-padding-y: 6px;
+  --spacing-component-button-split-large-dropdown-padding-x: 14px;
+  --spacing-component-button-split-medium-dropdown-padding-x: 10px;
   --spacing-component-input-padding-medium-vertical: 10px;
   --spacing-component-input-padding-small-horizontal: 10px;
   --spacing-component-input-padding-small-vertical: 6px;

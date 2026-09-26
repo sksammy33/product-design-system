@@ -2044,6 +2044,41 @@
       "collectionId": "VariableCollectionId:32:262",
       "token": "spacing.component.textarea.padding.medium.vertical",
       "css": "--spacing-component-textarea-padding-medium-vertical"
+    },
+    {
+      "id": "VariableID:344:2171",
+      "name": "Component / Button / Small / Padding Y",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.button.small.padding-y",
+      "css": "--spacing-component-button-small-padding-y"
+    },
+    {
+      "id": "VariableID:344:2172",
+      "name": "Component / Button / Small / Icon Gap",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.button.small.icon-gap",
+      "css": "--spacing-component-button-small-icon-gap"
+    },
+    {
+      "id": "VariableID:344:10439",
+      "name": "Component / Button / Split / Medium / Dropdown Padding X",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.button.split.medium.dropdown-padding-x",
+      "css": "--spacing-component-button-split-medium-dropdown-padding-x"
+    },
+    {
+      "id": "VariableID:344:10440",
+      "name": "Component / Button / Split / Large / Dropdown Padding X",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.button.split.large.dropdown-padding-x",
+      "css": "--spacing-component-button-split-large-dropdown-padding-x"
+    },
+    {
+      "id": "VariableID:344:10441",
+      "name": "Component / Button Group / Segment Overlap",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.button-group.segment-overlap",
+      "css": "--spacing-component-button-group-segment-overlap"
     }
   ],
   "styles": [
