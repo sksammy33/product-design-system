@@ -4,7 +4,7 @@
   "private": true,
   "license": "UNLICENSED",
   "type": "module",
-  "description": "Storybook tooling and verification fixture; no production component stories.",
+  "description": "Design system component stories and tooling verification.",
   "scripts": {
     "dev": "storybook dev -p 6006 --no-open --disable-telemetry",
     "build": "storybook build --disable-telemetry"

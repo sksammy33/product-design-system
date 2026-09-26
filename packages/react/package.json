@@ -4,7 +4,7 @@
   "private": true,
   "license": "UNLICENSED",
   "type": "module",
-  "description": "React library tooling; production components are not implemented.",
+  "description": "React components powered by the Figma-derived design tokens.",
   "files": [
     "dist"
   ],
@@ -23,7 +23,8 @@
     "react-dom": "^19.3.0"
   },
   "dependencies": {
-    "@product-design-system/tokens": "0.2.0"
+    "@product-design-system/tokens": "0.2.0",
+    "lucide-react": "1.48.0"
   },
   "scripts": {
     "build": "vite build && tsc -p tsconfig.build.json"

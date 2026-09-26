@@ -28,8 +28,11 @@
     "check:ci": "node scripts/check-ci.mjs",
     "verify": "npm run validate:tokens && npm run build:tokens && npm run build:react && npm run typecheck && npm test && npm run build:storybook && npm run check:ci"
   },
-  "allowScripts": { "esbuild@0.28.2": true },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  },
   "devDependencies": {
+    "@fontsource/geist": "5.3.0",
     "@types/node": "24.13.6",
     "@types/react": "19.3.0",
     "@types/react-dom": "19.3.0",

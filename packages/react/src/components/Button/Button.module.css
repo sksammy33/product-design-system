@@ -1,0 +1,140 @@
+.button {
+  --button-bg: var(--color-semantic-action-primary-default);
+  --button-hover-bg: var(--color-semantic-action-primary-hover);
+  --button-active-bg: var(--color-semantic-action-primary-pressed);
+  --button-fg: var(--color-semantic-action-primary-contrast);
+  --button-hover-fg: var(--button-fg);
+  --button-border: transparent;
+  --button-border-width: var(--border-none);
+  --button-height: var(--spacing-component-button-small-height);
+  --button-icon: var(--spacing-component-button-small-icon-size);
+  --button-px: var(--spacing-space-12);
+  --button-py: var(--spacing-component-button-small-padding-y);
+  --button-gap: var(--spacing-component-button-small-icon-gap);
+  --button-font-size: var(--typography-styles-label-small-font-size);
+  --button-line-height: var(--typography-styles-label-small-line-height);
+  --button-tracking: var(--typography-styles-label-small-letter-spacing);
+  appearance: none;
+  box-sizing: border-box;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-block-size: var(--button-height);
+  max-inline-size: 100%;
+  padding: var(--button-py) calc(var(--button-px) + var(--button-border-width));
+  border: 0;
+  border-radius: var(--radius-lg);
+  background: var(--button-bg);
+  color: var(--button-fg);
+  font-family: var(--typography-styles-label-small-font-family);
+  font-size: var(--button-font-size);
+  font-weight: var(--typography-styles-label-small-font-weight);
+  line-height: var(--button-line-height);
+  letter-spacing: var(--button-tracking);
+  text-align: center;
+  cursor: pointer;
+}
+/* Figma includes the stroke in horizontal layout but keeps the approved height. */
+.button::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  box-sizing: border-box;
+  border: var(--button-border-width) solid var(--button-border);
+  border-radius: inherit;
+  pointer-events: none;
+}
+.button[data-size='xs'] {
+  --button-height: var(--spacing-component-button-xs-height);
+  --button-icon: var(--spacing-component-button-xs-icon-size);
+  --button-px: var(--spacing-space-8);
+  --button-py: var(--spacing-space-4);
+  --button-gap: var(--spacing-space-4);
+}
+.button[data-size='medium'] {
+  --button-height: var(--spacing-component-button-medium-height);
+  --button-icon: var(--spacing-component-button-medium-icon-size);
+  --button-px: var(--spacing-space-16);
+  --button-py: var(--spacing-space-8);
+  --button-gap: var(--spacing-space-8);
+  --button-font-size: var(--typography-styles-label-default-font-size);
+  --button-line-height: var(--typography-styles-label-default-line-height);
+  --button-tracking: var(--typography-styles-label-default-letter-spacing);
+}
+.button[data-size='large'], .button[data-size='xl'] {
+  --button-gap: var(--spacing-space-8);
+  --button-font-size: var(--typography-styles-label-large-font-size);
+  --button-line-height: var(--typography-styles-label-large-line-height);
+  --button-tracking: var(--typography-styles-label-large-letter-spacing);
+}
+.button[data-size='large'] {
+  --button-height: var(--spacing-component-button-large-height);
+  --button-icon: var(--spacing-component-button-large-icon-size);
+  --button-px: var(--spacing-space-20);
+  --button-py: var(--spacing-space-12);
+}
+.button[data-size='xl'] {
+  --button-height: var(--spacing-component-button-xl-height);
+  --button-icon: var(--spacing-component-button-xl-icon-size);
+  --button-px: var(--spacing-space-24);
+  --button-py: var(--spacing-space-16);
+}
+.button[data-variant='secondary'], .button[data-variant='tertiary'], .button[data-variant='ghost'],
+.button[data-variant='destructive-secondary'], .button[data-variant='destructive-ghost'] {
+  --button-bg: var(--color-semantic-surface-default);
+  --button-hover-bg: var(--color-semantic-surface-hovered);
+  --button-active-bg: var(--color-semantic-surface-hovered);
+  --button-fg: var(--color-semantic-text-primary);
+}
+.button[data-variant='secondary'], .button[data-variant='destructive-secondary'] {
+  --button-border: var(--color-semantic-border-default);
+  --button-border-width: var(--border-default);
+}
+.button[data-variant='tertiary'] { --button-bg: var(--color-semantic-background-subtle); }
+.button[data-variant='ghost'], .button[data-variant='destructive-ghost'] { --button-bg: transparent; }
+.button[data-variant='destructive'] {
+  --button-bg: var(--color-semantic-action-destructive-default);
+  --button-hover-bg: var(--color-semantic-action-destructive-hover);
+  --button-active-bg: var(--color-semantic-action-destructive-hover);
+}
+.button[data-variant='destructive-secondary'] { --button-border: var(--color-semantic-border-danger); }
+.button[data-variant='destructive-secondary'], .button[data-variant='destructive-ghost'], .button[data-variant='destructive-link'] {
+  --button-fg: var(--color-semantic-text-danger);
+}
+.button[data-variant='link'], .button[data-variant='destructive-link'] {
+  --button-bg: transparent;
+  --button-hover-bg: transparent;
+  --button-active-bg: transparent;
+  --button-px: var(--spacing-space-4);
+}
+.button[data-variant='link'] {
+  --button-fg: var(--color-semantic-text-link);
+  --button-hover-fg: var(--color-semantic-text-link-hover);
+}
+.button[data-size='xs'][data-variant='link'], .button[data-size='xs'][data-variant='destructive-link'] { --button-px: var(--spacing-space-2); }
+.button:enabled:hover { background: var(--button-hover-bg); color: var(--button-hover-fg); }
+.button[data-selected]:enabled, .button:enabled:active { background: var(--button-active-bg); color: var(--button-fg); }
+.button:focus-visible {
+  --button-border-width: var(--border-none);
+  outline: var(--border-strong) solid var(--color-semantic-border-focus);
+  outline-offset: 0;
+  border-color: transparent;
+}
+.button[data-disabled] {
+  --button-border-width: var(--border-none);
+  background: var(--color-semantic-surface-disabled);
+  color: var(--color-semantic-text-disabled);
+  border-color: transparent;
+  opacity: var(--opacity-disabled);
+  cursor: default;
+}
+.button[data-disabled][data-variant='destructive-ghost'], .button[data-disabled][data-variant='destructive-link'] { color: var(--color-semantic-text-danger); }
+.content { display: inline-flex; align-items: center; justify-content: center; gap: var(--button-gap); min-inline-size: 0; }
+.label { overflow-wrap: anywhere; min-inline-size: 0; }
+.icon, .loader { display: inline-flex; flex: none; inline-size: var(--button-icon); block-size: var(--button-icon); }
+.icon > svg, .loader > svg { inline-size: 100%; block-size: 100%; }
+/* Opacity hides pixels while keeping the original content in layout and the accessibility tree. */
+.button[data-loading] .content { opacity: 0; }
+.button[data-loading] { cursor: progress; }
+.loader { position: absolute; inset: 0; margin: auto; }
