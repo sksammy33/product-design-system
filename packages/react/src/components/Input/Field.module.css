@@ -64,7 +64,7 @@
   letter-spacing: var(--typography-styles-caption-default-letter-spacing);
 }
 .control {
-  --field-border: var(--color-semantic-border-interactive);
+  --field-border: var(--color-semantic-border-default);
   --field-border-width: var(--border-default);
   box-sizing: border-box;
   position: relative;
