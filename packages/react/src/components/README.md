@@ -1,3 +1,3 @@
-# Future components
+# Components
 
-Button, Input, Checkbox, Radio and Switch directories reserve the first group. They contain no implementation. Complete source reconciliation and approved token mapping before coding. Do not begin another group until these controls are stable.
+Button, Input and Textarea are implemented. See each component directory for its Figma reference, public API, token mappings and accessibility notes. Checkbox, Radio and Switch remain reserved for later phases.

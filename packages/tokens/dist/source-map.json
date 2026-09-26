@@ -2219,6 +2219,76 @@
       "collectionId": "VariableCollectionId:361:1690",
       "token": "opacity.disabled",
       "css": "--opacity-disabled"
+    },
+    {
+      "id": "VariableID:381:2745",
+      "name": "Disabled / Control",
+      "collectionId": "VariableCollectionId:361:1690",
+      "token": "opacity.disabled-control",
+      "css": "--opacity-disabled-control"
+    },
+    {
+      "id": "VariableID:381:2746",
+      "name": "Component / Input / Small / Field Height",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.input.small.field-height",
+      "css": "--spacing-component-input-small-field-height"
+    },
+    {
+      "id": "VariableID:381:2747",
+      "name": "Component / Input / Medium / Field Height",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.input.medium.field-height",
+      "css": "--spacing-component-input-medium-field-height"
+    },
+    {
+      "id": "VariableID:381:2748",
+      "name": "Component / Input / Large / Field Height",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.input.large.field-height",
+      "css": "--spacing-component-input-large-field-height"
+    },
+    {
+      "id": "VariableID:381:2749",
+      "name": "Component / Textarea / Small / Field Height",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.textarea.small.field-height",
+      "css": "--spacing-component-textarea-small-field-height"
+    },
+    {
+      "id": "VariableID:381:2750",
+      "name": "Component / Textarea / Medium / Field Height",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.textarea.medium.field-height",
+      "css": "--spacing-component-textarea-medium-field-height"
+    },
+    {
+      "id": "VariableID:381:2751",
+      "name": "Component / Textarea / Large / Field Height",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.textarea.large.field-height",
+      "css": "--spacing-component-textarea-large-field-height"
+    },
+    {
+      "id": "VariableID:381:2752",
+      "name": "Component / Field / Content Gap / Small",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.field.content-gap.small",
+      "css": "--spacing-component-field-content-gap-small"
+    },
+    {
+      "id": "VariableID:381:2753",
+      "name": "Component / Field / Content Gap",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.field.content-gap.default",
+      "css": "--spacing-component-field-content-gap-default"
+    },
+    {
+      "id": "VariableID:388:9775",
+      "name": "Component / Validation / Icon Size",
+      "collectionId": "VariableCollectionId:32:262",
+      "token": "spacing.component.validation.icon-size",
+      "css": "--spacing-component-validation-icon-size"
     }
   ],
   "styles": [
@@ -2833,6 +2903,36 @@
       ],
       "cssProperty": "box-shadow",
       "token": "effects.shadow.top"
+    },
+    {
+      "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+      "id": "S:25a2c19c9d1ee99ae7be1e204f75f1913e42d137,",
+      "key": "25a2c19c9d1ee99ae7be1e204f75f1913e42d137",
+      "name": "Focus / Field",
+      "sourceType": "STYLE",
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 0,
+          "boundVariables": {},
+          "color": {
+            "r": 0.4860000014305115,
+            "g": 0.22699999809265137,
+            "b": 0.9290000200271606,
+            "a": 0.25
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "spread": 3,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ],
+      "cssProperty": "box-shadow",
+      "token": "effects.focus.field"
     }
   ]
 }

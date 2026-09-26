@@ -515,7 +515,99 @@
           }
         }
       },
+      "field": {
+        "content-gap": {
+          "default": {
+            "$type": "dimension",
+            "$value": {
+              "value": 6,
+              "unit": "px"
+            },
+            "$extensions": {
+              "org.product-design-system.figma": {
+                "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                "id": "VariableID:381:2753",
+                "key": "fce026bccaa462fd66fd4ad869bc215f0de3860e",
+                "name": "Component / Field / Content Gap",
+                "collection": "Spacing",
+                "collectionId": "VariableCollectionId:32:262",
+                "mode": "Default",
+                "modeId": "32:0",
+                "sourceType": "FLOAT"
+              }
+            },
+            "$description": "Default Field stack gap used by Medium and Large Input and Textarea between label, field, and supporting text."
+          },
+          "small": {
+            "$type": "dimension",
+            "$value": {
+              "value": 4,
+              "unit": "px"
+            },
+            "$extensions": {
+              "org.product-design-system.figma": {
+                "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                "id": "VariableID:381:2752",
+                "key": "8da14aa42592ab403274085dd322cc10afe389f1",
+                "name": "Component / Field / Content Gap / Small",
+                "collection": "Spacing",
+                "collectionId": "VariableCollectionId:32:262",
+                "mode": "Default",
+                "modeId": "32:0",
+                "sourceType": "FLOAT"
+              }
+            },
+            "$description": "Compact Field stack gap used by Small Input and Textarea between label, field, and supporting text."
+          }
+        }
+      },
       "input": {
+        "large": {
+          "field-height": {
+            "$type": "dimension",
+            "$value": {
+              "value": 48,
+              "unit": "px"
+            },
+            "$extensions": {
+              "org.product-design-system.figma": {
+                "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                "id": "VariableID:381:2748",
+                "key": "5c57c59ed6f084e097f87d904baff52327c4e043",
+                "name": "Component / Input / Large / Field Height",
+                "collection": "Spacing",
+                "collectionId": "VariableCollectionId:32:262",
+                "mode": "Default",
+                "modeId": "32:0",
+                "sourceType": "FLOAT"
+              }
+            },
+            "$description": "Canonical Large Input field height."
+          }
+        },
+        "medium": {
+          "field-height": {
+            "$type": "dimension",
+            "$value": {
+              "value": 40,
+              "unit": "px"
+            },
+            "$extensions": {
+              "org.product-design-system.figma": {
+                "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                "id": "VariableID:381:2747",
+                "key": "b13eaf06a85914cfc05c9a8f1144ebcde67ece44",
+                "name": "Component / Input / Medium / Field Height",
+                "collection": "Spacing",
+                "collectionId": "VariableCollectionId:32:262",
+                "mode": "Default",
+                "modeId": "32:0",
+                "sourceType": "FLOAT"
+              }
+            },
+            "$description": "Canonical Medium Input field height."
+          }
+        },
         "padding": {
           "medium": {
             "vertical": {
@@ -584,9 +676,78 @@
               "$description": "Component-specific Input Small vertical padding; retained from validated implementation audit."
             }
           }
+        },
+        "small": {
+          "field-height": {
+            "$type": "dimension",
+            "$value": {
+              "value": 32,
+              "unit": "px"
+            },
+            "$extensions": {
+              "org.product-design-system.figma": {
+                "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                "id": "VariableID:381:2746",
+                "key": "2610252f30aa114618389f081f693efeebd6b786",
+                "name": "Component / Input / Small / Field Height",
+                "collection": "Spacing",
+                "collectionId": "VariableCollectionId:32:262",
+                "mode": "Default",
+                "modeId": "32:0",
+                "sourceType": "FLOAT"
+              }
+            },
+            "$description": "Canonical Small Input field height."
+          }
         }
       },
       "textarea": {
+        "large": {
+          "field-height": {
+            "$type": "dimension",
+            "$value": {
+              "value": 120,
+              "unit": "px"
+            },
+            "$extensions": {
+              "org.product-design-system.figma": {
+                "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                "id": "VariableID:381:2751",
+                "key": "8fb5e545cba1a523ff5d925c6182211f77c7cf9e",
+                "name": "Component / Textarea / Large / Field Height",
+                "collection": "Spacing",
+                "collectionId": "VariableCollectionId:32:262",
+                "mode": "Default",
+                "modeId": "32:0",
+                "sourceType": "FLOAT"
+              }
+            },
+            "$description": "Canonical Large Textarea field height."
+          }
+        },
+        "medium": {
+          "field-height": {
+            "$type": "dimension",
+            "$value": {
+              "value": 100,
+              "unit": "px"
+            },
+            "$extensions": {
+              "org.product-design-system.figma": {
+                "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                "id": "VariableID:381:2750",
+                "key": "4b85fdfa04c2a05f2f815aa64d4d319bdd598daf",
+                "name": "Component / Textarea / Medium / Field Height",
+                "collection": "Spacing",
+                "collectionId": "VariableCollectionId:32:262",
+                "mode": "Default",
+                "modeId": "32:0",
+                "sourceType": "FLOAT"
+              }
+            },
+            "$description": "Canonical Medium Textarea field height."
+          }
+        },
         "padding": {
           "medium": {
             "vertical": {
@@ -634,6 +795,52 @@
               "$description": "Component-specific Textarea Small horizontal padding."
             }
           }
+        },
+        "small": {
+          "field-height": {
+            "$type": "dimension",
+            "$value": {
+              "value": 80,
+              "unit": "px"
+            },
+            "$extensions": {
+              "org.product-design-system.figma": {
+                "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                "id": "VariableID:381:2749",
+                "key": "c7bb0bed6a66262c401196b914504d8f4ea9376d",
+                "name": "Component / Textarea / Small / Field Height",
+                "collection": "Spacing",
+                "collectionId": "VariableCollectionId:32:262",
+                "mode": "Default",
+                "modeId": "32:0",
+                "sourceType": "FLOAT"
+              }
+            },
+            "$description": "Canonical Small Textarea field height."
+          }
+        }
+      },
+      "validation": {
+        "icon-size": {
+          "$type": "dimension",
+          "$value": {
+            "value": 14,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:388:9775",
+              "key": "1b0321db3a0ad3c787597fd095744aad80826ebc",
+              "name": "Component / Validation / Icon Size",
+              "collection": "Spacing",
+              "collectionId": "VariableCollectionId:32:262",
+              "mode": "Default",
+              "modeId": "32:0",
+              "sourceType": "FLOAT"
+            }
+          },
+          "$description": "Shared validation-feedback icon container size used by field validation and Validation Message components. Not a generic status or Button icon size."
         }
       }
     },

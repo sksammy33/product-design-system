@@ -3771,6 +3771,73 @@
         }
       }
     },
+    "focus": {
+      "field": {
+        "$type": "shadow",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.4860000014305115,
+                0.22699999809265137,
+                0.9290000200271606
+              ],
+              "alpha": 0.25
+            },
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 0,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 0,
+              "unit": "px"
+            },
+            "spread": {
+              "value": 3,
+              "unit": "px"
+            },
+            "inset": false
+          }
+        ],
+        "$description": "Field focus ring: Purple #7C3AED at 25%, 3px spread, 0px blur and offset. Identical in Light and Dark to preserve the approved current rendering.",
+        "$extensions": {
+          "org.product-design-system.figma": {
+            "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+            "id": "S:25a2c19c9d1ee99ae7be1e204f75f1913e42d137,",
+            "key": "25a2c19c9d1ee99ae7be1e204f75f1913e42d137",
+            "name": "Focus / Field",
+            "sourceType": "STYLE",
+            "effects": [
+              {
+                "type": "DROP_SHADOW",
+                "visible": true,
+                "radius": 0,
+                "boundVariables": {},
+                "color": {
+                  "r": 0.4860000014305115,
+                  "g": 0.22699999809265137,
+                  "b": 0.9290000200271606,
+                  "a": 0.25
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "spread": 3,
+                "blendMode": "NORMAL",
+                "showShadowBehindNode": false
+              }
+            ],
+            "cssProperty": "box-shadow"
+          }
+        }
+      }
+    },
     "shadow": {
       "2xl": {
         "$type": "shadow",
@@ -4489,6 +4556,30 @@
         }
       },
       "$description": "System-level Disabled opacity. Figma OPACITY-scoped numeric value 50 resolves to 50% (0.5) overall opacity; combine with semantic Disabled colors where specified."
+    },
+    "disabled-control": {
+      "$type": "number",
+      "$value": 0.6,
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:381:2745",
+          "key": "240483018bc19f7a4c128474311df28bd4195298",
+          "name": "Disabled / Control",
+          "collection": "Opacity",
+          "collectionId": "VariableCollectionId:361:1690",
+          "mode": "Default",
+          "modeId": "361:0",
+          "sourceType": "FLOAT",
+          "scopes": [
+            "OPACITY"
+          ],
+          "originalValue": 60,
+          "sourceUnit": "percent",
+          "normalizedUnit": "unitless"
+        }
+      },
+      "$description": "Shared disabled opacity for controls that intentionally retain 60% visibility, including Input, Textarea, Switch, and Tag. Figma OPACITY value 60 resolves to 0.6."
     }
   },
   "radius": {
@@ -5188,7 +5279,99 @@
           }
         }
       },
+      "field": {
+        "content-gap": {
+          "default": {
+            "$type": "dimension",
+            "$value": {
+              "value": 6,
+              "unit": "px"
+            },
+            "$extensions": {
+              "org.product-design-system.figma": {
+                "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                "id": "VariableID:381:2753",
+                "key": "fce026bccaa462fd66fd4ad869bc215f0de3860e",
+                "name": "Component / Field / Content Gap",
+                "collection": "Spacing",
+                "collectionId": "VariableCollectionId:32:262",
+                "mode": "Default",
+                "modeId": "32:0",
+                "sourceType": "FLOAT"
+              }
+            },
+            "$description": "Default Field stack gap used by Medium and Large Input and Textarea between label, field, and supporting text."
+          },
+          "small": {
+            "$type": "dimension",
+            "$value": {
+              "value": 4,
+              "unit": "px"
+            },
+            "$extensions": {
+              "org.product-design-system.figma": {
+                "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                "id": "VariableID:381:2752",
+                "key": "8da14aa42592ab403274085dd322cc10afe389f1",
+                "name": "Component / Field / Content Gap / Small",
+                "collection": "Spacing",
+                "collectionId": "VariableCollectionId:32:262",
+                "mode": "Default",
+                "modeId": "32:0",
+                "sourceType": "FLOAT"
+              }
+            },
+            "$description": "Compact Field stack gap used by Small Input and Textarea between label, field, and supporting text."
+          }
+        }
+      },
       "input": {
+        "large": {
+          "field-height": {
+            "$type": "dimension",
+            "$value": {
+              "value": 48,
+              "unit": "px"
+            },
+            "$extensions": {
+              "org.product-design-system.figma": {
+                "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                "id": "VariableID:381:2748",
+                "key": "5c57c59ed6f084e097f87d904baff52327c4e043",
+                "name": "Component / Input / Large / Field Height",
+                "collection": "Spacing",
+                "collectionId": "VariableCollectionId:32:262",
+                "mode": "Default",
+                "modeId": "32:0",
+                "sourceType": "FLOAT"
+              }
+            },
+            "$description": "Canonical Large Input field height."
+          }
+        },
+        "medium": {
+          "field-height": {
+            "$type": "dimension",
+            "$value": {
+              "value": 40,
+              "unit": "px"
+            },
+            "$extensions": {
+              "org.product-design-system.figma": {
+                "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                "id": "VariableID:381:2747",
+                "key": "b13eaf06a85914cfc05c9a8f1144ebcde67ece44",
+                "name": "Component / Input / Medium / Field Height",
+                "collection": "Spacing",
+                "collectionId": "VariableCollectionId:32:262",
+                "mode": "Default",
+                "modeId": "32:0",
+                "sourceType": "FLOAT"
+              }
+            },
+            "$description": "Canonical Medium Input field height."
+          }
+        },
         "padding": {
           "medium": {
             "vertical": {
@@ -5257,9 +5440,78 @@
               "$description": "Component-specific Input Small vertical padding; retained from validated implementation audit."
             }
           }
+        },
+        "small": {
+          "field-height": {
+            "$type": "dimension",
+            "$value": {
+              "value": 32,
+              "unit": "px"
+            },
+            "$extensions": {
+              "org.product-design-system.figma": {
+                "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                "id": "VariableID:381:2746",
+                "key": "2610252f30aa114618389f081f693efeebd6b786",
+                "name": "Component / Input / Small / Field Height",
+                "collection": "Spacing",
+                "collectionId": "VariableCollectionId:32:262",
+                "mode": "Default",
+                "modeId": "32:0",
+                "sourceType": "FLOAT"
+              }
+            },
+            "$description": "Canonical Small Input field height."
+          }
         }
       },
       "textarea": {
+        "large": {
+          "field-height": {
+            "$type": "dimension",
+            "$value": {
+              "value": 120,
+              "unit": "px"
+            },
+            "$extensions": {
+              "org.product-design-system.figma": {
+                "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                "id": "VariableID:381:2751",
+                "key": "8fb5e545cba1a523ff5d925c6182211f77c7cf9e",
+                "name": "Component / Textarea / Large / Field Height",
+                "collection": "Spacing",
+                "collectionId": "VariableCollectionId:32:262",
+                "mode": "Default",
+                "modeId": "32:0",
+                "sourceType": "FLOAT"
+              }
+            },
+            "$description": "Canonical Large Textarea field height."
+          }
+        },
+        "medium": {
+          "field-height": {
+            "$type": "dimension",
+            "$value": {
+              "value": 100,
+              "unit": "px"
+            },
+            "$extensions": {
+              "org.product-design-system.figma": {
+                "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                "id": "VariableID:381:2750",
+                "key": "4b85fdfa04c2a05f2f815aa64d4d319bdd598daf",
+                "name": "Component / Textarea / Medium / Field Height",
+                "collection": "Spacing",
+                "collectionId": "VariableCollectionId:32:262",
+                "mode": "Default",
+                "modeId": "32:0",
+                "sourceType": "FLOAT"
+              }
+            },
+            "$description": "Canonical Medium Textarea field height."
+          }
+        },
         "padding": {
           "medium": {
             "vertical": {
@@ -5307,6 +5559,52 @@
               "$description": "Component-specific Textarea Small horizontal padding."
             }
           }
+        },
+        "small": {
+          "field-height": {
+            "$type": "dimension",
+            "$value": {
+              "value": 80,
+              "unit": "px"
+            },
+            "$extensions": {
+              "org.product-design-system.figma": {
+                "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+                "id": "VariableID:381:2749",
+                "key": "c7bb0bed6a66262c401196b914504d8f4ea9376d",
+                "name": "Component / Textarea / Small / Field Height",
+                "collection": "Spacing",
+                "collectionId": "VariableCollectionId:32:262",
+                "mode": "Default",
+                "modeId": "32:0",
+                "sourceType": "FLOAT"
+              }
+            },
+            "$description": "Canonical Small Textarea field height."
+          }
+        }
+      },
+      "validation": {
+        "icon-size": {
+          "$type": "dimension",
+          "$value": {
+            "value": 14,
+            "unit": "px"
+          },
+          "$extensions": {
+            "org.product-design-system.figma": {
+              "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+              "id": "VariableID:388:9775",
+              "key": "1b0321db3a0ad3c787597fd095744aad80826ebc",
+              "name": "Component / Validation / Icon Size",
+              "collection": "Spacing",
+              "collectionId": "VariableCollectionId:32:262",
+              "mode": "Default",
+              "modeId": "32:0",
+              "sourceType": "FLOAT"
+            }
+          },
+          "$description": "Shared validation-feedback icon container size used by field validation and Validation Message components. Not a generic status or Button icon size."
         }
       }
     },

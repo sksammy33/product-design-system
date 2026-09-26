@@ -1,23 +1,23 @@
 {
   "source": "Figma Plugin API via read-only use_figma",
   "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
-  "variableCount": 317,
+  "variableCount": 327,
   "auditVariableCount": 287,
   "textStyleCount": 16,
-  "effectStyleCount": 14,
+  "effectStyleCount": 15,
   "sha256": {
-    "collections.json": "b36c5713217d95bdb7971c188d400159a86e1703c08743de960cb27be49b95e9",
-    "styles.json": "fc64dcb9ad27ace3c8a17d974bb59d2fa994832e61bc7cd2ec80703f42274471",
-    "variables-01.json": "9607f567b0bd35a2867bddf46925a5906c45782eef919cdd9a7e3b692e3619f7",
-    "variables-02.json": "7e5b51a224ed5fcd485ac49983f4370b32a1ceca4e7261e39dd900eda01e8950",
-    "variables-03.json": "e52f689e402eaee3c9ab7934a2b01404cdd592a502079f44ece6d8d73209aec1",
-    "variables-04.json": "10ac0974a0969ca8cd8b1d1c6c245e46b11b83e8d89f6aaa599827837c28024d",
-    "variables-05.json": "1f541f8f9167b7af11b645e65edbe01c18e2fb558307e716dd5808fc31144cf3",
-    "variables-06.json": "b89cfcb3285c3437e1dbd450d24906f6d22e85233732c7c624982bb7e938aa14",
-    "variables-07.json": "258bc9fefd6bba3ff6710eccb9c122a2f3995611cc9d344c5df9b94143cd310a",
-    "variables-08.json": "9a3c3eb45c90ab2d57b8de75fc4b44b5c12fa4003abcc622cb7a3edd358d5b34",
-    "variables-09.json": "894bb8cbb34c9d7909e96750e390c7602dc9a44ef1e87409fc59e48c3116e30a",
-    "variables-10.json": "118756da9dd729697973a74e47875385723553af4b3022016c532c92ffa5b977",
-    "variables-11.json": "e1323e203d854a02035e82de44f31228f754c1d36dfae548c26b1b078642e48d"
+    "collections.json": "6e79ac185fa347998aed7102d0b364721d8ac8714028b8933962506ef4e55343",
+    "styles.json": "f421051b9caa47a228f7b62851345ba5310412ae4c1fcb4bb5ddf709b64b77b2",
+    "variables-01.json": "55a4a821740fec51eff4dcd6fac54f4fb8c76839cacc7931ef6fa0c3cddbfb22",
+    "variables-02.json": "159f4a8ec6c4fef3b5a6487b1d9009aadb1607877964bcfb54b1a1b3dac52746",
+    "variables-03.json": "a5c5122f801f8b2f295a217ec0be9268f8f84abd5d5c28917bcdd709fb22b7d5",
+    "variables-04.json": "f223de14a444f6344ced1ffdd399819b3e08771f80d16f2f220218d391cba99d",
+    "variables-05.json": "9fef902a1d613ee06d2fd9f8f20f36f84d9b7a05a61445c017598e245a82dffd",
+    "variables-06.json": "51644f6b6e6844e5c405fbf1a6b63d89056418f9cb2811ac2ab84afab6ae22c4",
+    "variables-07.json": "e66a1738180fc23e63a79afc390a2551a36faf33f4d0fae7b77a0328600446fb",
+    "variables-08.json": "9e6be5ff6f35f7e869b5ba9a765dabf27e91e48bc6fbed7f09c792fc5cbe2bad",
+    "variables-09.json": "1c6942aec6ddebff927e962fee56ce4e152aa33047f82059526858621118f233",
+    "variables-10.json": "a318990302613b6975434ce9e12d9abdf1d156548760397a047b37b543e62bde",
+    "variables-11.json": "4bd4d005cf3957cd39f6018ae9f9f0e42f4b8ad4e6f6067150c8a91bf1d0a7cb"
   }
 }

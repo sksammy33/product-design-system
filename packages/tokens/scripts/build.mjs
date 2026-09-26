@@ -11,11 +11,11 @@ const collectionConfig = {
   'Color / Semantic': ['color.semantic', 'semantic', 109, ['Light', 'Dark']],
   'Color / Chart': ['color.chart', 'charts', 8, ['Light', 'Dark']],
   Typography: ['typography', 'typography', 52, ['Default']],
-  Spacing: ['spacing', 'spacing', 69, ['Default']],
+  Spacing: ['spacing', 'spacing', 78, ['Default']],
   Radius: ['radius', 'radius', 9, ['Default']],
   Border: ['border', 'border', 4, ['Default']],
   Motion: ['motion', 'motion', 5, ['Default']],
-  Opacity: ['opacity', 'opacity', 1, ['Default']],
+  Opacity: ['opacity', 'opacity', 2, ['Default']],
 };
 export function assert(ok, message) { if (!ok) throw new Error(message); }
 export const json = value => JSON.stringify(value, null, 2) + '\n';
@@ -38,6 +38,12 @@ export function variablePath(v, c) {
   const parts = v.name.split('/').map(segment);
   // Remove only a redundant collection prefix. "Space" remains distinct from "Spacing".
   if (!c.name.startsWith('Color / ') && parts[0] === prefix) parts.shift();
+  // The Figma default Field gap is a token and its Small variant is a child name.
+  // Give the default an explicit leaf to preserve both source names without collision.
+  if (c.name === 'Spacing' && v.name === 'Component / Field / Content Gap') parts.push('default');
+  // Keep the existing opacity.disabled public token stable while adding its
+  // Figma Control child, which otherwise collides with that existing leaf.
+  if (c.name === 'Opacity' && v.name === 'Disabled / Control') return 'opacity.disabled-control';
   return prefix + '.' + parts.join('.');
 }
 export const cssName = path => '--' + path.replaceAll('.', '-');
@@ -127,8 +133,8 @@ export function normalize(snapshot) {
   const styles = [...snapshot.textStyles, ...snapshot.effectStyles];
   unique(styles, s => s.id, 'style ID');
   assert(snapshot.collections.length === 9, 'Source collection count mismatch');
-  assert(snapshot.variables.length === 317, 'Source variable count mismatch; review changed Figma inventory');
-  assert(snapshot.textStyles.length === 16 && snapshot.effectStyles.length === 14, 'Source style count mismatch');
+  assert(snapshot.variables.length === 327, 'Source variable count mismatch; review changed Figma inventory');
+  assert(snapshot.textStyles.length === 16 && snapshot.effectStyles.length === 15, 'Source style count mismatch');
   const paths = new Map(), names = new Map(), cssNames = new Set();
   const types = new Map();
   for (const c of collections.values()) {
@@ -209,7 +215,7 @@ export function normalize(snapshot) {
       const path = 'effects.' + s.name.split('/').map(segment).join('.');
       const meta = { ...sourceMeta(s), effects: s.effects };
       let type, value;
-      if (s.name.split('/')[0].trim() === 'Shadow') {
+      if (s.name.split('/')[0].trim() === 'Shadow' || s.name === 'Focus / Field') {
         assert(s.effects.length > 0, 'Empty shadow style: ' + s.name);
         type = 'shadow';
         value = s.effects.map(e => {
@@ -385,7 +391,7 @@ export function run(check = false) {
     if (check) assert(existsSync(target) && readFileSync(target, 'utf8') === bytes, 'Generated file missing or modified: ' + path);
     else { mkdirSync(dirname(target), { recursive: true }); writeFileSync(target, bytes); }
   }
-  console.log((check ? 'Validated' : 'Generated') + ' ' + Object.keys(expected).length + ' files: 317 variables + 16 text styles + 14 effect styles; 347 tokens per theme; Light and Dark.');
+  console.log((check ? 'Validated' : 'Generated') + ' ' + Object.keys(expected).length + ' files: 327 variables + 16 text styles + 15 effect styles; 358 tokens per theme; Light and Dark.');
 }
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   try { run(process.argv.includes('--check')); } catch (error) { console.error(error.message); process.exitCode = 1; }

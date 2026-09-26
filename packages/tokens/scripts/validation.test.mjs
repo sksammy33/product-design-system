@@ -10,9 +10,9 @@ const set = (v, value) => { v.valuesByMode[firstMode(v)] = value; };
 
 test('complete current inventory, exact paths, no lost styles, both modes', () => {
   const { themes, paths } = normalize(source);
-  assert.equal(paths.size, 317);
+  assert.equal(paths.size, 327);
   for (const theme of ['Light', 'Dark']) {
-    assert.equal(Object.keys(themes[theme]).length, 347);
+    assert.equal(Object.keys(themes[theme]).length, 358);
     assert.equal(themes[theme]['border.default'].$type, 'dimension');
     assert.equal(themes[theme]['color.semantic.border.default'].$type, 'color');
     assert.equal(themes[theme]['spacing.inline.sm'].$value, '{spacing.space.8}');
@@ -72,6 +72,58 @@ test('CSS preserves alias references and maps effect kinds correctly', () => {
   assert.equal(css['--typography-weight-regular'], '400');
   assert.equal(css['--motion-fast'], '100ms');
 });
+test('approved Input and Textarea sizing, field gaps, control opacity and focus effect retain Figma identity', () => {
+  const { themes, paths } = normalize(source);
+  const expected = [
+    ['Component / Input / Small / Field Height', 'VariableID:381:2746', 'spacing.component.input.small.field-height', 32],
+    ['Component / Input / Medium / Field Height', 'VariableID:381:2747', 'spacing.component.input.medium.field-height', 40],
+    ['Component / Input / Large / Field Height', 'VariableID:381:2748', 'spacing.component.input.large.field-height', 48],
+    ['Component / Textarea / Small / Field Height', 'VariableID:381:2749', 'spacing.component.textarea.small.field-height', 80],
+    ['Component / Textarea / Medium / Field Height', 'VariableID:381:2750', 'spacing.component.textarea.medium.field-height', 100],
+    ['Component / Textarea / Large / Field Height', 'VariableID:381:2751', 'spacing.component.textarea.large.field-height', 120],
+    ['Component / Field / Content Gap / Small', 'VariableID:381:2752', 'spacing.component.field.content-gap.small', 4],
+    ['Component / Field / Content Gap', 'VariableID:381:2753', 'spacing.component.field.content-gap.default', 6],
+  ];
+  const effect = source.effectStyles.find(s => s.name === 'Focus / Field');
+  assert.equal(effect.id, 'S:25a2c19c9d1ee99ae7be1e204f75f1913e42d137,');
+  assert.equal(effect.effects[0].color.a, 0.25);
+  assert.equal(effect.effects[0].spread, 3);
+  assert.equal(effect.effects[0].radius, 0);
+  assert.deepEqual(effect.effects[0].offset, { x: 0, y: 0 });
+  for (const [name, id, path, value] of expected) {
+    const raw = byName(source, name, 'Spacing');
+    assert.equal(raw.id, id);
+    assert.equal(paths.get(id), path);
+    for (const tokens of Object.values(themes)) {
+      assert.equal(tokens[path].$value.value, value);
+      assert.equal(tokens[path].$extensions[extension].id, id);
+    }
+  }
+  const control = byName(source, 'Disabled / Control', 'Opacity');
+  assert.equal(control.id, 'VariableID:381:2745');
+  assert.equal(control.valuesByMode['361:0'], 60);
+  for (const tokens of Object.values(themes)) {
+    assert.equal(tokens['opacity.disabled-control'].$value, 0.6);
+    assert.equal(tokens['effects.focus.field'].$extensions[extension].id, effect.id);
+    assert.equal(declarations(tokens)['--opacity-disabled-control'], '0.6');
+    assert.match(declarations(tokens)['--effects-focus-field'], /0px 0px 0px 3px color\(srgb .* \/ 0\.25\)/);
+    assert.equal(Object.keys(tokens).some(path => path.includes('width-280')), false);
+  }
+});
+test('validation icon has its own approved 14px source token, separate from Button XS', () => {
+  const raw = byName(source, 'Component / Validation / Icon Size', 'Spacing');
+  assert.equal(raw.id, 'VariableID:388:9775');
+  assert.equal(raw.valuesByMode['32:0'], 14);
+  const { themes, paths } = normalize(source);
+  const path = 'spacing.component.validation.icon-size';
+  assert.equal(paths.get(raw.id), path);
+  for (const tokens of Object.values(themes)) {
+    assert.deepEqual(tokens[path].$value, { value: 14, unit: 'px' });
+    assert.equal(tokens[path].$extensions[extension].id, raw.id);
+    assert.equal(declarations(tokens)['--spacing-component-validation-icon-size'], '14px');
+    assert.equal(tokens['spacing.component.button.xs.icon-size'].$extensions[extension].id, 'VariableID:351:1509');
+  }
+});
 test('standalone Light/Dark CSS includes foundations and both color collections', () => {
   const result = outputs(source);
   for (const name of ['light', 'dark']) {
@@ -126,9 +178,9 @@ test('rejects missing normalized values and malformed alias values', () => {
 test('outputs are deterministic', () => assert.deepEqual(outputs(source), outputs(structuredClone(source))));
 test('package exports load generated ESM data', async () => {
   const { tokens, cssVariables } = await import('@product-design-system/tokens');
-  assert.equal(Object.keys(tokens.Light).length, 347);
-  assert.equal(Object.keys(tokens.Dark).length, 347);
-  assert.equal(Object.keys(cssVariables.Dark).length, 416);
+  assert.equal(Object.keys(tokens.Light).length, 358);
+  assert.equal(Object.keys(tokens.Dark).length, 358);
+  assert.equal(Object.keys(cssVariables.Dark).length, 427);
 });
 test('approved Button spacing retains source identity and signed overlap in both CSS themes', () => {
   const expected = [

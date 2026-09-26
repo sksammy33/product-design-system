@@ -24,6 +24,30 @@
         }
       },
       "$description": "System-level Disabled opacity. Figma OPACITY-scoped numeric value 50 resolves to 50% (0.5) overall opacity; combine with semantic Disabled colors where specified."
+    },
+    "disabled-control": {
+      "$type": "number",
+      "$value": 0.6,
+      "$extensions": {
+        "org.product-design-system.figma": {
+          "fileKey": "A5R8vBTXZzfV5aj3omQYFG",
+          "id": "VariableID:381:2745",
+          "key": "240483018bc19f7a4c128474311df28bd4195298",
+          "name": "Disabled / Control",
+          "collection": "Opacity",
+          "collectionId": "VariableCollectionId:361:1690",
+          "mode": "Default",
+          "modeId": "361:0",
+          "sourceType": "FLOAT",
+          "scopes": [
+            "OPACITY"
+          ],
+          "originalValue": 60,
+          "sourceUnit": "percent",
+          "normalizedUnit": "unitless"
+        }
+      },
+      "$description": "Shared disabled opacity for controls that intentionally retain 60% visibility, including Input, Textarea, Switch, and Tag. Figma OPACITY value 60 resolves to 0.6."
     }
   }
 }

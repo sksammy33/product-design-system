@@ -8,9 +8,7 @@ Figma → raw snapshot → normalized DTCG token files → Light/Dark themes →
 
 The [current Figma system](https://www.figma.com/design/A5R8vBTXZzfV5aj3omQYFG/Product-Design-System?node-id=5-2) is the visual source of truth. The [Phase 1 audit](../../docs/phase-1-implementation-plan.md) is the baseline, not a substitute for current values.
 
-The latest refresh changes only `Color / Semantic → Text / Danger` in Light mode: its alias now targets `Color / Primitives → Red / 700` (`#B91C1C`) instead of Red / 600 (`#DC2626`). Dark still targets Red / 300 (`#FCA5A5`). Figma also adds an explanatory description to this variable. The inventory remains 317 variables, 16 text styles and 14 effect styles; no other source value or collection metadata changed. With the hovered surface token, this corrects the Light destructive text contrast pairing used by the Button variants. The raw snapshot preserves the exact alias IDs and description; generated CSS keeps the semantic reference chain.
-
-The refreshed read-only snapshot contains **317 variables**, compared with **316** in the previous snapshot and **287** in the audit, plus **16 text styles** and **14 effect styles**. This refresh adds the Opacity collection with one variable; all eight existing collections are unchanged:
+The current read-only Figma snapshot contains **327 variables** (ten more than the preceding committed 317-variable snapshot), **16 text styles**, and **15 effect styles**. The additions are nine component dimensions/gaps, one control-disabled opacity variable, and one Focus / Field effect style. The ninth dimension is the 14px Validation icon size approved after the first uncommitted Phase 5B refresh. Existing variable/style values, IDs, aliases and modes are unchanged. The Phase 1 inventory contained 287 variables. The 280px specimen width remains layout-derived and is not a token.
 
 | Collection | Variables | Modes |
 |---|---:|---|
@@ -18,11 +16,13 @@ The refreshed read-only snapshot contains **317 variables**, compared with **316
 | Color / Semantic | 109 | Light, Dark |
 | Color / Chart | 8 | Light, Dark |
 | Typography | 52 | Default |
-| Spacing | 69 | Default |
+| Spacing | 78 | Default |
 | Radius | 9 | Default |
 | Border | 4 | Default |
 | Motion | 5 | Default |
-| Opacity | 1 | Default |
+| Opacity | 2 | Default |
+
+The new `spacing.component.validation.icon-size` token preserves the source 14px Validation feedback icon size (`VariableID:388:9775`) separately from Button XS icon sizing. The new field tokens are Input heights 32/40/48px, Textarea heights 80/100/120px, Field content gaps 4px (Small) and 6px (Default), and unitless control-disabled opacity 0.6 (authored in Figma as 60). The new `effects.focus.field` shadow preserves the Figma color, alpha, 3px spread and zero blur/offset. For collision-free developer names, the default Field gap is `spacing.component.field.content-gap.default` and the new opacity is `opacity.disabled-control`; source names and IDs remain unchanged in the raw snapshot and token metadata. Both themes include these tokens without altering existing Light/Dark mappings.
 
 The five earlier Input/Textarea additions remain unchanged; they are not additions to the global spacing scale:
 
@@ -72,9 +72,9 @@ The previous finalized sizing refresh added 19 variables: ten literal Button dim
 | VariableID:351:1525 | Component / Button / Social / Medium / Provider Icon Size | Alias: Component / Button / Large / Icon Size |
 | VariableID:351:1526 | Component / Button / Social / Large / Provider Icon Size | Alias: Component / Button / XL / Icon Size |
 
-The current refresh adds only `Opacity / Disabled` (`VariableID:361:1691`, collection `VariableCollectionId:361:1690`). Figma authors this FLOAT as **50** with the `OPACITY` scope; its Default mode (`361:0`) resolves to **0.5** overall opacity. Raw JSON retains 50 unchanged. Normalized `opacity.disabled` is a DTCG `number` with value 0.5 and no unit. Its extension preserves the original value, scope and percent-to-unitless conversion metadata. Both themes emit `--opacity-disabled: 0.5`.
+An earlier refresh added `Opacity / Disabled` (`VariableID:361:1691`, collection `VariableCollectionId:361:1690`). Figma authors this FLOAT as **50** with the `OPACITY` scope; its Default mode (`361:0`) resolves to **0.5** overall opacity. Raw JSON retains 50 unchanged. Normalized `opacity.disabled` is a DTCG `number` with value 0.5 and no unit. Its extension preserves the original value, scope and percent-to-unitless conversion metadata. Both themes emit `--opacity-disabled: 0.5`.
 
-Read-only inspection confirmed all 45 disabled Button variants bind this variable and resolve to 0.5. This is a shared semantic token, not a Button-only token. Other authored opacity treatments (40%, 60%, 70%, and 100%) are outside this conversion and remain untouched. No component or Figma edits are included.
+Read-only inspection confirmed all 45 disabled Button variants bind this variable and resolve to 0.5. This is a shared semantic token, not a Button-only token. The current update separately captures the approved 60% Control opacity; other authored 40%, 70%, and 100% treatments remain untouched.
 
 ## Layout
 
@@ -84,7 +84,7 @@ Read-only inspection confirmed all 45 disabled Button variants bind this variabl
 - `scripts/`: dependency-free conversion, validation, regression tests and read-only Figma export recipe.
 - `dist/`: generated CSS, DTCG theme JSON, typed JavaScript data, source mapping and validation report.
 
-All source variables appear once per theme. The 16 text styles and 14 effect styles add 30 tokens, for **347 tokens per theme**. CSS expands typography properties and blur functions into **416 custom properties per theme**.
+All source variables appear once per theme. The 16 text styles and 15 effect styles add 31 tokens, for **358 tokens per theme**. CSS expands typography properties and blur functions into **427 custom properties per theme**.
 
 ## Names, primitives and aliases
 
@@ -107,7 +107,7 @@ The normalized documents use [DTCG 2025.10](https://www.designtokens.org/tr/2025
 
 All 16 current text styles use Geist. Their explicit variable-font weight settings supply weights; no style-name guessing is used. Font size and tracking preserve pixel values. Typography composites express line height as the DTCG unitless ratio (source pixel line height / source font size); the original pixel quantity remains in the extension. Standalone line-height variables remain dimensions. Font files are not bundled; consumers must load Geist themselves.
 
-Nine shadow styles become DTCG shadow arrays, including negative spread, directional offsets and inner shadows. Five blur styles remain separate dimension tokens with source effect metadata. Background blur emits a `-backdrop-filter` property; layer blur, if present and supported, emits `-filter`. The current file has four background-blur effects and one empty “Blur / None” style, mapped to a zero radius and CSS `none`. Do not apply backdrop blur as foreground blur. Original Figma-specific effect fields remain available in extensions and the raw snapshot.
+Nine shadow styles and the Focus / Field style become DTCG shadow arrays, including negative spread, directional offsets and inner shadows. Five blur styles remain separate dimension tokens with source effect metadata. Background blur emits a `-backdrop-filter` property; layer blur, if present and supported, emits `-filter`. The current file has four background-blur effects and one empty “Blur / None” style, mapped to a zero radius and CSS `none`. Do not apply backdrop blur as foreground blur. Original Figma-specific effect fields remain available in extensions and the raw snapshot.
 
 ## Build and verify
 
@@ -123,7 +123,7 @@ On Windows with PowerShell script restrictions, use `npm.cmd`. Direct equivalent
 
 Build reads only the checked-in raw snapshot; it does not contact or change Figma. Validate checks snapshot hashes, source counts/membership, aliases and cycles, types/values, complete mode names, duplicate normalized names, token/group collisions and CSS collisions. It also regenerates expected content in memory and compares every generated file byte-for-byte, rejecting stale or manually edited outputs. New/unsupported source units, bindings or effects fail explicitly.
 
-The current expected inventory is deliberately fixed at 317, not forced back to 287. A later source-count change requires inventory review and a converter update. Regression tests exercise failure cases, mode-ID changes the signed Button Group overlap, and opacity scope/type/range validation. Opacity percentages must be finite numbers in 0–100 before conversion; normalized opacity must be a unitless number in 0–1, including through aliases.
+The current expected inventory is deliberately fixed at 327, not forced back to 287. A later source-count change requires inventory review and a converter update. Regression tests exercise failure cases, mode-ID changes the signed Button Group overlap, and opacity scope/type/range validation. Opacity percentages must be finite numbers in 0–100 before conversion; normalized opacity must be a unitless number in 0–1, including through aliases.
 
 ## Consume
 
