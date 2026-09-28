@@ -1,0 +1,10 @@
+import type { Meta, StoryObj } from '@storybook/react-vite';
+import { FormRow, FormField } from '@product-design-system/react';
+import { BatchFrame } from './batch-a-fixtures';
+const meta = { title: 'Components/Forms/Form Row', component: FormRow, decorators: [(Story) => <BatchFrame><Story /></BatchFrame>] } satisfies Meta<typeof FormRow>;
+export default meta;
+type Story = StoryObj<typeof meta>;
+export const One: Story = { args: { children: <FormField label="Email Address" placeholder="you@example.com" /> } };
+export const Two: Story = { args: { columns: 2, children: <><FormField label="First Name" placeholder="First name" /><FormField label="Last Name" placeholder="Last name" /></> } };
+export const Three: Story = { args: { columns: 3, children: <><FormField label="City" placeholder="City" /><FormField label="State" placeholder="State" /><FormField label="ZIP" placeholder="ZIP code" /></> } };
+export const Dark: Story = { ...Three, globals: { theme: 'dark' } };

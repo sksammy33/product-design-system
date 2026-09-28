@@ -10,13 +10,15 @@ export type InputProps = Omit<ComponentPropsWithRef<'input'>, 'size' | 'children
   type?: InputType;
   leadingIcon?: ReactNode;
   trailingIcon?: ReactNode;
+  /** Interactive trailing content, kept outside the decorative icon's aria-hidden wrapper. */
+  trailingAction?: ReactNode;
   prefix?: string;
   suffix?: string;
 };
 
 /** Figma Input action field. Native input attributes keep form and keyboard behavior. */
 export function Input({ size = 'medium', label, helperText, validation, validationMessage, optional,
-  leadingIcon, trailingIcon, prefix, suffix, clearable, onClear, type = 'text',
+  leadingIcon, trailingIcon, trailingAction, prefix, suffix, clearable, onClear, type = 'text',
   value, defaultValue, onChange, disabled, readOnly, required, id, ref, className,
   'aria-describedby': describedBy, 'aria-invalid': invalid, ...inputProps }: InputProps) {
   const generatedId = useId();
@@ -55,6 +57,7 @@ export function Input({ size = 'medium', label, helperText, validation, validati
       {trailingIcon && <span className={[styles.adornment, styles.icon].join(' ')} aria-hidden="true">{trailingIcon}</span>}
       {showClear && <button type="button" className={styles.clear} aria-label={label ? `Clear ${label}` : 'Clear input'}
         onMouseDown={event => event.preventDefault()} onClick={handleClear}><X aria-hidden="true" focusable="false" /></button>}
+      {trailingAction}
     </div>
     <FieldSupport id={supportId} text={support} validation={validation} withIcon />
   </div>;

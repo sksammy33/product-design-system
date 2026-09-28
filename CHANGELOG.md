@@ -1,5 +1,12 @@
 # Changelog
 
+## Batch A — Forms and remaining Selection
+
+- Add seven Form compositions, CheckboxGroup, RadioGroup, Select, Combobox and MultiSelect with public React exports and CSS Modules.
+- Reuse existing controls and committed tokens; apply the corrected 12/16 MultiSelect label and 20px tag within a 40px field.
+- Add component stories, keyboard/form interaction tests, geometry checks and Light/Dark axe coverage. Figma and token snapshots remain unchanged.
+
+
 ## Phase 4 - React, Storybook and testing tooling
 
 - Configure private React/TypeScript ESM and CSS builds using the existing token package.

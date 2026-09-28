@@ -1,5 +1,6 @@
 import '@fontsource/geist/latin-400.css';
 import '@fontsource/geist/latin-500.css';
+import '@fontsource/geist/latin-600.css';
 import type { Preview } from '@storybook/react-vite';
 import { MINIMAL_VIEWPORTS } from 'storybook/viewport';
 import '@product-design-system/react/styles.css';
