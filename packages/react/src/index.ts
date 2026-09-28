@@ -37,3 +37,12 @@ export { Dropdown } from './components/Overlay/Dropdown';
 export type { DropdownProps } from './components/Overlay/Dropdown';
 export { ContextMenu } from './components/Overlay/ContextMenu';
 export type { ContextMenuProps } from './components/Overlay/ContextMenu';
+
+export { Dialog } from './components/Modal/Dialog';
+export type { DialogProps, DialogSize, DialogState } from './components/Modal/Dialog';
+export { ConfirmationDialog } from './components/Modal/ConfirmationDialog';
+export type { ConfirmationDialogProps } from './components/Modal/ConfirmationDialog';
+export { Drawer } from './components/Modal/Drawer';
+export type { DrawerProps } from './components/Modal/Drawer';
+export { BottomSheet } from './components/Modal/BottomSheet';
+export type { BottomSheetProps } from './components/Modal/BottomSheet';

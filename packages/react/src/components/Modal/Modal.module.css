@@ -1,0 +1,51 @@
+.modal { box-sizing: border-box; padding: 0; border: 0; background: transparent; color: var(--color-semantic-text-primary); font-family: 'Inter', sans-serif; max-block-size: calc(100dvh - 24px); overflow: visible; }
+.modal::backdrop { background: rgb(17 24 39 / 40%); }
+.modal:focus { outline: none; }
+.dialog { inline-size: max-content; max-inline-size: calc(100vw - 24px); margin: auto; }
+.dialogSurface, .confirmationSurface, .drawerSurface, .sheetSurface { box-sizing: border-box; display: flex; flex-direction: column; background: var(--color-semantic-surface-elevated); color: var(--color-semantic-text-primary); overflow: hidden; }
+.dialogSurface { inline-size: min(400px, calc(100vw - 24px)); border: var(--border-default) solid var(--color-semantic-border-default); border-radius: var(--radius-2xl); box-shadow: var(--effects-shadow-xl); }
+.dialogSurface[data-size='medium'] { inline-size: min(520px, calc(100vw - 24px)); }
+.dialogSurface[data-size='large'] { inline-size: min(640px, calc(100vw - 24px)); }
+.header { display: flex; gap: var(--spacing-space-16); align-items: center; padding: var(--spacing-space-20) var(--spacing-space-24) var(--spacing-space-16); }
+.heading { flex: 1; min-inline-size: 0; display: flex; flex-direction: column; gap: var(--spacing-space-4); }
+.heading h2, .confirmationText h2, .sheetHeader h2 { margin: 0; font: 600 16px/24px 'Inter', sans-serif; }
+.heading p, .confirmationText p { margin: 0; color: var(--color-semantic-text-secondary); font: 400 14px/20px 'Inter', sans-serif; }
+.close { box-sizing: border-box; flex: none; display: inline-flex; align-items: center; justify-content: center; inline-size: 24px; block-size: 24px; padding: 2px; border: 0; border-radius: var(--radius-sm); background: transparent; color: var(--color-semantic-icon-secondary); cursor: pointer; }
+.close:focus-visible { outline: var(--border-strong) solid var(--color-semantic-border-focus); }
+.close:disabled { opacity: .5; cursor: default; }
+.divider { block-size: var(--border-default); padding: 0; }
+.dialogContent { padding: var(--spacing-space-20) var(--spacing-space-24); color: var(--color-semantic-text-secondary); font: 400 14px/20px 'Inter', sans-serif; overflow: auto; }
+.dialogContent p, .drawerContent p, .sheetContent p { margin: 0; }
+.loadingContent { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: var(--spacing-space-4); text-align: center; }
+.loadingContent svg, .confirmationSurface[data-state='loading'] .confirmationIcon svg { animation: spin 1s linear infinite; }
+.footer { display: flex; align-items: center; justify-content: flex-end; gap: var(--spacing-space-12); padding: var(--spacing-space-16) var(--spacing-space-24) var(--spacing-space-20); }
+.confirmation { inline-size: max-content; max-inline-size: calc(100vw - 24px); margin: auto; }
+.confirmationSurface { inline-size: min(400px, calc(100vw - 24px)); border: var(--border-default) solid var(--color-semantic-border-default); border-radius: var(--radius-2xl); box-shadow: var(--effects-shadow-xl); }
+.confirmationContent { display: flex; flex-direction: column; align-items: center; gap: var(--spacing-space-16); padding: var(--spacing-space-24); text-align: center; }
+.confirmationIcon { display: flex; align-items: center; justify-content: center; inline-size: 48px; block-size: 48px; border-radius: 50%; background: var(--color-semantic-background-brand-subtle); color: var(--color-semantic-icon-brand); }
+.confirmationSurface[data-state='destructive'] .confirmationIcon { background: var(--color-semantic-background-danger); color: var(--color-semantic-icon-danger); }
+.confirmationText { display: flex; flex-direction: column; gap: var(--spacing-space-8); }
+.confirmationFooter { display: flex; gap: var(--spacing-space-12); padding: var(--spacing-space-16) var(--spacing-space-24) var(--spacing-space-20); }
+.confirmationFooter > button { flex: 1; }
+.drawer { max-block-size: 100dvh; max-inline-size: 100vw; margin-block: 0; }
+.drawer:has(.drawerSurface[data-direction='left']) { margin-inline: 0 auto; }
+.drawer:has(.drawerSurface[data-direction='right']) { margin-inline: auto 0; }
+.drawerSurface { inline-size: min(320px, 100vw); block-size: 100dvh; max-block-size: 100dvh; border-inline-end: var(--border-default) solid var(--color-semantic-border-default); box-shadow: var(--effects-shadow-2xl); }
+.drawerSurface[data-direction='right'] { border-inline-end: 0; border-inline-start: var(--border-default) solid var(--color-semantic-border-default); }
+.drawerSurface[data-size='medium'] { inline-size: min(420px, 100vw); }
+.drawerSurface[data-size='large'] { inline-size: min(560px, 100vw); }
+.drawer .heading h2 { font-size: 18px; line-height: 28px; }
+.drawerContent { flex: 1; min-block-size: 0; padding: var(--spacing-space-24); overflow-y: auto; color: var(--color-semantic-text-secondary); font: 400 14px/20px 'Inter', sans-serif; }
+.sheet { max-block-size: 100dvh; margin: auto auto 0; }
+.sheetSurface { inline-size: min(390px, 100vw); block-size: min(280px, 100dvh); border-radius: var(--radius-2xl); box-shadow: var(--effects-shadow-2xl); }
+.sheetSurface[data-size='medium'] { block-size: min(360px, 100dvh); }
+.sheetSurface[data-size='large'] { block-size: min(440px, 100dvh); }
+.sheetHandle { display: flex; align-items: center; justify-content: center; block-size: 20px; padding-block: 8px 4px; box-sizing: border-box; }
+.sheetHandle span { inline-size: 36px; block-size: 4px; border-radius: 9999px; background: var(--color-semantic-text-disabled); }
+.sheetHeader { display: flex; gap: var(--spacing-space-12); align-items: center; padding: var(--spacing-space-8) var(--spacing-space-20) var(--spacing-space-12); }
+.sheetHeader h2 { flex: 1; min-inline-size: 0; }
+.sheetContent { flex: 1; min-block-size: 0; padding: var(--spacing-space-16) var(--spacing-space-20); overflow-y: auto; color: var(--color-semantic-text-secondary); font: 400 14px/20px 'Inter', sans-serif; }
+.sheetFooter { display: flex; padding: var(--spacing-space-20); }
+.sheetFooter > button { inline-size: 100%; }
+@keyframes spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .loadingContent svg, .confirmationSurface[data-state='loading'] .confirmationIcon svg { animation: none; } }
