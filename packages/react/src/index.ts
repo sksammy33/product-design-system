@@ -55,3 +55,6 @@ export { CommandGroup } from './components/Command/CommandGroup';
 export type { CommandGroupProps, CommandGroupData } from './components/Command/CommandGroup';
 export { CommandMenu } from './components/Command/CommandMenu';
 export type { CommandMenuProps } from './components/Command/CommandMenu';
+
+export { NavigationMenuItem, NavigationMenu, Breadcrumbs, Pagination, Stepper, Tabs } from './components/Navigation/Navigation';
+export type { NavigationMenuEntry, NavigationMenuItemProps, NavigationMenuProps, BreadcrumbItem, BreadcrumbsProps, PaginationProps, StepperStep, StepperProps, TabItem, TabsProps } from './components/Navigation/Navigation';
