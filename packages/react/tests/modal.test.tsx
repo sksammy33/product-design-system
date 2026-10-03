@@ -48,6 +48,45 @@ test('modal traps focus, blocks the background and restores focus after Escape',
   expect(document.querySelector('dialog')?.open).toBe(false);
 });
 
+test.each(['dialog', 'confirmation', 'drawer', 'sheet'] as const)('%s cycles focus in both directions', async kind => {
+  await render(<Fixture kind={kind} />);
+  const trigger = page.getByRole('button', { name: 'Open surface' });
+  await trigger.click();
+  const dialog = document.querySelector('dialog[open]')!;
+  const controls = [...dialog.querySelectorAll<HTMLButtonElement>('button:not(:disabled)')];
+  const first = controls[0]!;
+  const last = controls.at(-1)!;
+
+  first.focus();
+  await userEvent.keyboard('{Shift>}{Tab}{/Shift}');
+  expect(document.activeElement).toBe(last);
+  expect(dialog.contains(document.activeElement)).toBe(true);
+
+  await userEvent.keyboard('{Tab}');
+  expect(document.activeElement).toBe(first);
+  expect(dialog.contains(document.activeElement)).toBe(true);
+
+  await userEvent.keyboard('{Escape}');
+  await expect.element(trigger).toHaveFocus();
+});
+
+test.each(['dialog', 'confirmation', 'drawer', 'sheet'] as const)('%s keeps actions reachable at 320 by 200', async kind => {
+  await page.viewport(320, 200);
+  try {
+    await render(<Fixture kind={kind} size="large" />);
+    await page.getByRole('button', { name: 'Open surface' }).click();
+    const dialog = document.querySelector('dialog[open]')!;
+    const action = [...dialog.querySelectorAll<HTMLButtonElement>('button:not(:disabled)')].at(-1)!;
+    action.focus();
+    const bounds = action.getBoundingClientRect();
+    expect(bounds.top).toBeGreaterThanOrEqual(0);
+    expect(bounds.bottom).toBeLessThanOrEqual(window.innerHeight);
+    if (kind === 'dialog' || kind === 'confirmation') expect(dialog.scrollTop).toBeGreaterThan(0);
+  } finally {
+    await page.viewport(900, 800);
+  }
+});
+
 test('Dialog destructive action is clearly named and loading blocks duplicate actions', async () => {
   const confirm = vi.fn();
   await render(<Fixture kind="dialog" state="destructive" onConfirm={confirm} />);

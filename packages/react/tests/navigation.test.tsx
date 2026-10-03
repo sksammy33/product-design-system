@@ -49,6 +49,29 @@ test('tabs use roving focus and associate the active panel', async () => {
   await assertAccessible(document.body);
 });
 
+test('tabs contain horizontal scrolling at 320px and keep the focused tab visible', async () => {
+  await page.viewport(320, 800);
+  try {
+    await render(<main className="pds-scope" style={{ padding: 16 }}><Tabs items={[
+      { id: 'general', label: 'General', content: 'General settings' },
+      { id: 'billing', label: 'Billing', content: 'Billing settings' },
+      { id: 'security', label: 'Security', content: 'Security settings' },
+      { id: 'notifications', label: 'Notifications', content: 'Notification settings' },
+    ]} /></main>);
+    const list = page.getByRole('tablist').element();
+    expect(document.documentElement.scrollWidth).toBeLessThanOrEqual(window.innerWidth);
+    expect(list.scrollWidth).toBeGreaterThan(list.clientWidth);
+    page.getByRole('tab', { name: 'General' }).element().focus();
+    await userEvent.keyboard('{End}');
+    const last = page.getByRole('tab', { name: 'Notifications' }).element();
+    await expect.element(last).toHaveFocus();
+    expect(last.getBoundingClientRect().right).toBeLessThanOrEqual(list.getBoundingClientRect().right + 2);
+    expect(document.documentElement.scrollWidth).toBeLessThanOrEqual(window.innerWidth);
+  } finally {
+    await page.viewport(900, 800);
+  }
+});
+
 test('navigation menu skips disabled items, opens and closes submenu, and activates enabled items', async () => {
   const action = vi.fn();
   await render(<main className="pds-scope"><NavigationMenu items={[

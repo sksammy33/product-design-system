@@ -1,5 +1,5 @@
 import { useLayoutEffect, useRef } from 'react';
-import type { ReactNode } from 'react';
+import type { KeyboardEvent, ReactNode } from 'react';
 import { createPortal } from 'react-dom';
 import styles from './Modal.module.css';
 
@@ -38,8 +38,21 @@ export function ModalBase({ open, onOpenChange, titleId, descriptionId, classNam
   if (typeof document === 'undefined') return null;
   const theme = (document.activeElement as Element | null)?.closest('[data-theme]')?.getAttribute('data-theme')
     ?? document.documentElement.getAttribute('data-theme') ?? undefined;
+  const containTab = (event: KeyboardEvent<HTMLDialogElement>) => {
+    if (event.key !== 'Tab') return;
+    const node = event.currentTarget;
+    const focusable = [...node.querySelectorAll<HTMLElement>(
+      'a[href], button:not(:disabled), input:not(:disabled), select:not(:disabled), textarea:not(:disabled), [tabindex]:not([tabindex="-1"])',
+    )].filter(element => element.tabIndex >= 0 && element.getClientRects().length > 0
+      && getComputedStyle(element).visibility !== 'hidden');
+    const first = focusable[0];
+    const last = focusable.at(-1);
+    if (!first || !last) { event.preventDefault(); node.focus(); }
+    else if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+    else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+  };
   return createPortal(<dialog ref={dialog} className={[styles.modal, className].join(' ')}
-    data-theme={theme} aria-labelledby={titleId} aria-describedby={descriptionId}
+    data-theme={theme} aria-labelledby={titleId} aria-describedby={descriptionId} tabIndex={-1} onKeyDown={containTab}
     onCancel={event => { event.preventDefault(); if (dismissible) onChange.current(false); }}
     onClose={() => { if (open) onChange.current(false); }}>
     {children}

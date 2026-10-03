@@ -161,7 +161,12 @@ export function Tabs({ items, value, defaultValue, onValueChange, variant = 'und
     const next = event.key === 'ArrowRight' ? available[(index + 1) % available.length]
       : event.key === 'ArrowLeft' ? available[(index - 1 + available.length) % available.length]
       : event.key === 'Home' ? available[0] : event.key === 'End' ? available.at(-1) : undefined;
-    if (next) { event.preventDefault(); select(next.id); refs.current[next.id]?.focus(); }
+    if (next) {
+      event.preventDefault(); select(next.id);
+      const target = refs.current[next.id];
+      target?.focus();
+      target?.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+    }
   };
   const active = items.find(item => item.id === selected && !item.disabled);
   return <div className={[styles.tabs, styles[variant], className ?? ''].join(' ')}>

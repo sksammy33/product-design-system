@@ -8,6 +8,8 @@ The shells use committed semantic tokens, the approved Button for icon controls,
 
 `NavigationBar` takes `variant="desktop" | "mobile"`, a `brand`, destination `items`, `currentId`, and `onNavigate(id, event)`. Desktop actions appear when `onSearch`, `onNotifications`, and `onProfile` are supplied. The mobile variant uses `onMenu` and `onNotifications`. Every action has an explicit accessible label that can be customized. Supply `menuExpanded` and `menuControls` when an app owns a collapsible mobile menu; the shell does not create a duplicate menu or manage routing.
 
+Choose `variant="mobile"` for narrow viewports. The desktop variant retains its full link and action layout and does not collapse itself at 320px or 390px; the consuming app controls when to switch variants.
+
 `SideNavigation` accepts named `groups`, a `utilities` array for Settings/Log Out, `currentId`, and `collapsed`. Its reference dimensions are 240×600px expanded and 64×600px collapsed. A consuming app may override the height through `className`. Icons are required on sidebar items so collapsing leaves meaningful visual destinations. Hidden labels remain in the accessible name and all enabled destinations stay in normal Tab order.
 
 `MobileNavigation` uses a discriminated `variant`: `bottom` requires `items`; `top-back` requires `title` and `onBack`; `top-close` requires `title` and `onClose`. Top bars accept an optional named `action`. Reference dimensions are 390×64px for Bottom/Back and 390×63px for Close. Widths shrink to their container. Bottom-bar selection has `aria-current="page"`, medium label weight, and an underline so it remains visible without relying on color.
