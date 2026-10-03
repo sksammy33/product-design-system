@@ -1,3 +1,3 @@
 # Components
 
-Button, Input, Textarea, Checkbox, Radio and Switch are implemented. See each component directory for its Figma source, public API, token mappings and accessibility behavior.
+The library includes Button, Input, Textarea, Checkbox, Radio, Switch, Forms, selection groups and controls, Overlay primitives, modal surfaces, Command Menu, navigation primitives and navigation shells. See each family directory for its source references, public API, token mappings and accessibility behavior.

@@ -1,5 +1,30 @@
 # Changelog
 
+## Batch D2 — Navigation shells
+
+- Add NavigationBar, SideNavigation and MobileNavigation with desktop/mobile, expanded/collapsed and bottom/top-bar variants.
+- Add public exports, component documentation, Storybook stories and browser interaction/axe coverage using committed tokens and existing navigation primitives.
+
+## Batch D1 — Navigation primitives
+
+- Add NavigationMenuItem, NavigationMenu, Breadcrumbs, Pagination, Stepper and Tabs as Navigation-specific components, separate from the Overlay menu family.
+- Add public exports, styles, documentation, stories and keyboard/accessibility tests for their approved variants.
+
+## Batch C — Command Menu
+
+- Add KeyboardShortcut, CommandItem, CommandGroup and CommandMenu from the dedicated Command Menu source, with search, selection, empty-result and overlay behavior.
+- Add public exports, styles, documentation, stories, interaction tests and axe coverage.
+
+## Batch B2 — Modal surfaces
+
+- Add Dialog, ConfirmationDialog, Drawer and BottomSheet with controlled open state, approved size/state variants and native modal focus management.
+- Add public exports, styles, documentation, stories, interaction tests and axe coverage.
+
+## Batch B1 — Overlay primitives
+
+- Add Divider, Overlay MenuItem, Tooltip, Popover, Dropdown, Menu and ContextMenu with submenu keyboard behavior.
+- Add public exports, styles, stories, interaction tests and axe coverage without changing committed tokens.
+
 ## Batch A — Forms and remaining Selection
 
 - Add seven Form compositions, CheckboxGroup, RadioGroup, Select, Combobox and MultiSelect with public React exports and CSS Modules.
