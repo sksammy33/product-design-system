@@ -58,3 +58,6 @@ export type { CommandMenuProps } from './components/Command/CommandMenu';
 
 export { NavigationMenuItem, NavigationMenu, Breadcrumbs, Pagination, Stepper, Tabs } from './components/Navigation/Navigation';
 export type { NavigationMenuEntry, NavigationMenuItemProps, NavigationMenuProps, BreadcrumbItem, BreadcrumbsProps, PaginationProps, StepperStep, StepperProps, TabItem, TabsProps } from './components/Navigation/Navigation';
+
+export { NavigationBar, SideNavigation, MobileNavigation } from './components/NavigationShells/NavigationShells';
+export type { NavigationDestination, NavigationControl, NavigationBrand, NavigationBarProps, SideNavigationItem, SideNavigationGroup, SideNavigationProps, MobileNavigationProps } from './components/NavigationShells/NavigationShells';
